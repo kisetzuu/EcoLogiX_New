@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -51,14 +53,48 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
+            this.panel1.Controls.Add(this.button8);
+            this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(256, 769);
+            this.panel1.Size = new System.Drawing.Size(264, 797);
             this.panel1.TabIndex = 0;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
+            this.button8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
+            this.button8.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button8.Image = global::EcoLogiX_New.Properties.Resources.user_lock;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.Location = new System.Drawing.Point(0, 729);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(264, 68);
+            this.button8.TabIndex = 6;
+            this.button8.Text = "ADMIN";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
+            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
+            this.button7.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button7.Image = global::EcoLogiX_New.Properties.Resources.chart_histogram__1_;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.Location = new System.Drawing.Point(0, 402);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(264, 68);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "ANALYTICS";
+            this.button7.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
@@ -71,7 +107,7 @@
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(0, 334);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(256, 68);
+            this.button3.Size = new System.Drawing.Size(264, 68);
             this.button3.TabIndex = 4;
             this.button3.Text = "LOGIN";
             this.button3.UseVisualStyleBackColor = false;
@@ -87,7 +123,7 @@
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(0, 266);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(256, 68);
+            this.button2.Size = new System.Drawing.Size(264, 68);
             this.button2.TabIndex = 3;
             this.button2.Text = "REGISTER";
             this.button2.UseVisualStyleBackColor = false;
@@ -103,7 +139,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 195);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(256, 71);
+            this.button1.Size = new System.Drawing.Size(264, 71);
             this.button1.TabIndex = 2;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
@@ -114,7 +150,7 @@
             this.pictureBox1.Image = global::EcoLogiX_New.Properties.Resources.Logo_EcoLogiX;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(256, 195);
+            this.pictureBox1.Size = new System.Drawing.Size(264, 195);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -123,7 +159,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.ECOLOGIX_GOALS__4_;
-            this.pictureBox2.Location = new System.Drawing.Point(300, -82);
+            this.pictureBox2.Location = new System.Drawing.Point(302, -26);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(846, 567);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -134,7 +170,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.ECOLOGIX__6_;
-            this.pictureBox3.Location = new System.Drawing.Point(283, 383);
+            this.pictureBox3.Location = new System.Drawing.Point(280, 431);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(235, 220);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -144,7 +180,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button4.Location = new System.Drawing.Point(300, 573);
+            this.button4.Location = new System.Drawing.Point(297, 621);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(198, 49);
             this.button4.TabIndex = 3;
@@ -155,7 +191,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::EcoLogiX_New.Properties.Resources.est_2022__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(589, 382);
+            this.pictureBox4.Location = new System.Drawing.Point(586, 430);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(240, 221);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -165,7 +201,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button5.Location = new System.Drawing.Point(611, 573);
+            this.button5.Location = new System.Drawing.Point(608, 621);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(198, 49);
             this.button5.TabIndex = 5;
@@ -176,7 +212,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::EcoLogiX_New.Properties.Resources.est_2022__2_;
-            this.pictureBox5.Location = new System.Drawing.Point(907, 382);
+            this.pictureBox5.Location = new System.Drawing.Point(904, 430);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(222, 221);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -186,7 +222,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button6.Location = new System.Drawing.Point(921, 573);
+            this.button6.Location = new System.Drawing.Point(918, 621);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(198, 49);
             this.button6.TabIndex = 7;
@@ -237,5 +273,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
     }
 }

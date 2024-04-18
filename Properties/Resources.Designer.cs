@@ -63,6 +63,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chart_histogram__1_ {
+            get {
+                object obj = ResourceManager.GetObject("chart-histogram (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ECOLOGIX__6_ {
             get {
                 object obj = ResourceManager.GetObject("ECOLOGIX (6)", resourceCulture);
@@ -226,6 +236,16 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap user__1_ {
             get {
                 object obj = ResourceManager.GetObject("user (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_lock {
+            get {
+                object obj = ResourceManager.GetObject("user-lock", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
