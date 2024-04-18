@@ -10,22 +10,14 @@ using System.Windows.Forms;
 
 namespace EcoLogiX_New
 {
-    public partial class Dashboard : Form
+    public partial class Menu : Form
     {
-        public Dashboard()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Menu menuForm = new Menu();
-
-            menuForm.Show();
-            this.Hide();
-        }
-
-        private void Start_Load(object sender, EventArgs e)
+        private void Menu_Load(object sender, EventArgs e)
         {
 
         }
