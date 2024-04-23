@@ -143,6 +143,26 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Dark_Green_Illustrative_Future_and_Technology_Poster__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Dark Green Illustrative Future and Technology Poster (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dark_Green_Illustrative_Future_and_Technology_Poster__4_1 {
+            get {
+                object obj = ResourceManager.GetObject("Dark Green Illustrative Future and Technology Poster (4)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap diary_bookmark_down {
             get {
                 object obj = ResourceManager.GetObject("diary-bookmark-down", resourceCulture);

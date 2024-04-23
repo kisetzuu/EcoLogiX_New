@@ -234,5 +234,11 @@
   <ItemGroup>
     <None Include="Resources\assept-document.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Green Illustrative Future and Technology Poster %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Green Illustrative Future and Technology Poster %284%291.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

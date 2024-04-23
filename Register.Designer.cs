@@ -48,13 +48,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtContact = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(367, 141);
+            this.txtName.Location = new System.Drawing.Point(332, 151);
             this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(256, 32);
@@ -67,7 +69,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(364, 112);
+            this.label1.Location = new System.Drawing.Point(329, 122);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 20);
             this.label1.TabIndex = 3;
@@ -185,7 +187,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(363, 198);
+            this.label2.Location = new System.Drawing.Point(328, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 20);
             this.label2.TabIndex = 6;
@@ -193,7 +195,7 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(366, 227);
+            this.txtEmail.Location = new System.Drawing.Point(331, 237);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(256, 32);
@@ -205,7 +207,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(364, 277);
+            this.label3.Location = new System.Drawing.Point(329, 287);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 20);
             this.label3.TabIndex = 8;
@@ -213,7 +215,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(367, 306);
+            this.txtPassword.Location = new System.Drawing.Point(332, 316);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(256, 32);
@@ -225,7 +227,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(364, 360);
+            this.label4.Location = new System.Drawing.Point(329, 370);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 20);
             this.label4.TabIndex = 10;
@@ -233,7 +235,7 @@
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(367, 389);
+            this.txtCompanyName.Location = new System.Drawing.Point(332, 399);
             this.txtCompanyName.Multiline = true;
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(256, 32);
@@ -245,7 +247,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(362, 446);
+            this.label5.Location = new System.Drawing.Point(327, 456);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(161, 20);
             this.label5.TabIndex = 12;
@@ -253,7 +255,7 @@
             // 
             // txtRole
             // 
-            this.txtRole.Location = new System.Drawing.Point(365, 475);
+            this.txtRole.Location = new System.Drawing.Point(330, 485);
             this.txtRole.Multiline = true;
             this.txtRole.Name = "txtRole";
             this.txtRole.Size = new System.Drawing.Size(256, 32);
@@ -265,7 +267,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(364, 539);
+            this.label6.Location = new System.Drawing.Point(329, 549);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(155, 20);
             this.label6.TabIndex = 14;
@@ -273,7 +275,7 @@
             // 
             // txtContact
             // 
-            this.txtContact.Location = new System.Drawing.Point(367, 568);
+            this.txtContact.Location = new System.Drawing.Point(332, 578);
             this.txtContact.Multiline = true;
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(256, 32);
@@ -282,7 +284,7 @@
             // btnSubmit
             // 
             this.btnSubmit.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnSubmit.Location = new System.Drawing.Point(366, 634);
+            this.btnSubmit.Location = new System.Drawing.Point(331, 644);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(256, 40);
             this.btnSubmit.TabIndex = 15;
@@ -290,12 +292,24 @@
             this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.Dark_Green_Illustrative_Future_and_Technology_Poster__4_1;
+            this.pictureBox2.Location = new System.Drawing.Point(667, -190);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(531, 1251);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1200, 800);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtContact);
@@ -315,6 +329,7 @@
             this.Text = "Register";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,5 +356,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtContact;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
