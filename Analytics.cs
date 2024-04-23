@@ -21,7 +21,7 @@ namespace EcoLogiX_New
             InitializeComponent();
             InitializeChart();
             this.Load += Analytics_Load;
-
+            AddDescriptionLabel(); // Adding the description label
         }
 
         private void InitializeChart()
@@ -69,6 +69,21 @@ namespace EcoLogiX_New
 
             this.Controls.Add(carbonChart);
             this.Controls.Add(chartTitle);
+        }
+
+        private void AddDescriptionLabel()
+        {
+            Label descriptionLabel = new Label
+            {
+                Text = "Carbon Intensity (gCO2eq/kWh) represents the amount of CO2 emitted per kilowatt-hour of electricity consumed.",
+                Dock = DockStyle.Bottom, // Positioning at the bottom of the form
+                AutoSize = true,  // Enable auto-sizing to fit the text
+                Font = new Font("Arial", 10), // Set font here if needed
+                TextAlign = ContentAlignment.MiddleCenter,
+                Padding = new Padding(10) // Add some padding for aesthetics
+            };
+
+            this.Controls.Add(descriptionLabel);
         }
 
         private async Task UpdateCarbonIntensityAsync()
