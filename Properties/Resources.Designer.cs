@@ -63,9 +63,99 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap assept_document {
+            get {
+                object obj = ResourceManager.GetObject("assept-document", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Black_and_Pink_Futuristic_Tech_Event_Poster {
+            get {
+                object obj = ResourceManager.GetObject("Black and Pink Futuristic Tech Event Poster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap building {
+            get {
+                object obj = ResourceManager.GetObject("building", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chart_histogram__1_ {
             get {
                 object obj = ResourceManager.GetObject("chart-histogram (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dark_Green_Illustrative_Future_and_Technology_Poster {
+            get {
+                object obj = ResourceManager.GetObject("Dark Green Illustrative Future and Technology Poster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dark_Green_Illustrative_Future_and_Technology_Poster__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Dark Green Illustrative Future and Technology Poster (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dark_Green_Illustrative_Future_and_Technology_Poster__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Dark Green Illustrative Future and Technology Poster (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dark_Green_Illustrative_Future_and_Technology_Poster__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Dark Green Illustrative Future and Technology Poster (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diary_bookmark_down {
+            get {
+                object obj = ResourceManager.GetObject("diary-bookmark-down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diary_bookmark_down__1_ {
+            get {
+                object obj = ResourceManager.GetObject("diary-bookmark-down (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,6 +263,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hand_holding_heart__1_ {
+            get {
+                object obj = ResourceManager.GetObject("hand-holding-heart (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap home__1_ {
             get {
                 object obj = ResourceManager.GetObject("home (1)", resourceCulture);
@@ -223,6 +323,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap paper_plane__1_ {
+            get {
+                object obj = ResourceManager.GetObject("paper-plane (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shield_check {
             get {
                 object obj = ResourceManager.GetObject("shield-check", resourceCulture);
@@ -246,6 +356,26 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap user_lock {
             get {
                 object obj = ResourceManager.GetObject("user-lock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap world {
+            get {
+                object obj = ResourceManager.GetObject("world", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap world__1_ {
+            get {
+                object obj = ResourceManager.GetObject("world (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

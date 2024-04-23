@@ -73,6 +73,12 @@
     <Compile Include="Analytics.Designer.cs">
       <DependentUpon>Analytics.cs</DependentUpon>
     </Compile>
+    <Compile Include="Engagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Engagement.Designer.cs">
+      <DependentUpon>Engagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engagement.resx">
+      <DependentUpon>Engagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -185,6 +194,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user-lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diary-bookmark-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diary-bookmark-down %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-plane %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black and Pink Futuristic Tech Event Poster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Green Illustrative Future and Technology Poster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Green Illustrative Future and Technology Poster %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Green Illustrative Future and Technology Poster %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Green Illustrative Future and Technology Poster %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-holding-heart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assept-document.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
