@@ -33,5 +33,12 @@ namespace EcoLogiX_New
             registerForm.Show();
             this.Hide();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Analytics analyticsForm = new Analytics();
+            analyticsForm.Show();
+            this.Hide();
+        }
     }
 }

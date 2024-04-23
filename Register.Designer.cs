@@ -54,11 +54,12 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(307, 161);
+            this.txtName.Location = new System.Drawing.Point(367, 141);
             this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(256, 32);
             this.txtName.TabIndex = 2;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // label1
             // 
@@ -66,7 +67,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(304, 132);
+            this.label1.Location = new System.Drawing.Point(364, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 20);
             this.label1.TabIndex = 3;
@@ -184,7 +185,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(303, 218);
+            this.label2.Location = new System.Drawing.Point(363, 198);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 20);
             this.label2.TabIndex = 6;
@@ -192,7 +193,7 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(306, 247);
+            this.txtEmail.Location = new System.Drawing.Point(366, 227);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(256, 32);
@@ -204,7 +205,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(304, 297);
+            this.label3.Location = new System.Drawing.Point(364, 277);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 20);
             this.label3.TabIndex = 8;
@@ -212,7 +213,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(307, 326);
+            this.txtPassword.Location = new System.Drawing.Point(367, 306);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(256, 32);
@@ -224,7 +225,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(304, 380);
+            this.label4.Location = new System.Drawing.Point(364, 360);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 20);
             this.label4.TabIndex = 10;
@@ -232,7 +233,7 @@
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(307, 409);
+            this.txtCompanyName.Location = new System.Drawing.Point(367, 389);
             this.txtCompanyName.Multiline = true;
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(256, 32);
@@ -244,7 +245,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(302, 466);
+            this.label5.Location = new System.Drawing.Point(362, 446);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(161, 20);
             this.label5.TabIndex = 12;
@@ -252,7 +253,7 @@
             // 
             // txtRole
             // 
-            this.txtRole.Location = new System.Drawing.Point(305, 495);
+            this.txtRole.Location = new System.Drawing.Point(365, 475);
             this.txtRole.Multiline = true;
             this.txtRole.Name = "txtRole";
             this.txtRole.Size = new System.Drawing.Size(256, 32);
@@ -264,7 +265,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(304, 559);
+            this.label6.Location = new System.Drawing.Point(364, 539);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(155, 20);
             this.label6.TabIndex = 14;
@@ -272,7 +273,7 @@
             // 
             // txtContact
             // 
-            this.txtContact.Location = new System.Drawing.Point(307, 588);
+            this.txtContact.Location = new System.Drawing.Point(367, 568);
             this.txtContact.Multiline = true;
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(256, 32);
@@ -280,12 +281,13 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(306, 654);
+            this.btnSubmit.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnSubmit.Location = new System.Drawing.Point(366, 634);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(256, 40);
             this.btnSubmit.TabIndex = 15;
             this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // Register
