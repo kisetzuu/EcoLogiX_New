@@ -263,6 +263,26 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EcoLogiX_Login {
+            get {
+                object obj = ResourceManager.GetObject("EcoLogiX_Login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EcoLogiX_Login__1_ {
+            get {
+                object obj = ResourceManager.GetObject("EcoLogiX_Login (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap est_2022__1_ {
             get {
                 object obj = ResourceManager.GetObject("est 2022 (1)", resourceCulture);
