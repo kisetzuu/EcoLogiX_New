@@ -85,6 +85,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GreenCertification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GreenCertification.Designer.cs">
+      <DependentUpon>GreenCertification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoggedIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoggedIn.Designer.cs">
+      <DependentUpon>LoggedIn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GreenCertification.resx">
+      <DependentUpon>GreenCertification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoggedIn.resx">
+      <DependentUpon>LoggedIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -254,6 +272,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\EcoLogiX_Login %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Certification Management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Certification Management %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Certification Management %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

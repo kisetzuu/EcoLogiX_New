@@ -31,6 +31,7 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -55,7 +56,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -97,6 +97,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(279, 811);
             this.panel1.TabIndex = 4;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
+            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
+            this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button9.Image = global::EcoLogiX_New.Properties.Resources.world__1_;
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.Location = new System.Drawing.Point(0, 470);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(279, 69);
+            this.button9.TabIndex = 8;
+            this.button9.Text = "ENGAGEMENT";
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // button8
             // 
@@ -344,7 +360,7 @@
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label9.Location = new System.Drawing.Point(329, 264);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(218, 20);
+            this.label9.Size = new System.Drawing.Size(174, 16);
             this.label9.TabIndex = 19;
             this.label9.Text = "Choose a secure password.";
             // 
@@ -355,7 +371,7 @@
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label10.Location = new System.Drawing.Point(330, 366);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(221, 20);
+            this.label10.Size = new System.Drawing.Size(177, 16);
             this.label10.TabIndex = 20;
             this.label10.Text = "Type your company\'s name.";
             // 
@@ -366,7 +382,7 @@
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label11.Location = new System.Drawing.Point(330, 468);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(161, 20);
+            this.label11.Size = new System.Drawing.Size(129, 16);
             this.label11.TabIndex = 21;
             this.label11.Text = "Specify your job title.";
             // 
@@ -380,22 +396,6 @@
             this.label12.Size = new System.Drawing.Size(135, 16);
             this.label12.TabIndex = 22;
             this.label12.Text = "List a contact number.";
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button9.Image = global::EcoLogiX_New.Properties.Resources.world__1_;
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 470);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(279, 69);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "ENGAGEMENT";
-            this.button9.UseVisualStyleBackColor = false;
             // 
             // Register
             // 
@@ -426,6 +426,7 @@
             this.Controls.Add(this.txtName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Register";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

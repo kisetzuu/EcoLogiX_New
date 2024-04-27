@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static EcoLogiX_New.GreenCertification;
 
 namespace EcoLogiX_New
 {
@@ -30,6 +32,14 @@ namespace EcoLogiX_New
             Register registerForm = new Register();
             registerForm.Show();
             this.Hide();
+        }
+
+        private byte[] HashPassword(string password)
+        {
+            using (var sha256 = System.Security.Cryptography.SHA256.Create())
+            {
+                return sha256.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -56,10 +66,15 @@ namespace EcoLogiX_New
             string email = txtEmail.Text;
             string password = txtPassword.Text;
 
-            if (AuthenticateUser(email, password))
+            int userId = AuthenticateUser(email, password);
+            if (userId > 0)  // Check if authentication was successful
             {
+                UserSession.UserID = userId; // Store the user ID in the session
                 MessageBox.Show("Login successful!");
-                // Proceed to next part of your application
+
+                LoggedIn loggedInForm = new LoggedIn();
+                loggedInForm.Show();
+                this.Hide();  // Optionally hide the login form, or you might choose to close it
             }
             else
             {
@@ -67,24 +82,27 @@ namespace EcoLogiX_New
             }
         }
 
-        private bool AuthenticateUser(string email, string password)
+        private int AuthenticateUser(string email, string password)
         {
-            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["UsersDb"].ConnectionString;
+            string connectionString = ConfigurationManager.ConnectionStrings["UsersDB"].ConnectionString;
+            int userId = -1;
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT COUNT(1) FROM Users WHERE Email = @Email AND Password = @Password";
-
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                using (SqlCommand cmd = new SqlCommand("SELECT ID, Password FROM Users WHERE Email = @Email", conn))
                 {
                     cmd.Parameters.AddWithValue("@Email", email);
-                    cmd.Parameters.AddWithValue("@Password", password); // Consider hashing the password before checking
-
-                    int result = (int)cmd.ExecuteScalar();
-                    return result == 1;
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read() && (string)reader["Password"] == password)
+                        {
+                            userId = reader.GetInt32(reader.GetOrdinal("ID")); // Fetch the user ID from the ID column
+                        }
+                    }
                 }
             }
+            return userId;  // Return the user ID, or -1 if authentication fails
         }
     }
 }
