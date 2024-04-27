@@ -209,6 +209,7 @@
             this.button5.TabIndex = 37;
             this.button5.Text = "Carbon Offset";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // LoggedIn
             // 

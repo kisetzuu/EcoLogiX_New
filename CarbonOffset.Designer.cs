@@ -195,7 +195,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label8.Location = new System.Drawing.Point(451, 306);
+            this.label8.Location = new System.Drawing.Point(435, 293);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(229, 16);
             this.label8.TabIndex = 49;
@@ -207,7 +207,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(450, 286);
+            this.label2.Location = new System.Drawing.Point(434, 273);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 41;
@@ -219,7 +219,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label1.ForeColor = System.Drawing.Color.Orange;
-            this.label1.Location = new System.Drawing.Point(477, 128);
+            this.label1.Location = new System.Drawing.Point(471, 141);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(175, 29);
             this.label1.TabIndex = 39;
@@ -239,7 +239,7 @@
             "Hybrid Vehicle",
             "Electric Vehicle (EV)",
             "Van"});
-            this.comboVehicle.Location = new System.Drawing.Point(451, 238);
+            this.comboVehicle.Location = new System.Drawing.Point(435, 225);
             this.comboVehicle.Name = "comboVehicle";
             this.comboVehicle.Size = new System.Drawing.Size(246, 24);
             this.comboVehicle.TabIndex = 53;
@@ -250,7 +250,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label6.Location = new System.Drawing.Point(448, 219);
+            this.label6.Location = new System.Drawing.Point(432, 206);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(214, 16);
             this.label6.TabIndex = 54;
@@ -262,7 +262,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(446, 199);
+            this.label7.Location = new System.Drawing.Point(430, 186);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(105, 20);
             this.label7.TabIndex = 55;
@@ -275,7 +275,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(450, 366);
+            this.label3.Location = new System.Drawing.Point(434, 353);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 20);
             this.label3.TabIndex = 56;
@@ -286,7 +286,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label4.Location = new System.Drawing.Point(449, 387);
+            this.label4.Location = new System.Drawing.Point(433, 374);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(283, 16);
             this.label4.TabIndex = 57;
@@ -294,7 +294,7 @@
             // 
             // txtMileage
             // 
-            this.txtMileage.Location = new System.Drawing.Point(452, 410);
+            this.txtMileage.Location = new System.Drawing.Point(436, 397);
             this.txtMileage.Multiline = true;
             this.txtMileage.Name = "txtMileage";
             this.txtMileage.Size = new System.Drawing.Size(245, 29);
@@ -314,7 +314,7 @@
             "Biodiesel",
             "Hydrogen",
             "Biofuel"});
-            this.comboFuel.Location = new System.Drawing.Point(452, 325);
+            this.comboFuel.Location = new System.Drawing.Point(436, 312);
             this.comboFuel.Name = "comboFuel";
             this.comboFuel.Size = new System.Drawing.Size(246, 24);
             this.comboFuel.TabIndex = 59;
@@ -325,7 +325,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(450, 454);
+            this.label5.Location = new System.Drawing.Point(434, 441);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 20);
             this.label5.TabIndex = 60;
@@ -340,7 +340,7 @@
             "Monthly",
             "Yearly",
             "Occasionally (less frequently than yearly)"});
-            this.comboFrequency.Location = new System.Drawing.Point(452, 493);
+            this.comboFrequency.Location = new System.Drawing.Point(436, 480);
             this.comboFrequency.Name = "comboFrequency";
             this.comboFrequency.Size = new System.Drawing.Size(246, 24);
             this.comboFrequency.TabIndex = 62;
@@ -350,7 +350,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label9.Location = new System.Drawing.Point(451, 474);
+            this.label9.Location = new System.Drawing.Point(435, 461);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(169, 16);
             this.label9.TabIndex = 61;
@@ -358,12 +358,13 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(452, 541);
+            this.btnCalculate.Location = new System.Drawing.Point(436, 528);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(245, 39);
             this.btnCalculate.TabIndex = 63;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // CarbonOffset
             // 
