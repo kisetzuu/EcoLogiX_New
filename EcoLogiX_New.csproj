@@ -73,6 +73,12 @@
     <Compile Include="Analytics.Designer.cs">
       <DependentUpon>Analytics.cs</DependentUpon>
     </Compile>
+    <Compile Include="CarbonOffset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarbonOffset.Designer.cs">
+      <DependentUpon>CarbonOffset.cs</DependentUpon>
+    </Compile>
     <Compile Include="Engagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     </Compile>
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarbonOffset.resx">
+      <DependentUpon>CarbonOffset.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Engagement.resx">
       <DependentUpon>Engagement.cs</DependentUpon>
@@ -281,6 +290,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Green Certification Management %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carbon_Footprint %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
