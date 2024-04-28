@@ -67,6 +67,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AirTravelCarbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AirTravelCarbon.Designer.cs">
+      <DependentUpon>AirTravelCarbon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Analytics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,12 @@
     <Compile Include="GreenCertification.Designer.cs">
       <DependentUpon>GreenCertification.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomeEnergyCarbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeEnergyCarbon.Designer.cs">
+      <DependentUpon>HomeEnergyCarbon.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoggedIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +135,15 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="WasteProductionCarbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WasteProductionCarbon.Designer.cs">
+      <DependentUpon>WasteProductionCarbon.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AirTravelCarbon.resx">
+      <DependentUpon>AirTravelCarbon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GreenCertification.resx">
       <DependentUpon>GreenCertification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeEnergyCarbon.resx">
+      <DependentUpon>HomeEnergyCarbon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoggedIn.resx">
       <DependentUpon>LoggedIn.cs</DependentUpon>
@@ -159,6 +183,9 @@
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WasteProductionCarbon.resx">
+      <DependentUpon>WasteProductionCarbon.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
