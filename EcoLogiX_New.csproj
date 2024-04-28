@@ -294,5 +294,20 @@
   <ItemGroup>
     <None Include="Resources\Carbon_Footprint %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-chimney.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raindrops.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple-core.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

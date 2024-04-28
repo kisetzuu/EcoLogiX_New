@@ -102,5 +102,15 @@ namespace EcoLogiX_New
             // Display the result
             MessageBox.Show($"Estimated Carbon Emissions: {emissions} kg CO2 per year");
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

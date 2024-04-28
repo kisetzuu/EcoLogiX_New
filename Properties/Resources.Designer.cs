@@ -63,6 +63,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap apple_core {
+            get {
+                object obj = ResourceManager.GetObject("apple-core", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap assept_document {
             get {
                 object obj = ResourceManager.GetObject("assept-document", resourceCulture);
@@ -86,6 +96,16 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap building {
             get {
                 object obj = ResourceManager.GetObject("building", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap car__1_ {
+            get {
+                object obj = ResourceManager.GetObject("car (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,6 +413,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap house_chimney {
+            get {
+                object obj = ResourceManager.GetObject("house-chimney", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_EcoLogiX {
             get {
                 object obj = ResourceManager.GetObject("Logo_EcoLogiX", resourceCulture);
@@ -406,6 +436,26 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap paper_plane__1_ {
             get {
                 object obj = ResourceManager.GetObject("paper-plane (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plane_alt {
+            get {
+                object obj = ResourceManager.GetObject("plane-alt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap raindrops {
+            get {
+                object obj = ResourceManager.GetObject("raindrops", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
