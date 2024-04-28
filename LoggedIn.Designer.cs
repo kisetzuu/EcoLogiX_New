@@ -40,10 +40,13 @@
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -175,14 +178,14 @@
             this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.Green_Certification_Management__1_;
             this.pictureBox2.Location = new System.Drawing.Point(256, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(333, 762);
+            this.pictureBox2.Size = new System.Drawing.Size(295, 762);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 34;
             this.pictureBox2.TabStop = false;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(311, 639);
+            this.button4.Location = new System.Drawing.Point(288, 639);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(231, 44);
             this.button4.TabIndex = 35;
@@ -194,16 +197,16 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.Carbon_Footprint__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(588, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(547, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(337, 762);
+            this.pictureBox3.Size = new System.Drawing.Size(327, 762);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 36;
             this.pictureBox3.TabStop = false;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(635, 639);
+            this.button5.Location = new System.Drawing.Point(599, 639);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(231, 44);
             this.button5.TabIndex = 37;
@@ -211,12 +214,34 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::EcoLogiX_New.Properties.Resources.SupplyChainTransparency__1_;
+            this.pictureBox4.Location = new System.Drawing.Point(869, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(321, 762);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 38;
+            this.pictureBox4.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(919, 639);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(231, 44);
+            this.button6.TabIndex = 39;
+            this.button6.Text = "Supply Chain Transparency";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // LoggedIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button4);
@@ -230,6 +255,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -248,5 +274,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button button6;
     }
 }

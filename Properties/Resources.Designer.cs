@@ -473,6 +473,56 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SupplyChainb {
+            get {
+                object obj = ResourceManager.GetObject("SupplyChainb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SupplyChainb__1_ {
+            get {
+                object obj = ResourceManager.GetObject("SupplyChainb (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SupplyChainb__2_ {
+            get {
+                object obj = ResourceManager.GetObject("SupplyChainb (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SupplyChainTransparency {
+            get {
+                object obj = ResourceManager.GetObject("SupplyChainTransparency", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SupplyChainTransparency__1_ {
+            get {
+                object obj = ResourceManager.GetObject("SupplyChainTransparency (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user__1_ {
             get {
                 object obj = ResourceManager.GetObject("user (1)", resourceCulture);

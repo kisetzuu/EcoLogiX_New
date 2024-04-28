@@ -345,5 +345,20 @@
   <ItemGroup>
     <None Include="Resources\apple-core.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SupplyChainb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SupplyChainb %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SupplyChainb %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SupplyChainTransparency.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SupplyChainTransparency %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SupplyChainb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupplyChainb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user-lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,11 +133,14 @@
   <data name="Dark Green Illustrative Future and Technology Poster (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dark Green Illustrative Future and Technology Poster (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="diary-bookmark-down" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\diary-bookmark-down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Green Certification Management (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Green Certification Management (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SupplyChainb (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupplyChainb (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raindrops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raindrops.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Black and Pink Futuristic Tech Event Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Black and Pink Futuristic Tech Event Poster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -144,9 +150,6 @@
   </data>
   <data name="EcoLogiX_Background (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EcoLogiX_Background (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="building" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\building.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chart-histogram (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chart-histogram (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,14 +178,17 @@
   <data name="EcoLogiX_Login (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EcoLogiX_Login (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="raindrops" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\raindrops.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ECOLOGIX_GOALS (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECOLOGIX_GOALS (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="car (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\car (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="home (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="paper-plane (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\paper-plane (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,14 +205,20 @@
   <data name="EcoLogiX_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EcoLogiX_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dark Green Illustrative Future and Technology Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dark Green Illustrative Future and Technology Poster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="apple-core" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apple-core.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SupplyChainTransparency" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupplyChainTransparency.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo_EcoLogiX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_EcoLogiX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ECOLOGIX_GOALS (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ECOLOGIX_GOALS (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SupplyChainb (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupplyChainb (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green Certification Management (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green Certification Management (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="assept-document" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\assept-document.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,17 +226,20 @@
   <data name="ECOLOGIX_GOALS (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ECOLOGIX_GOALS (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ECOLOGIX_GOALS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECOLOGIX_GOALS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ECOLOGIX_GOALS (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECOLOGIX_GOALS (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="diary-bookmark-down (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diary-bookmark-down (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="building" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ECOLOGIX_GOALS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ECOLOGIX_GOALS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dark Green Illustrative Future and Technology Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Green Illustrative Future and Technology Poster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="world" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\world.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,8 +256,8 @@
   <data name="est 2022 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\est 2022 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ECOLOGIX_GOALS (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ECOLOGIX_GOALS (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diary-bookmark-down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diary-bookmark-down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Dark Green Illustrative Future and Technology Poster (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dark Green Illustrative Future and Technology Poster (4)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,7 +265,7 @@
   <data name="Dark Green Illustrative Future and Technology Poster (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dark Green Illustrative Future and Technology Poster (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="apple-core" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\apple-core.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SupplyChainTransparency (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SupplyChainTransparency (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
