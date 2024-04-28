@@ -74,13 +74,14 @@
             // 
             this.comboClass.FormattingEnabled = true;
             this.comboClass.Items.AddRange(new object[] {
-            "Economy: Standard service with the least space per passenger.",
-            "Business: More space and amenities than economy.",
-            "First Class: Maximum space and luxury amenities."});
+            "Economy",
+            "Business",
+            "First Class"});
             this.comboClass.Location = new System.Drawing.Point(516, 457);
             this.comboClass.Name = "comboClass";
             this.comboClass.Size = new System.Drawing.Size(246, 24);
             this.comboClass.TabIndex = 126;
+            this.comboClass.SelectedIndexChanged += new System.EventHandler(this.comboClass_SelectedIndexChanged);
             // 
             // button9
             // 
@@ -360,9 +361,9 @@
             // 
             this.comboType.FormattingEnabled = true;
             this.comboType.Items.AddRange(new object[] {
-            "Short-haul: Flights less than 3 hours.",
-            "Medium-haul: Flights between 3 to 6 hours.",
-            "Long-haul: Flights more than 6 hours."});
+            "Short-haul",
+            "Medium-haul",
+            "Long-haul"});
             this.comboType.Location = new System.Drawing.Point(513, 272);
             this.comboType.Name = "comboType";
             this.comboType.Size = new System.Drawing.Size(246, 24);

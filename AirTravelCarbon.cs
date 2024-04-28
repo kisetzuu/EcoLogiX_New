@@ -26,15 +26,15 @@ namespace EcoLogiX_New
 
         private double GetEmissionFactor(string flightType)
         {
-            // Hypothetical average flight distances and emissions per km
+            // Adjusted example distances and emissions per km for realism
             switch (flightType)
             {
                 case "Short-haul":
-                    return 500 * 0.15; // 500 km at 0.15 kg CO2 per km
+                    return 500 * 0.2; // Example: Short-haul flights are less fuel-efficient per km
                 case "Medium-haul":
-                    return 2000 * 0.15; // 2000 km at 0.15 kg CO2 per km
+                    return 2000 * 0.16; // Example: Medium efficiency
                 case "Long-haul":
-                    return 5000 * 0.15; // 5000 km at 0.15 kg CO2 per km
+                    return 5000 * 0.14; // Example: Long-haul flights are more fuel-efficient per km
                 default:
                     return 0;
             }
@@ -63,6 +63,12 @@ namespace EcoLogiX_New
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            if (comboType.SelectedItem == null || comboClass.SelectedItem == null)
+            {
+                MessageBox.Show("Please select both flight type and class of service.");
+                return;
+            }
+
             string flightType = comboType.SelectedItem.ToString();
             string classOfService = comboClass.SelectedItem.ToString();
             int numberOfFlights;
@@ -74,7 +80,7 @@ namespace EcoLogiX_New
             }
 
             double totalEmissions = CalculateAirTravelEmissions(flightType, classOfService, numberOfFlights);
-            MessageBox.Show($"Estimated Carbon Emissions from Air Travel: {totalEmissions} kg CO2", "Carbon Offset Calculator");
+            MessageBox.Show($"Estimated Carbon Emissions from Air Travel: {totalEmissions:N2} kg CO2", "Carbon Offset Calculator");
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -110,6 +116,11 @@ namespace EcoLogiX_New
             WaterUsageCarbon waterUsageCarbon = new WaterUsageCarbon();
             waterUsageCarbon.Show();
             this.Hide();
+        }
+
+        private void comboClass_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
