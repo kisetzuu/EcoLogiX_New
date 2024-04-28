@@ -110,7 +110,65 @@ namespace EcoLogiX_New
 
         private void button6_Click(object sender, EventArgs e)
         {
+            AirTravelCarbon airTravelCarbon = new AirTravelCarbon();
+            airTravelCarbon.Show();
+            this.Hide();
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CarbonOffset carbonForm = new CarbonOffset();
+            carbonForm.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu menuForm = new Menu();
+            menuForm.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            HomeEnergyCarbon homeEnergyForm = new HomeEnergyCarbon();
+            homeEnergyForm.Show();
+            this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            WasteProductionCarbon wasteProductionCarbon = new WasteProductionCarbon();
+            wasteProductionCarbon.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            WaterUsageCarbon waterUsageCarbon = new WaterUsageCarbon();
+            waterUsageCarbon.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Register registerForm = new Register();
+            registerForm.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Login loginForm = new Login();
+            loginForm.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Analytics analyticsForm = new Analytics();
+            analyticsForm.Show();
+            this.Hide();
         }
     }
 }

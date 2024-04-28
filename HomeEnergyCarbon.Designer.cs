@@ -141,6 +141,7 @@
             this.button11.TabIndex = 95;
             this.button11.Text = "Water Usage";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -150,6 +151,7 @@
             this.button10.TabIndex = 94;
             this.button10.Text = "Waste Production";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button6
             // 
@@ -159,6 +161,7 @@
             this.button6.TabIndex = 93;
             this.button6.Text = "Air Travel";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -168,6 +171,7 @@
             this.button5.TabIndex = 92;
             this.button5.Text = "Home Energy";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -177,6 +181,7 @@
             this.button4.TabIndex = 91;
             this.button4.Text = "Transportation";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnCalculate
             // 

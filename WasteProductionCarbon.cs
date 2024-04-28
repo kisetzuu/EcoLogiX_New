@@ -63,5 +63,40 @@ namespace EcoLogiX_New
             double totalEmissions = CalculateWasteEmissions(nonRecycledWaste, disposalMethod);
             MessageBox.Show($"Estimated Carbon Emissions from Waste Production: {totalEmissions} kg CO2", "Carbon Offset Calculator");
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CarbonOffset carbonForm = new CarbonOffset();
+            carbonForm.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            HomeEnergyCarbon homeEnergyForm = new HomeEnergyCarbon();
+            homeEnergyForm.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AirTravelCarbon airTravelCarbon = new AirTravelCarbon();
+            airTravelCarbon.Show();
+            this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            WasteProductionCarbon wasteProductionCarbon = new WasteProductionCarbon();
+            wasteProductionCarbon.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            WaterUsageCarbon waterUsageCarbon = new WaterUsageCarbon();
+            waterUsageCarbon.Show();
+            this.Hide();
+        }
     }
 }

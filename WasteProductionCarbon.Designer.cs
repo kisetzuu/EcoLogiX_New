@@ -153,6 +153,7 @@
             this.button11.TabIndex = 143;
             this.button11.Text = "Water Usage";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -162,6 +163,7 @@
             this.button10.TabIndex = 142;
             this.button10.Text = "Waste Production";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button6
             // 
@@ -171,6 +173,7 @@
             this.button6.TabIndex = 141;
             this.button6.Text = "Air Travel";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -180,6 +183,7 @@
             this.button5.TabIndex = 140;
             this.button5.Text = "Home Energy";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -189,6 +193,7 @@
             this.button4.TabIndex = 139;
             this.button4.Text = "Transportation";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnCalculate
             // 
@@ -285,7 +290,7 @@
             this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.Carbon_Footprint__1_;
             this.pictureBox3.Location = new System.Drawing.Point(848, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(337, 762);
+            this.pictureBox3.Size = new System.Drawing.Size(350, 800);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 128;
             this.pictureBox3.TabStop = false;

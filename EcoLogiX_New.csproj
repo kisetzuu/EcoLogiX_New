@@ -141,6 +141,12 @@
     <Compile Include="WasteProductionCarbon.Designer.cs">
       <DependentUpon>WasteProductionCarbon.cs</DependentUpon>
     </Compile>
+    <Compile Include="WaterUsageCarbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaterUsageCarbon.Designer.cs">
+      <DependentUpon>WaterUsageCarbon.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AirTravelCarbon.resx">
       <DependentUpon>AirTravelCarbon.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WasteProductionCarbon.resx">
       <DependentUpon>WasteProductionCarbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterUsageCarbon.resx">
+      <DependentUpon>WaterUsageCarbon.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
