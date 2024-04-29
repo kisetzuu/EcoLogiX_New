@@ -56,6 +56,7 @@
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.comboCat = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.btnNext = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -83,7 +84,7 @@
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button9.Location = new System.Drawing.Point(0, 447);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(286, 69);
+            this.button9.Size = new System.Drawing.Size(273, 69);
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
@@ -99,7 +100,7 @@
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.Location = new System.Drawing.Point(0, 677);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(286, 85);
+            this.button8.Size = new System.Drawing.Size(273, 85);
             this.button8.TabIndex = 6;
             this.button8.Text = "ADMIN";
             this.button8.UseVisualStyleBackColor = false;
@@ -115,7 +116,7 @@
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.Location = new System.Drawing.Point(0, 387);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(286, 60);
+            this.button7.Size = new System.Drawing.Size(273, 60);
             this.button7.TabIndex = 5;
             this.button7.Text = "ANALYTICS";
             this.button7.UseVisualStyleBackColor = false;
@@ -131,7 +132,7 @@
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(0, 325);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(286, 62);
+            this.button3.Size = new System.Drawing.Size(273, 62);
             this.button3.TabIndex = 4;
             this.button3.Text = "LOGIN";
             this.button3.UseVisualStyleBackColor = false;
@@ -147,7 +148,7 @@
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(0, 262);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(286, 63);
+            this.button2.Size = new System.Drawing.Size(273, 63);
             this.button2.TabIndex = 3;
             this.button2.Text = "REGISTER";
             this.button2.UseVisualStyleBackColor = false;
@@ -163,7 +164,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 195);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(286, 67);
+            this.button1.Size = new System.Drawing.Size(273, 67);
             this.button1.TabIndex = 2;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
@@ -174,7 +175,7 @@
             this.pictureBox1.Image = global::EcoLogiX_New.Properties.Resources.Logo_EcoLogiX;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(286, 195);
+            this.pictureBox1.Size = new System.Drawing.Size(273, 195);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -192,7 +193,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(286, 762);
+            this.panel1.Size = new System.Drawing.Size(273, 762);
             this.panel1.TabIndex = 75;
             // 
             // label7
@@ -201,7 +202,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(316, 83);
+            this.label7.Location = new System.Drawing.Point(314, 26);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(163, 20);
             this.label7.TabIndex = 82;
@@ -212,7 +213,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label6.Location = new System.Drawing.Point(316, 117);
+            this.label6.Location = new System.Drawing.Point(314, 60);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(97, 16);
             this.label6.TabIndex = 81;
@@ -223,7 +224,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label1.Location = new System.Drawing.Point(316, 186);
+            this.label1.Location = new System.Drawing.Point(314, 129);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 16);
             this.label1.TabIndex = 84;
@@ -234,7 +235,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label2.Location = new System.Drawing.Point(316, 253);
+            this.label2.Location = new System.Drawing.Point(314, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 16);
             this.label2.TabIndex = 86;
@@ -242,7 +243,7 @@
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(319, 346);
+            this.txtPhone.Location = new System.Drawing.Point(317, 289);
             this.txtPhone.Multiline = true;
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(255, 31);
@@ -253,7 +254,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label3.Location = new System.Drawing.Point(317, 325);
+            this.label3.Location = new System.Drawing.Point(315, 268);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(97, 16);
             this.label3.TabIndex = 88;
@@ -261,7 +262,7 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(319, 272);
+            this.txtEmail.Location = new System.Drawing.Point(317, 215);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(255, 31);
@@ -269,7 +270,7 @@
             // 
             // txtContact
             // 
-            this.txtContact.Location = new System.Drawing.Point(319, 205);
+            this.txtContact.Location = new System.Drawing.Point(317, 148);
             this.txtContact.Multiline = true;
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(255, 31);
@@ -277,7 +278,7 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(319, 136);
+            this.txtName.Location = new System.Drawing.Point(317, 79);
             this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(255, 31);
@@ -289,7 +290,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(316, 399);
+            this.label4.Location = new System.Drawing.Point(314, 342);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(166, 20);
             this.label4.TabIndex = 93;
@@ -300,7 +301,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label5.Location = new System.Drawing.Point(317, 424);
+            this.label5.Location = new System.Drawing.Point(315, 367);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(182, 16);
             this.label5.TabIndex = 94;
@@ -330,7 +331,7 @@
             "Makati",
             "Iligan",
             "Marikina"});
-            this.comboLoc.Location = new System.Drawing.Point(319, 447);
+            this.comboLoc.Location = new System.Drawing.Point(317, 390);
             this.comboLoc.Name = "comboLoc";
             this.comboLoc.Size = new System.Drawing.Size(255, 24);
             this.comboLoc.TabIndex = 95;
@@ -341,7 +342,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(316, 496);
+            this.label8.Location = new System.Drawing.Point(314, 439);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(130, 20);
             this.label8.TabIndex = 96;
@@ -352,7 +353,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label9.Location = new System.Drawing.Point(317, 521);
+            this.label9.Location = new System.Drawing.Point(315, 464);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(93, 16);
             this.label9.TabIndex = 97;
@@ -360,7 +361,7 @@
             // 
             // txtProd
             // 
-            this.txtProd.Location = new System.Drawing.Point(320, 544);
+            this.txtProd.Location = new System.Drawing.Point(318, 487);
             this.txtProd.Multiline = true;
             this.txtProd.Name = "txtProd";
             this.txtProd.Size = new System.Drawing.Size(255, 31);
@@ -371,7 +372,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label10.Location = new System.Drawing.Point(320, 590);
+            this.label10.Location = new System.Drawing.Point(318, 533);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(75, 16);
             this.label10.TabIndex = 99;
@@ -379,7 +380,7 @@
             // 
             // txtDesc
             // 
-            this.txtDesc.Location = new System.Drawing.Point(323, 620);
+            this.txtDesc.Location = new System.Drawing.Point(321, 563);
             this.txtDesc.Multiline = true;
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(255, 31);
@@ -419,7 +420,7 @@
             "Fair Trade Goods",
             "Recycled and Upcycled Products",
             "Water Conservation Solutions"});
-            this.comboCat.Location = new System.Drawing.Point(323, 696);
+            this.comboCat.Location = new System.Drawing.Point(321, 639);
             this.comboCat.Name = "comboCat";
             this.comboCat.Size = new System.Drawing.Size(255, 24);
             this.comboCat.TabIndex = 102;
@@ -429,11 +430,21 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label11.Location = new System.Drawing.Point(321, 673);
+            this.label11.Location = new System.Drawing.Point(319, 616);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(109, 16);
             this.label11.TabIndex = 101;
             this.label11.Text = "Product category";
+            // 
+            // btnNext
+            // 
+            this.btnNext.Location = new System.Drawing.Point(322, 686);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(250, 36);
+            this.btnNext.TabIndex = 103;
+            this.btnNext.Text = "Next Page";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // SupplyChainTransparency
             // 
@@ -441,6 +452,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.btnNext);
             this.Controls.Add(this.comboCat);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtDesc);
@@ -466,6 +478,7 @@
             this.Name = "SupplyChainTransparency";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SupplyChainTransparency";
+            this.Load += new System.EventHandler(this.SupplyChainTransparency_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -504,5 +517,6 @@
         private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.ComboBox comboCat;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnNext;
     }
 }

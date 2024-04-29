@@ -30,5 +30,12 @@ namespace EcoLogiX_New
             carbonForm.Show();
             this.Hide();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SupplyChainTransparency supplyChainTransparency = new SupplyChainTransparency();
+            supplyChainTransparency.Show();
+            this.Hide();
+        }
     }
 }

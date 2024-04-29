@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtCertifications = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtHealth = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboCompliance = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtTotalEnergy = new System.Windows.Forms.TextBox();
@@ -53,10 +53,11 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboRaw = new System.Windows.Forms.ComboBox();
+            this.txtRelev = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboDoc = new System.Windows.Forms.ComboBox();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -67,45 +68,45 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label11.Location = new System.Drawing.Point(321, 611);
+            this.label11.Location = new System.Drawing.Point(325, 551);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(209, 20);
+            this.label11.Size = new System.Drawing.Size(167, 16);
             this.label11.TabIndex = 122;
             this.label11.Text = "Relevant certifications held";
             // 
-            // textBox6
+            // txtCertifications
             // 
-            this.textBox6.Location = new System.Drawing.Point(323, 537);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(255, 31);
-            this.textBox6.TabIndex = 121;
+            this.txtCertifications.Location = new System.Drawing.Point(327, 477);
+            this.txtCertifications.Multiline = true;
+            this.txtCertifications.Name = "txtCertifications";
+            this.txtCertifications.Size = new System.Drawing.Size(255, 31);
+            this.txtCertifications.TabIndex = 121;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label10.Location = new System.Drawing.Point(321, 512);
+            this.label10.Location = new System.Drawing.Point(325, 452);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(158, 20);
+            this.label10.Size = new System.Drawing.Size(126, 16);
             this.label10.TabIndex = 120;
             this.label10.Text = "Ethical Certifications";
             // 
-            // textBox5
+            // txtHealth
             // 
-            this.textBox5.Location = new System.Drawing.Point(319, 372);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(255, 31);
-            this.textBox5.TabIndex = 119;
+            this.txtHealth.Location = new System.Drawing.Point(323, 312);
+            this.txtHealth.Multiline = true;
+            this.txtHealth.Name = "txtHealth";
+            this.txtHealth.Size = new System.Drawing.Size(255, 31);
+            this.txtHealth.TabIndex = 119;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label9.Location = new System.Drawing.Point(317, 349);
+            this.label9.Location = new System.Drawing.Point(321, 289);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(176, 16);
             this.label9.TabIndex = 118;
@@ -117,16 +118,16 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(319, 586);
+            this.label8.Location = new System.Drawing.Point(323, 526);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(298, 25);
+            this.label8.Size = new System.Drawing.Size(238, 20);
             this.label8.TabIndex = 117;
             this.label8.Text = "Compliance and Certifications:";
             // 
-            // comboBox1
+            // comboCompliance
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboCompliance.FormattingEnabled = true;
+            this.comboCompliance.Items.AddRange(new object[] {
             "Fully Compliant",
             "Partially Compliant",
             "Not Compliant",
@@ -147,17 +148,17 @@
             "Compliant with Employment Termination Procedures",
             "Compliant with Equal Pay Laws",
             "Compliant with Employee Training and Development Regulations"});
-            this.comboBox1.Location = new System.Drawing.Point(320, 314);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(255, 24);
-            this.comboBox1.TabIndex = 116;
+            this.comboCompliance.Location = new System.Drawing.Point(324, 254);
+            this.comboCompliance.Name = "comboCompliance";
+            this.comboCompliance.Size = new System.Drawing.Size(255, 24);
+            this.comboCompliance.TabIndex = 116;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label5.Location = new System.Drawing.Point(320, 287);
+            this.label5.Location = new System.Drawing.Point(324, 227);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(168, 16);
             this.label5.TabIndex = 115;
@@ -169,15 +170,15 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(315, 262);
+            this.label4.Location = new System.Drawing.Point(319, 202);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(211, 25);
+            this.label4.Size = new System.Drawing.Size(169, 20);
             this.label4.TabIndex = 114;
             this.label4.Text = "Social Responsibility:";
             // 
             // txtTotalEnergy
             // 
-            this.txtTotalEnergy.Location = new System.Drawing.Point(319, 136);
+            this.txtTotalEnergy.Location = new System.Drawing.Point(323, 76);
             this.txtTotalEnergy.Multiline = true;
             this.txtTotalEnergy.Name = "txtTotalEnergy";
             this.txtTotalEnergy.Size = new System.Drawing.Size(255, 31);
@@ -185,7 +186,7 @@
             // 
             // txtTotalGreenhouse
             // 
-            this.txtTotalGreenhouse.Location = new System.Drawing.Point(319, 205);
+            this.txtTotalGreenhouse.Location = new System.Drawing.Point(323, 145);
             this.txtTotalGreenhouse.Multiline = true;
             this.txtTotalGreenhouse.Name = "txtTotalGreenhouse";
             this.txtTotalGreenhouse.Size = new System.Drawing.Size(255, 31);
@@ -196,9 +197,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label1.Location = new System.Drawing.Point(316, 186);
+            this.label1.Location = new System.Drawing.Point(320, 126);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(245, 20);
+            this.label1.Size = new System.Drawing.Size(196, 16);
             this.label1.TabIndex = 107;
             this.label1.Text = "Total greenhouse gas emission";
             // 
@@ -208,9 +209,9 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(316, 83);
+            this.label7.Location = new System.Drawing.Point(320, 27);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(219, 25);
+            this.label7.Size = new System.Drawing.Size(175, 20);
             this.label7.TabIndex = 106;
             this.label7.Text = "Environmental Impact:";
             // 
@@ -219,9 +220,9 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label6.Location = new System.Drawing.Point(316, 117);
+            this.label6.Location = new System.Drawing.Point(320, 57);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(203, 20);
+            this.label6.Size = new System.Drawing.Size(162, 16);
             this.label6.TabIndex = 105;
             this.label6.Text = "Total energy consumption";
             // 
@@ -365,9 +366,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(320, 427);
+            this.label2.Location = new System.Drawing.Point(324, 367);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(170, 25);
+            this.label2.Size = new System.Drawing.Size(136, 20);
             this.label2.TabIndex = 124;
             this.label2.Text = "Ethical Sourcing:";
             // 
@@ -376,16 +377,16 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label3.Location = new System.Drawing.Point(321, 452);
+            this.label3.Location = new System.Drawing.Point(325, 392);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(218, 20);
+            this.label3.Size = new System.Drawing.Size(174, 16);
             this.label3.TabIndex = 125;
             this.label3.Text = "Traceability of raw materials";
             // 
-            // comboBox3
+            // comboRaw
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.comboRaw.FormattingEnabled = true;
+            this.comboRaw.Items.AddRange(new object[] {
             "Fully Traceable",
             "Partially Traceable",
             "Not Traceable",
@@ -407,35 +408,35 @@
             "Traceable to Consumer",
             "Verified Traceability",
             "Unverified Traceability"});
-            this.comboBox3.Location = new System.Drawing.Point(324, 475);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(255, 24);
-            this.comboBox3.TabIndex = 126;
+            this.comboRaw.Location = new System.Drawing.Point(328, 415);
+            this.comboRaw.Name = "comboRaw";
+            this.comboRaw.Size = new System.Drawing.Size(255, 24);
+            this.comboRaw.TabIndex = 126;
             // 
-            // textBox1
+            // txtRelev
             // 
-            this.textBox1.Location = new System.Drawing.Point(323, 634);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(255, 31);
-            this.textBox1.TabIndex = 127;
+            this.txtRelev.Location = new System.Drawing.Point(327, 574);
+            this.txtRelev.Multiline = true;
+            this.txtRelev.Name = "txtRelev";
+            this.txtRelev.Size = new System.Drawing.Size(255, 31);
+            this.txtRelev.TabIndex = 127;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label12.Location = new System.Drawing.Point(323, 690);
+            this.label12.Location = new System.Drawing.Point(327, 630);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(212, 16);
             this.label12.TabIndex = 128;
             this.label12.Text = "Compliance Documentation Status";
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
-            // comboBox2
+            // comboDoc
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboDoc.FormattingEnabled = true;
+            this.comboDoc.Items.AddRange(new object[] {
             "Fully Compliant",
             "Partially Compliant",
             "Not Compliant",
@@ -456,10 +457,20 @@
             "Compliant with Employment Termination Procedures",
             "Compliant with Equal Pay Laws",
             "Compliant with Employee Training and Development Regulations"});
-            this.comboBox2.Location = new System.Drawing.Point(323, 709);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(255, 24);
-            this.comboBox2.TabIndex = 129;
+            this.comboDoc.Location = new System.Drawing.Point(327, 649);
+            this.comboDoc.Name = "comboDoc";
+            this.comboDoc.Size = new System.Drawing.Size(255, 24);
+            this.comboDoc.TabIndex = 129;
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Location = new System.Drawing.Point(327, 693);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(251, 35);
+            this.btnSubmit.TabIndex = 130;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // SupplyChainPageTwo
             // 
@@ -468,19 +479,20 @@
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1185, 762);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.comboDoc);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.txtRelev);
+            this.Controls.Add(this.comboRaw);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtCertifications);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtHealth);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboCompliance);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtTotalEnergy);
@@ -495,6 +507,7 @@
             this.Name = "SupplyChainPageTwo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SupplyChainPageTwo";
+            this.Load += new System.EventHandler(this.SupplyChainPageTwo_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -505,12 +518,12 @@
 
         #endregion
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtCertifications;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtHealth;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboCompliance;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtTotalEnergy;
@@ -529,9 +542,10 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox comboRaw;
+        private System.Windows.Forms.TextBox txtRelev;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboDoc;
+        private System.Windows.Forms.Button btnSubmit;
     }
 }
