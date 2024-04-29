@@ -57,6 +57,7 @@
             this.comboCat = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.btnNext = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -283,6 +284,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(255, 31);
             this.txtName.TabIndex = 92;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // label4
             // 
@@ -438,7 +440,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(322, 686);
+            this.btnNext.Location = new System.Drawing.Point(592, 702);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(250, 36);
             this.btnNext.TabIndex = 103;
@@ -446,12 +448,23 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(614, 143);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(190, 36);
+            this.button4.TabIndex = 104;
+            this.button4.Text = "View Page";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // SupplyChainTransparency
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.comboCat);
             this.Controls.Add(this.label11);
@@ -518,5 +531,6 @@
         private System.Windows.Forms.ComboBox comboCat;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button button4;
     }
 }

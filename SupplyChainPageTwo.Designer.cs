@@ -199,9 +199,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label1.Location = new System.Drawing.Point(320, 126);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 16);
+            this.label1.Size = new System.Drawing.Size(330, 20);
             this.label1.TabIndex = 107;
-            this.label1.Text = "Total greenhouse gas emission";
+            this.label1.Text = "Total greenhouse gas emission (in kg CO2)";
             // 
             // label7
             // 
@@ -222,9 +222,9 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label6.Location = new System.Drawing.Point(320, 57);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 16);
+            this.label6.Size = new System.Drawing.Size(270, 20);
             this.label6.TabIndex = 105;
-            this.label6.Text = "Total energy consumption";
+            this.label6.Text = "Total energy consumption (in kWH)";
             // 
             // panel1
             // 
