@@ -135,6 +135,18 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="SupplyChainPageTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplyChainPageTwo.Designer.cs">
+      <DependentUpon>SupplyChainPageTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplyChainTransparency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplyChainTransparency.Designer.cs">
+      <DependentUpon>SupplyChainTransparency.cs</DependentUpon>
+    </Compile>
     <Compile Include="WasteProductionCarbon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +201,12 @@
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplyChainPageTwo.resx">
+      <DependentUpon>SupplyChainPageTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplyChainTransparency.resx">
+      <DependentUpon>SupplyChainTransparency.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WasteProductionCarbon.resx">
       <DependentUpon>WasteProductionCarbon.cs</DependentUpon>
