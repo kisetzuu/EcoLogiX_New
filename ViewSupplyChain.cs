@@ -27,42 +27,41 @@ namespace EcoLogiX_New
 
         private void button4_Click(object sender, EventArgs e)
         {
-            // Retrieve the user's ID from the session
-            int userId = UserSession.UserID;
-
-            // Retrieve the connection string from App.config or Web.config
+            int userId = UserSession.UserID;  // Retrieve the user's ID from the session
             string connectionString = ConfigurationManager.ConnectionStrings["SupplyChainDataDb"].ConnectionString;
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            try
             {
-                // Define SQL query to select data from the database for the logged-in user
-                string query = "SELECT * FROM SupplyChainData WHERE UserID = @UserId";
-
-                using (SqlCommand command = new SqlCommand(query, connection))
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    // Add parameter for UserID
-                    command.Parameters.AddWithValue("@UserId", userId);
-
-                    // Open the connection
-                    connection.Open();
-
-                    SqlDataReader reader = command.ExecuteReader();
-                    if (reader.HasRows)
+                    string query = "SELECT * FROM SupplyChainData WHERE UserID = @UserId";
+                    using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        // Create a DataTable to store the retrieved data
-                        DataTable dataTable = new DataTable();
-
-                        // Load the data from the reader into the DataTable
-                        dataTable.Load(reader);
-
-                        // Bind the DataTable to the dataGridView
-                        dataViewSupply.DataSource = dataTable;
-                    }
-                    else
-                    {
-                        MessageBox.Show("No data found for the logged-in user.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        command.Parameters.AddWithValue("@UserId", userId);
+                        connection.Open();
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                DataTable dataTable = new DataTable();
+                                dataTable.Load(reader);
+                                dataViewSupply.DataSource = dataTable; // Assuming dataViewSupply is your DataGridView
+                            }
+                            else
+                            {
+                                MessageBox.Show("No data found for the logged-in user.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                        }
                     }
                 }
+            }
+            catch (SqlException sqlEx)
+            {
+                MessageBox.Show("An error occurred while accessing the database: " + sqlEx.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

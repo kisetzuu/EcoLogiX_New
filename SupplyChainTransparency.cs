@@ -17,6 +17,12 @@ namespace EcoLogiX_New
             InitializeComponent();
         }
 
+        public static class UserSession
+        {
+            public static int UserID { get; set; }
+            // Additional session-related properties can be added here if needed
+        }
+
         // Properties to hold data from form fields
         public string SupplierName { get; private set; }
         public string ContactPerson { get; private set; }
@@ -38,9 +44,10 @@ namespace EcoLogiX_New
             string productName = txtProd.Text;
             string productDescription = txtDesc.Text;
             string productCategory = comboCat.Text;
+            int userId = UserSession.UserID;
 
             // Create an instance of SupplyChainPageTwo and pass the data
-            SupplyChainPageTwo form2 = new SupplyChainPageTwo(supplierName, contactPerson, emailAddress, phoneNumber, locationInformation, productName, productDescription, productCategory);
+            SupplyChainPageTwo form2 = new SupplyChainPageTwo(userId, txtName.Text, txtContact.Text, txtEmail.Text, txtPhone.Text, comboLoc.Text, txtProd.Text, txtDesc.Text, comboCat.Text);
             form2.Show();
             this.Hide(); // Hide the current form
         }

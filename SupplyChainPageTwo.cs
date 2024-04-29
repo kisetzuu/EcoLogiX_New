@@ -31,11 +31,13 @@ namespace EcoLogiX_New
         public string HealthSafetyMeasures { get; set; }
         public string EthicalCertifications { get; set; }
         public string RelevantCertifications { get; set; }
+        public int UserID { get; private set; }
 
-        public SupplyChainPageTwo(string supplierName, string contactPerson, string emailAddress, string phoneNumber, string locationInformation, string productName, string productDescription, string productCategory)
+        public SupplyChainPageTwo(int userId, string supplierName, string contactPerson, string emailAddress, string phoneNumber, string locationInformation, string productName, string productDescription, string productCategory)
         {
             InitializeComponent();
 
+            this.UserID = userId;
             // Set values of controls based on parameters
             this.SupplierName = supplierName;
             this.ContactPerson = contactPerson;
@@ -59,16 +61,17 @@ namespace EcoLogiX_New
         }
 
         public SupplyChainPageTwo(SupplyChainTransparency previousForm) : this(
-            previousForm.SupplierName,
-            previousForm.ContactPerson,
-            previousForm.EmailAddress,
-            previousForm.PhoneNumber,
-            previousForm.LocationInformation,
-            previousForm.ProductName,
-            previousForm.ProductDescription,
-            previousForm.ProductCategory)
+         UserSession.UserID,  // Include the UserID fetched from the session
+         previousForm.SupplierName,
+         previousForm.ContactPerson,
+         previousForm.EmailAddress,
+         previousForm.PhoneNumber,
+         previousForm.LocationInformation,
+         previousForm.ProductName,
+         previousForm.ProductDescription,
+         previousForm.ProductCategory)
         {
-            // No need to display data received from Form 1
+            // This constructor is now correctly passing all required arguments to the main constructor
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
@@ -81,15 +84,15 @@ namespace EcoLogiX_New
 
             // Extend the SQL query to include data from both forms
             string query = @"
-        INSERT INTO SupplyChainData (
-            UserId, 
-            SupplierName, ContactPerson, EmailAddress, PhoneNumber, LocationInformation, ProductName, ProductDescription, ProductCategory,
-            TotalEnergyConsumption, TotalGreenhouseEmission, ComplianceLaborLaws, HealthSafetyMeasures, TraceabilityRawMaterials, EthicalCertifications, RelevantCertifications, ComplianceDocumentationStatus
-        ) VALUES (
-            @UserId, 
-            @SupplierName, @ContactPerson, @EmailAddress, @PhoneNumber, @LocationInformation, @ProductName, @ProductDescription, @ProductCategory,
-            @TotalEnergyConsumption, @TotalGreenhouseEmission, @ComplianceLaborLaws, @HealthSafetyMeasures, @TraceabilityRawMaterials, @EthicalCertifications, @RelevantCertifications, @ComplianceDocumentationStatus
-        )";
+                 INSERT INTO SupplyChainData (
+                     UserId, 
+                     SupplierName, ContactPerson, EmailAddress, PhoneNumber, LocationInformation, ProductName, ProductDescription, ProductCategory,
+                     TotalEnergyConsumption, TotalGreenhouseEmission, ComplianceLaborLaws, HealthSafetyMeasures, TraceabilityRawMaterials, EthicalCertifications, RelevantCertifications, ComplianceDocumentationStatus
+                 ) VALUES (
+                     @UserId, 
+                     @SupplierName, @ContactPerson, @EmailAddress, @PhoneNumber, @LocationInformation, @ProductName, @ProductDescription, @ProductCategory,
+                     @TotalEnergyConsumption, @TotalGreenhouseEmission, @ComplianceLaborLaws, @HealthSafetyMeasures, @TraceabilityRawMaterials, @EthicalCertifications, @RelevantCertifications, @ComplianceDocumentationStatus
+                 )";
 
             // Create SqlConnection object
             using (SqlConnection connection = new SqlConnection(connectionString))
