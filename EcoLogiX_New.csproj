@@ -387,5 +387,26 @@
   <ItemGroup>
     <None Include="Resources\SupplyChainTransparency %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-marker %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box-open-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun-plant-wilt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield-check %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-signed.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -93,6 +93,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap box_open_full {
+            get {
+                object obj = ResourceManager.GetObject("box-open-full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap building {
             get {
                 object obj = ResourceManager.GetObject("building", resourceCulture);
@@ -206,6 +216,16 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap diary_bookmark_down__1_ {
             get {
                 object obj = ResourceManager.GetObject("diary-bookmark-down (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap document_signed {
+            get {
+                object obj = ResourceManager.GetObject("document-signed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,9 +443,29 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap list_check {
+            get {
+                object obj = ResourceManager.GetObject("list-check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_EcoLogiX {
             get {
                 object obj = ResourceManager.GetObject("Logo_EcoLogiX", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap map_marker__1_ {
+            get {
+                object obj = ResourceManager.GetObject("map-marker (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -466,6 +506,26 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap shield_check {
             get {
                 object obj = ResourceManager.GetObject("shield-check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shield_check__1_ {
+            get {
+                object obj = ResourceManager.GetObject("shield-check (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sun_plant_wilt {
+            get {
+                object obj = ResourceManager.GetObject("sun-plant-wilt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -536,6 +596,16 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap user_lock {
             get {
                 object obj = ResourceManager.GetObject("user-lock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap users_alt {
+            get {
+                object obj = ResourceManager.GetObject("users-alt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

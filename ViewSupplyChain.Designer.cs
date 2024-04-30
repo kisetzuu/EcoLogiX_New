@@ -196,7 +196,7 @@
             this.dataViewSupply.Name = "dataViewSupply";
             this.dataViewSupply.RowHeadersWidth = 51;
             this.dataViewSupply.RowTemplate.Height = 24;
-            this.dataViewSupply.Size = new System.Drawing.Size(520, 261);
+            this.dataViewSupply.Size = new System.Drawing.Size(520, 200);
             this.dataViewSupply.TabIndex = 128;
             // 
             // ViewSupplyChain
