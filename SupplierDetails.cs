@@ -1,0 +1,95 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Configuration;
+using System.Data.SqlClient;
+
+namespace EcoLogiX_New
+{
+    public partial class SupplierDetails : Form
+    {
+        public SupplierDetails()
+        {
+            InitializeComponent();
+        }
+
+        private void LoadSupplierData()
+        {
+            // Connection string from the configuration file
+            string connectionString = ConfigurationManager.ConnectionStrings["SupplyChainDataDb"].ConnectionString;
+
+            // SQL query to fetch supplier data
+            string query = "SELECT SupplierName, ContactPerson, EmailAddress, PhoneNumber FROM dbo.SupplyChainData;";
+
+            // Create a new DataTable
+            DataTable dataTable = new DataTable();
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    // Open the connection
+                    conn.Open();
+
+                    // Create a SqlCommand to execute the SQL query
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        // Execute the query and load the results into the DataTable
+                        using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                        {
+                            da.Fill(dataTable);
+                        }
+                    }
+
+                    // Set the DataGridView source to the DataTable
+                    dataGridSupplier.DataSource = dataTable;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error loading data: " + ex.Message);
+                }
+            }
+        }
+
+        private void dataGridSupplier_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnSupplier_Click(object sender, EventArgs e)
+        {
+            LoadSupplierData();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            // Assuming the original DataTable is stored in a class-level variable called 'dataTable'
+            // If not, you should retrieve or store the DataTable used to populate dataGridSupplier initially.
+
+            string searchValue = txtSearch.Text.Trim().ToLower();
+
+            if (!string.IsNullOrEmpty(searchValue))
+            {
+                // Perform the search and filter on all relevant columns
+                // Adjust column names as needed
+                (dataGridSupplier.DataSource as DataTable).DefaultView.RowFilter = string.Format(
+                    "SupplierName LIKE '%{0}%' OR " +
+                    "ContactPerson LIKE '%{0}%' OR " +
+                    "EmailAddress LIKE '%{0}%' OR " +
+                    "PhoneNumber LIKE '%{0}%'",
+                    searchValue);
+            }
+            else
+            {
+                // Reset the filter if the search box is empty
+                (dataGridSupplier.DataSource as DataTable).DefaultView.RowFilter = string.Empty;
+            }
+        }
+    }
+}

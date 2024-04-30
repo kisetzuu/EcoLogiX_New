@@ -58,7 +58,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.comboDoc = new System.Windows.Forms.ComboBox();
             this.btnSubmit = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnSupplier = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -493,14 +493,15 @@
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
-            // button4
+            // btnSupplier
             // 
-            this.button4.Location = new System.Drawing.Point(626, 92);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(173, 42);
-            this.button4.TabIndex = 131;
-            this.button4.Text = "Supplier Details";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSupplier.Location = new System.Drawing.Point(626, 92);
+            this.btnSupplier.Name = "btnSupplier";
+            this.btnSupplier.Size = new System.Drawing.Size(173, 42);
+            this.btnSupplier.TabIndex = 131;
+            this.btnSupplier.Text = "Supplier Details";
+            this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -653,7 +654,7 @@
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnSupplier);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.comboDoc);
             this.Controls.Add(this.label12);
@@ -729,7 +730,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox comboDoc;
         private System.Windows.Forms.Button btnSubmit;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnSupplier;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button10;

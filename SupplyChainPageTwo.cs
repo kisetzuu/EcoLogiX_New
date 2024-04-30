@@ -140,5 +140,12 @@ namespace EcoLogiX_New
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SupplierDetails supplierDetails = new SupplierDetails();
+            supplierDetails.Show();
+            this.Hide();
+        }
     }
 }
