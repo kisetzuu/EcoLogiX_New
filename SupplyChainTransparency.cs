@@ -115,5 +115,12 @@ namespace EcoLogiX_New
             traceabilityAndEthics.Show();
             this.Hide();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            DocumentationStatus documentationStatus = new DocumentationStatus();
+            documentationStatus.Show();
+            this.Hide();
+        }
     }
 }

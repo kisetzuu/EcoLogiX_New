@@ -123,6 +123,12 @@
     <Compile Include="ComplianceAndSafety.Designer.cs">
       <DependentUpon>ComplianceAndSafety.cs</DependentUpon>
     </Compile>
+    <Compile Include="DocumentationStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocumentationStatus.Designer.cs">
+      <DependentUpon>DocumentationStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Engagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ComplianceAndSafety.resx">
       <DependentUpon>ComplianceAndSafety.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentationStatus.resx">
+      <DependentUpon>DocumentationStatus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Engagement.resx">
       <DependentUpon>Engagement.cs</DependentUpon>
