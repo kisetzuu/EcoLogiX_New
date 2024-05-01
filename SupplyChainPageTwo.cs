@@ -169,5 +169,12 @@ namespace EcoLogiX_New
             environmentalImpact.Show();
             this.Hide();
         }
+
+        private void btnTraceability_Click(object sender, EventArgs e)
+        {
+            TraceabilityAndEthics traceabilityAndEthics = new TraceabilityAndEthics();
+            traceabilityAndEthics.Show();
+            this.Hide();
+        }
     }
 }

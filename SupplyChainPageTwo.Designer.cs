@@ -61,9 +61,9 @@
             this.btnSupplier = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.btnEnvironmental = new System.Windows.Forms.Button();
+            this.btnCompliance = new System.Windows.Forms.Button();
+            this.btnTraceability = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -523,33 +523,34 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button10
+            // btnEnvironmental
             // 
-            this.button10.Location = new System.Drawing.Point(626, 384);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(173, 42);
-            this.button10.TabIndex = 134;
-            this.button10.Text = "Environmental Impact";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.btnEnvironmental.Location = new System.Drawing.Point(626, 384);
+            this.btnEnvironmental.Name = "btnEnvironmental";
+            this.btnEnvironmental.Size = new System.Drawing.Size(173, 42);
+            this.btnEnvironmental.TabIndex = 134;
+            this.btnEnvironmental.Text = "Environmental Impact";
+            this.btnEnvironmental.UseVisualStyleBackColor = true;
+            this.btnEnvironmental.Click += new System.EventHandler(this.button10_Click);
             // 
-            // button11
+            // btnCompliance
             // 
-            this.button11.Location = new System.Drawing.Point(626, 483);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(173, 42);
-            this.button11.TabIndex = 135;
-            this.button11.Text = "Compliance and Safety";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btnCompliance.Location = new System.Drawing.Point(626, 483);
+            this.btnCompliance.Name = "btnCompliance";
+            this.btnCompliance.Size = new System.Drawing.Size(173, 42);
+            this.btnCompliance.TabIndex = 135;
+            this.btnCompliance.Text = "Compliance and Safety";
+            this.btnCompliance.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // btnTraceability
             // 
-            this.button12.Location = new System.Drawing.Point(626, 581);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(173, 42);
-            this.button12.TabIndex = 136;
-            this.button12.Text = "Traceability and Ethics";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnTraceability.Location = new System.Drawing.Point(626, 581);
+            this.btnTraceability.Name = "btnTraceability";
+            this.btnTraceability.Size = new System.Drawing.Size(173, 42);
+            this.btnTraceability.TabIndex = 136;
+            this.btnTraceability.Text = "Traceability and Ethics";
+            this.btnTraceability.UseVisualStyleBackColor = true;
+            this.btnTraceability.Click += new System.EventHandler(this.btnTraceability_Click);
             // 
             // button13
             // 
@@ -652,9 +653,9 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.btnTraceability);
+            this.Controls.Add(this.btnCompliance);
+            this.Controls.Add(this.btnEnvironmental);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnSupplier);
@@ -736,9 +737,9 @@
         private System.Windows.Forms.Button btnSupplier;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnEnvironmental;
+        private System.Windows.Forms.Button btnCompliance;
+        private System.Windows.Forms.Button btnTraceability;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;

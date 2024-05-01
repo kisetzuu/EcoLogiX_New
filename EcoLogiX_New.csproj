@@ -117,6 +117,12 @@
     <Compile Include="CarbonOffset.Designer.cs">
       <DependentUpon>CarbonOffset.cs</DependentUpon>
     </Compile>
+    <Compile Include="ComplianceAndSafety.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplianceAndSafety.Designer.cs">
+      <DependentUpon>ComplianceAndSafety.cs</DependentUpon>
+    </Compile>
     <Compile Include="Engagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +209,12 @@
     <Compile Include="SupplyChainTransparency.Designer.cs">
       <DependentUpon>SupplyChainTransparency.cs</DependentUpon>
     </Compile>
+    <Compile Include="TraceabilityAndEthics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraceabilityAndEthics.Designer.cs">
+      <DependentUpon>TraceabilityAndEthics.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewSupplyChain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +241,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CarbonOffset.resx">
       <DependentUpon>CarbonOffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplianceAndSafety.resx">
+      <DependentUpon>ComplianceAndSafety.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Engagement.resx">
       <DependentUpon>Engagement.cs</DependentUpon>
@@ -281,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SupplyChainTransparency.resx">
       <DependentUpon>SupplyChainTransparency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraceabilityAndEthics.resx">
+      <DependentUpon>TraceabilityAndEthics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewSupplyChain.resx">
       <DependentUpon>ViewSupplyChain.cs</DependentUpon>

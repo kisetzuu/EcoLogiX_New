@@ -96,5 +96,24 @@ namespace EcoLogiX_New
             environmentalImpact.Show();
             this.Hide();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ComplianceAndSafety complianceAndSafety = new ComplianceAndSafety();
+            complianceAndSafety.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+            TraceabilityAndEthics traceabilityAndEthics = new TraceabilityAndEthics();
+            traceabilityAndEthics.Show();
+            this.Hide();
+        }
     }
 }
