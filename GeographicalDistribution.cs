@@ -117,5 +117,26 @@ namespace EcoLogiX_New
 
             return cityNames;
         }
+
+        private void btnSupplier_Click(object sender, EventArgs e)
+        {
+            SupplierDetails supplierDetails = new SupplierDetails();
+            supplierDetails.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GeographicalDistribution geographicalDistribution = new GeographicalDistribution();
+            geographicalDistribution.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ProductInformation productInformation = new ProductInformation();
+            productInformation.Show();
+            this.Hide();
+        }
     }
 }

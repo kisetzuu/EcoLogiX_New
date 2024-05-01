@@ -65,6 +65,9 @@ namespace EcoLogiX_New
         private void btnSupplier_Click(object sender, EventArgs e)
         {
             LoadSupplierData();
+            SupplierDetails supplierDetails = new SupplierDetails();
+            supplierDetails.Show();
+            this.Hide();
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -93,6 +96,80 @@ namespace EcoLogiX_New
         }
 
         private void SupplierDetails_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GeographicalDistribution geographicalDistribution = new GeographicalDistribution();
+            geographicalDistribution.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ProductInformation productInformation = new ProductInformation();
+            productInformation.Show();
+            this.Hide();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

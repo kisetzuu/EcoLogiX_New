@@ -59,7 +59,7 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnSupplier = new System.Windows.Forms.Button();
             this.btnGeographical = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnProduct = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -488,14 +488,15 @@
             this.btnGeographical.UseVisualStyleBackColor = true;
             this.btnGeographical.Click += new System.EventHandler(this.btnGeographical_Click);
             // 
-            // button6
+            // btnProduct
             // 
-            this.button6.Location = new System.Drawing.Point(627, 277);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(173, 42);
-            this.button6.TabIndex = 147;
-            this.button6.Text = "Product Information";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnProduct.Location = new System.Drawing.Point(627, 277);
+            this.btnProduct.Name = "btnProduct";
+            this.btnProduct.Size = new System.Drawing.Size(173, 42);
+            this.btnProduct.TabIndex = 147;
+            this.btnProduct.Text = "Product Information";
+            this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.button6_Click);
             // 
             // button10
             // 
@@ -627,7 +628,7 @@
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnProduct);
             this.Controls.Add(this.btnGeographical);
             this.Controls.Add(this.btnSupplier);
             this.Controls.Add(this.btnNext);
@@ -705,7 +706,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnSupplier;
         private System.Windows.Forms.Button btnGeographical;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnProduct;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
