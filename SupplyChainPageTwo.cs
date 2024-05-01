@@ -147,5 +147,12 @@ namespace EcoLogiX_New
             supplierDetails.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GeographicalDistribution geographicalDistribution = new GeographicalDistribution();
+            geographicalDistribution.Show();
+            this.Hide();
+        }
     }
 }

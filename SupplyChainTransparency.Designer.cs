@@ -486,6 +486,7 @@
             this.btnGeographical.TabIndex = 146;
             this.btnGeographical.Text = "Geographical Details";
             this.btnGeographical.UseVisualStyleBackColor = true;
+            this.btnGeographical.Click += new System.EventHandler(this.btnGeographical_Click);
             // 
             // button6
             // 

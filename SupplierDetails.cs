@@ -91,5 +91,10 @@ namespace EcoLogiX_New
                 (dataGridSupplier.DataSource as DataTable).DefaultView.RowFilter = string.Empty;
             }
         }
+
+        private void SupplierDetails_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
