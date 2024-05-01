@@ -1,6 +1,6 @@
 ﻿namespace EcoLogiX_New
 {
-    partial class ProductInformation
+    partial class EnvironmentalImpact
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -39,34 +43,46 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.btnSupplier = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.btnProduct = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.btnSupplier = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.productChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartEnvironment = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartHisto = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productChart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartEnvironment)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartHisto)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Image = global::EcoLogiX_New.Properties.Resources.list_check;
+            this.pictureBox8.Location = new System.Drawing.Point(791, 520);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(123, 42);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 216;
+            this.pictureBox8.TabStop = false;
             // 
             // panel1
             // 
@@ -82,7 +98,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(286, 762);
-            this.panel1.TabIndex = 186;
+            this.panel1.TabIndex = 202;
             // 
             // button9
             // 
@@ -191,221 +207,227 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.SupplyChainTransparency__1_;
+            this.pictureBox3.Location = new System.Drawing.Point(963, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(222, 762);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 203;
+            this.pictureBox3.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(768, 177);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(173, 42);
+            this.button5.TabIndex = 205;
+            this.button5.Text = "Geographical Details";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // btnSupplier
+            // 
+            this.btnSupplier.Location = new System.Drawing.Point(768, 81);
+            this.btnSupplier.Name = "btnSupplier";
+            this.btnSupplier.Size = new System.Drawing.Size(173, 42);
+            this.btnSupplier.TabIndex = 204;
+            this.btnSupplier.Text = "Supplier Details";
+            this.btnSupplier.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(768, 472);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(173, 42);
+            this.button11.TabIndex = 208;
+            this.button11.Text = "Compliance and Safety";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(768, 373);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(173, 42);
+            this.button10.TabIndex = 207;
+            this.button10.Text = "Environmental Impact";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.users_alt;
+            this.pictureBox2.Location = new System.Drawing.Point(791, 33);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(123, 42);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 211;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(768, 666);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(173, 42);
+            this.button13.TabIndex = 210;
+            this.button13.Text = "Documentation Status";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(768, 570);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(173, 42);
+            this.button12.TabIndex = 209;
+            this.button12.Text = "Traceability and Ethics";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = global::EcoLogiX_New.Properties.Resources.document_signed;
-            this.pictureBox9.Location = new System.Drawing.Point(790, 621);
+            this.pictureBox9.Location = new System.Drawing.Point(791, 618);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(123, 42);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 201;
+            this.pictureBox9.TabIndex = 217;
             this.pictureBox9.TabStop = false;
             // 
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = global::EcoLogiX_New.Properties.Resources.shield_check__1_;
-            this.pictureBox7.Location = new System.Drawing.Point(790, 424);
+            this.pictureBox7.Location = new System.Drawing.Point(791, 421);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(123, 42);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 199;
+            this.pictureBox7.TabIndex = 215;
             this.pictureBox7.TabStop = false;
             // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::EcoLogiX_New.Properties.Resources.sun_plant_wilt;
-            this.pictureBox6.Location = new System.Drawing.Point(790, 325);
+            this.pictureBox6.Location = new System.Drawing.Point(791, 322);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(123, 42);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 198;
+            this.pictureBox6.TabIndex = 214;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::EcoLogiX_New.Properties.Resources.box_open_full;
-            this.pictureBox5.Location = new System.Drawing.Point(790, 229);
+            this.pictureBox5.Location = new System.Drawing.Point(791, 226);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(123, 42);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 197;
+            this.pictureBox5.TabIndex = 213;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::EcoLogiX_New.Properties.Resources.map_marker__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(790, 132);
+            this.pictureBox4.Location = new System.Drawing.Point(791, 129);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(123, 42);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 196;
+            this.pictureBox4.TabIndex = 212;
             this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.users_alt;
-            this.pictureBox2.Location = new System.Drawing.Point(790, 36);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(123, 42);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 195;
-            this.pictureBox2.TabStop = false;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(767, 669);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(173, 42);
-            this.button13.TabIndex = 194;
-            this.button13.Text = "Documentation Status";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(767, 573);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(173, 42);
-            this.button12.TabIndex = 193;
-            this.button12.Text = "Traceability and Ethics";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(767, 475);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(173, 42);
-            this.button11.TabIndex = 192;
-            this.button11.Text = "Compliance and Safety";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(767, 376);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(173, 42);
-            this.button10.TabIndex = 191;
-            this.button10.Text = "Environmental Impact";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // btnProduct
             // 
-            this.btnProduct.Location = new System.Drawing.Point(767, 277);
+            this.btnProduct.Location = new System.Drawing.Point(768, 274);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(173, 42);
-            this.btnProduct.TabIndex = 190;
+            this.btnProduct.TabIndex = 206;
             this.btnProduct.Text = "Product Information";
             this.btnProduct.UseVisualStyleBackColor = true;
-            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
-            // button5
+            // chartEnvironment
             // 
-            this.button5.Location = new System.Drawing.Point(767, 180);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(173, 42);
-            this.button5.TabIndex = 189;
-            this.button5.Text = "Geographical Details";
-            this.button5.UseVisualStyleBackColor = true;
+            chartArea3.Name = "ChartArea1";
+            this.chartEnvironment.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chartEnvironment.Legends.Add(legend3);
+            this.chartEnvironment.Location = new System.Drawing.Point(323, 33);
+            this.chartEnvironment.Name = "chartEnvironment";
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chartEnvironment.Series.Add(series3);
+            this.chartEnvironment.Size = new System.Drawing.Size(421, 354);
+            this.chartEnvironment.TabIndex = 218;
+            this.chartEnvironment.Text = "chart1";
             // 
-            // btnSupplier
+            // chartHisto
             // 
-            this.btnSupplier.Location = new System.Drawing.Point(767, 84);
-            this.btnSupplier.Name = "btnSupplier";
-            this.btnSupplier.Size = new System.Drawing.Size(173, 42);
-            this.btnSupplier.TabIndex = 188;
-            this.btnSupplier.Text = "Supplier Details";
-            this.btnSupplier.UseVisualStyleBackColor = true;
+            chartArea4.Name = "ChartArea1";
+            this.chartHisto.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chartHisto.Legends.Add(legend4);
+            this.chartHisto.Location = new System.Drawing.Point(323, 387);
+            this.chartHisto.Name = "chartHisto";
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.chartHisto.Series.Add(series4);
+            this.chartHisto.Size = new System.Drawing.Size(421, 354);
+            this.chartHisto.TabIndex = 219;
+            this.chartHisto.Text = "chart1";
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Image = global::EcoLogiX_New.Properties.Resources.list_check;
-            this.pictureBox8.Location = new System.Drawing.Point(790, 523);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(123, 42);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 200;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.SupplyChainTransparency__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(962, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(222, 762);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 187;
-            this.pictureBox3.TabStop = false;
-            // 
-            // productChart
-            // 
-            this.productChart.BackColor = System.Drawing.Color.Transparent;
-            chartArea1.Name = "ChartArea1";
-            this.productChart.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.productChart.Legends.Add(legend1);
-            this.productChart.Location = new System.Drawing.Point(324, 36);
-            this.productChart.Name = "productChart";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.productChart.Series.Add(series1);
-            this.productChart.Size = new System.Drawing.Size(411, 675);
-            this.productChart.TabIndex = 202;
-            this.productChart.Text = "chart1";
-            this.productChart.Click += new System.EventHandler(this.productChart_Click);
-            // 
-            // ProductInformation
+            // EnvironmentalImpact
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1185, 762);
-            this.Controls.Add(this.productChart);
+            this.Controls.Add(this.chartHisto);
+            this.Controls.Add(this.chartEnvironment);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnSupplier);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
             this.Controls.Add(this.btnProduct);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.btnSupplier);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "ProductInformation";
+            this.Name = "EnvironmentalImpact";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ProductInformation";
+            this.Text = "EnvironmentalImpact";
+            this.Load += new System.EventHandler(this.EnvironmentalImpact_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productChart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartEnvironment)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartHisto)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
+        private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
@@ -414,21 +436,21 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnSupplier;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button12;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button btnProduct;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button btnSupplier;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.DataVisualization.Charting.Chart productChart;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartEnvironment;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartHisto;
     }
 }

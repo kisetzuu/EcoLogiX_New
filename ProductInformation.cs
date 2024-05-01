@@ -107,5 +107,13 @@ namespace EcoLogiX_New
             productInformation.Show();
             this.Hide();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+            EnvironmentalImpact environmentalImpact = new EnvironmentalImpact();
+            environmentalImpact.Show();
+            this.Hide();
+        }
     }
 }

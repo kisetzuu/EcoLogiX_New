@@ -123,6 +123,12 @@
     <Compile Include="Engagement.Designer.cs">
       <DependentUpon>Engagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="EnvironmentalImpact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnvironmentalImpact.Designer.cs">
+      <DependentUpon>EnvironmentalImpact.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Engagement.resx">
       <DependentUpon>Engagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnvironmentalImpact.resx">
+      <DependentUpon>EnvironmentalImpact.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -60,7 +60,7 @@
             this.btnSupplier = new System.Windows.Forms.Button();
             this.btnGeographical = new System.Windows.Forms.Button();
             this.btnProduct = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btnEnvironmental = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
@@ -498,14 +498,15 @@
             this.btnProduct.UseVisualStyleBackColor = true;
             this.btnProduct.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button10
+            // btnEnvironmental
             // 
-            this.button10.Location = new System.Drawing.Point(627, 376);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(173, 42);
-            this.button10.TabIndex = 148;
-            this.button10.Text = "Environmental Impact";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnEnvironmental.Location = new System.Drawing.Point(627, 376);
+            this.btnEnvironmental.Name = "btnEnvironmental";
+            this.btnEnvironmental.Size = new System.Drawing.Size(173, 42);
+            this.btnEnvironmental.TabIndex = 148;
+            this.btnEnvironmental.Text = "Environmental Impact";
+            this.btnEnvironmental.UseVisualStyleBackColor = true;
+            this.btnEnvironmental.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -627,7 +628,7 @@
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.btnEnvironmental);
             this.Controls.Add(this.btnProduct);
             this.Controls.Add(this.btnGeographical);
             this.Controls.Add(this.btnSupplier);
@@ -707,7 +708,7 @@
         private System.Windows.Forms.Button btnSupplier;
         private System.Windows.Forms.Button btnGeographical;
         private System.Windows.Forms.Button btnProduct;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnEnvironmental;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
