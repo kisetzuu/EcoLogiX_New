@@ -1,6 +1,6 @@
 ﻿namespace EcoLogiX_New
 {
-    partial class LoggedIn
+    partial class LoggedInTwo
     {
         /// <summary>
         /// Required designer variable.
@@ -37,16 +37,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnSustainability = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -63,8 +57,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(270, 762);
-            this.panel1.TabIndex = 33;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.TabIndex = 40;
             // 
             // button9
             // 
@@ -81,7 +74,6 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -98,7 +90,6 @@
             this.button8.TabIndex = 6;
             this.button8.Text = "ADMIN";
             this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -115,7 +106,6 @@
             this.button7.TabIndex = 5;
             this.button7.Text = "ANALYTICS";
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button3
             // 
@@ -132,7 +122,6 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "LOGIN";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -149,7 +138,6 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "REGISTER";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -166,7 +154,6 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -178,102 +165,49 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.Green_Certification_Management__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(256, 0);
+            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.SustainabilityActionPlans__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(258, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(295, 762);
+            this.pictureBox2.Size = new System.Drawing.Size(346, 762);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 34;
+            this.pictureBox2.TabIndex = 41;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // button4
+            // btnSustainability
             // 
-            this.button4.Location = new System.Drawing.Point(288, 639);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(231, 44);
-            this.button4.TabIndex = 35;
-            this.button4.Text = "Green Certification";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnSustainability.Location = new System.Drawing.Point(315, 658);
+            this.btnSustainability.Name = "btnSustainability";
+            this.btnSustainability.Size = new System.Drawing.Size(217, 42);
+            this.btnSustainability.TabIndex = 42;
+            this.btnSustainability.Text = "Sustainability Action Plans";
+            this.btnSustainability.UseVisualStyleBackColor = true;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.Carbon_Footprint__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(547, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(327, 762);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 36;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(599, 639);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(231, 44);
-            this.button5.TabIndex = 37;
-            this.button5.Text = "Carbon Offset";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::EcoLogiX_New.Properties.Resources.SupplyChainTransparency__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(869, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(321, 762);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 38;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(919, 639);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(231, 44);
-            this.button6.TabIndex = 39;
-            this.button6.Text = "Supply Chain Transparency";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // LoggedIn
+            // LoggedInTwo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnSustainability);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "LoggedIn";
+            this.Name = "LoggedInTwo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LoggedIn";
+            this.Text = "LoggedInTwo";
+            this.Load += new System.EventHandler(this.LoggedInTwo_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
@@ -283,10 +217,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnSustainability;
     }
 }

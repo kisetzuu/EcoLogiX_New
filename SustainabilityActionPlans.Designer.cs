@@ -1,6 +1,6 @@
 ﻿namespace EcoLogiX_New
 {
-    partial class LoggedIn
+    partial class SustainabilityActionPlans
     {
         /// <summary>
         /// Required designer variable.
@@ -36,17 +36,21 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtGoal = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dateTarget = new System.Windows.Forms.DateTimePicker();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboPrio = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textNotes = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -63,8 +67,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(270, 762);
-            this.panel1.TabIndex = 33;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.TabIndex = 43;
             // 
             // button9
             // 
@@ -81,7 +84,6 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -98,7 +100,6 @@
             this.button8.TabIndex = 6;
             this.button8.Text = "ADMIN";
             this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -115,7 +116,6 @@
             this.button7.TabIndex = 5;
             this.button7.Text = "ANALYTICS";
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button3
             // 
@@ -132,7 +132,6 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "LOGIN";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -149,7 +148,6 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "REGISTER";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -166,7 +164,6 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -178,97 +175,160 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox2
+            // label4
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.Green_Certification_Management__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(256, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(295, 762);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 34;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(307, 91);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(140, 20);
+            this.label4.TabIndex = 115;
+            this.label4.Text = "Goal Description:";
             // 
-            // button4
+            // label5
             // 
-            this.button4.Location = new System.Drawing.Point(288, 639);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(231, 44);
-            this.button4.TabIndex = 35;
-            this.button4.Text = "Green Certification";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label5.Location = new System.Drawing.Point(308, 116);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(296, 16);
+            this.label5.TabIndex = 116;
+            this.label5.Text = "Enter a clear description of the sustainability goal";
             // 
-            // pictureBox3
+            // txtGoal
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.Carbon_Footprint__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(547, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(327, 762);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 36;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.txtGoal.Location = new System.Drawing.Point(311, 153);
+            this.txtGoal.Multiline = true;
+            this.txtGoal.Name = "txtGoal";
+            this.txtGoal.Size = new System.Drawing.Size(420, 159);
+            this.txtGoal.TabIndex = 117;
             // 
-            // button5
+            // label1
             // 
-            this.button5.Location = new System.Drawing.Point(599, 639);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(231, 44);
-            this.button5.TabIndex = 37;
-            this.button5.Text = "Carbon Offset";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(307, 337);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 20);
+            this.label1.TabIndex = 118;
+            this.label1.Text = "Target Date:";
             // 
-            // pictureBox4
+            // dateTarget
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::EcoLogiX_New.Properties.Resources.SupplyChainTransparency__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(869, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(321, 762);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 38;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.dateTarget.Location = new System.Drawing.Point(311, 367);
+            this.dateTarget.Name = "dateTarget";
+            this.dateTarget.Size = new System.Drawing.Size(249, 22);
+            this.dateTarget.TabIndex = 120;
             // 
-            // button6
+            // btnAdd
             // 
-            this.button6.Location = new System.Drawing.Point(919, 639);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(231, 44);
-            this.button6.TabIndex = 39;
-            this.button6.Text = "Supply Chain Transparency";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnAdd.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAdd.Location = new System.Drawing.Point(311, 622);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(197, 39);
+            this.btnAdd.TabIndex = 121;
+            this.btnAdd.Text = "Add Goal";
+            this.btnAdd.UseVisualStyleBackColor = false;
             // 
-            // LoggedIn
+            // btnRemove
+            // 
+            this.btnRemove.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnRemove.Location = new System.Drawing.Point(535, 622);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(196, 39);
+            this.btnRemove.TabIndex = 122;
+            this.btnRemove.Text = "Remove Goal";
+            this.btnRemove.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(307, 410);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 20);
+            this.label2.TabIndex = 123;
+            this.label2.Text = "Priority Level:";
+            // 
+            // comboPrio
+            // 
+            this.comboPrio.FormattingEnabled = true;
+            this.comboPrio.Items.AddRange(new object[] {
+            "High",
+            "Medium",
+            "Low"});
+            this.comboPrio.Location = new System.Drawing.Point(311, 439);
+            this.comboPrio.Name = "comboPrio";
+            this.comboPrio.Size = new System.Drawing.Size(158, 24);
+            this.comboPrio.TabIndex = 124;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.88F);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(307, 479);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 20);
+            this.label3.TabIndex = 125;
+            this.label3.Text = "Notes:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // textNotes
+            // 
+            this.textNotes.Location = new System.Drawing.Point(311, 513);
+            this.textNotes.Multiline = true;
+            this.textNotes.Name = "textNotes";
+            this.textNotes.Size = new System.Drawing.Size(420, 88);
+            this.textNotes.TabIndex = 126;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(775, 42);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(375, 671);
+            this.dataGridView1.TabIndex = 127;
+            // 
+            // SustainabilityActionPlans
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.textNotes);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.comboPrio);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnRemove);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.dateTarget);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtGoal);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "LoggedIn";
+            this.Name = "SustainabilityActionPlans";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LoggedIn";
+            this.Text = "SustainabilityActionPlans";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -282,11 +342,17 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtGoal;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dateTarget;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnRemove;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboPrio;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textNotes;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
