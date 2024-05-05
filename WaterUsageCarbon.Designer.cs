@@ -51,7 +51,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -223,7 +222,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label4.Location = new System.Drawing.Point(515, 371);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(274, 20);
+            this.label4.Size = new System.Drawing.Size(219, 16);
             this.label4.TabIndex = 84;
             this.label4.Text = "The purpose for which water is used";
             // 
@@ -235,7 +234,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label7.Location = new System.Drawing.Point(512, 183);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(196, 25);
+            this.label7.Size = new System.Drawing.Size(157, 20);
             this.label7.TabIndex = 82;
             this.label7.Text = "Water Consumption";
             // 
@@ -246,7 +245,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label6.Location = new System.Drawing.Point(514, 203);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(288, 20);
+            this.label6.Size = new System.Drawing.Size(230, 16);
             this.label6.TabIndex = 81;
             this.label6.Text = "Specify the total volume of water used";
             // 
@@ -271,7 +270,7 @@
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label8.Location = new System.Drawing.Point(517, 290);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(181, 20);
+            this.label8.Size = new System.Drawing.Size(145, 16);
             this.label8.TabIndex = 79;
             this.label8.Text = "Specify source of water";
             // 
@@ -283,7 +282,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(516, 270);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 25);
+            this.label2.Size = new System.Drawing.Size(131, 20);
             this.label2.TabIndex = 78;
             this.label2.Text = "Source of Water";
             // 
@@ -295,7 +294,7 @@
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label1.Location = new System.Drawing.Point(511, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(269, 49);
+            this.label1.Size = new System.Drawing.Size(215, 39);
             this.label1.TabIndex = 77;
             this.label1.Text = "Water Usage";
             // 
@@ -319,28 +318,12 @@
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button9.Image = global::EcoLogiX_New.Properties.Resources.world__1_;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 447);
+            this.button9.Location = new System.Drawing.Point(0, 510);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(286, 69);
+            this.button9.Size = new System.Drawing.Size(286, 81);
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
-            this.button8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button8.Image = global::EcoLogiX_New.Properties.Resources.user_lock;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 677);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(286, 85);
-            this.button8.TabIndex = 6;
-            this.button8.Text = "ADMIN";
-            this.button8.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
@@ -351,12 +334,13 @@
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button7.Image = global::EcoLogiX_New.Properties.Resources.chart_histogram__1_;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 387);
+            this.button7.Location = new System.Drawing.Point(0, 436);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(286, 60);
+            this.button7.Size = new System.Drawing.Size(286, 74);
             this.button7.TabIndex = 5;
             this.button7.Text = "ANALYTICS";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button3
             // 
@@ -367,12 +351,13 @@
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Image = global::EcoLogiX_New.Properties.Resources.shield_check;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 325);
+            this.button3.Location = new System.Drawing.Point(0, 361);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(286, 62);
+            this.button3.Size = new System.Drawing.Size(286, 75);
             this.button3.TabIndex = 4;
             this.button3.Text = "LOGIN";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -383,12 +368,13 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Image = global::EcoLogiX_New.Properties.Resources.user__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 262);
+            this.button2.Location = new System.Drawing.Point(0, 280);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(286, 63);
+            this.button2.Size = new System.Drawing.Size(286, 81);
             this.button2.TabIndex = 3;
             this.button2.Text = "REGISTER";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -401,10 +387,11 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 195);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(286, 67);
+            this.button1.Size = new System.Drawing.Size(286, 85);
             this.button1.TabIndex = 2;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -425,7 +412,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(516, 350);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(219, 25);
+            this.label3.Size = new System.Drawing.Size(175, 20);
             this.label3.TabIndex = 83;
             this.label3.Text = "Purpose of Water Use";
             // 
@@ -433,7 +420,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
             this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -519,7 +505,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;

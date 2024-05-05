@@ -28,16 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -88,7 +87,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
             this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -109,28 +107,12 @@
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button9.Image = global::EcoLogiX_New.Properties.Resources.world__1_;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 447);
+            this.button9.Location = new System.Drawing.Point(0, 496);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(286, 69);
+            this.button9.Size = new System.Drawing.Size(286, 75);
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
-            this.button8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button8.Image = global::EcoLogiX_New.Properties.Resources.user_lock;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 677);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(286, 85);
-            this.button8.TabIndex = 6;
-            this.button8.Text = "ADMIN";
-            this.button8.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
@@ -141,12 +123,13 @@
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button7.Image = global::EcoLogiX_New.Properties.Resources.chart_histogram__1_;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 387);
+            this.button7.Location = new System.Drawing.Point(0, 424);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(286, 60);
+            this.button7.Size = new System.Drawing.Size(286, 72);
             this.button7.TabIndex = 5;
             this.button7.Text = "ANALYTICS";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button3
             // 
@@ -157,12 +140,13 @@
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Image = global::EcoLogiX_New.Properties.Resources.shield_check;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 325);
+            this.button3.Location = new System.Drawing.Point(0, 350);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(286, 62);
+            this.button3.Size = new System.Drawing.Size(286, 74);
             this.button3.TabIndex = 4;
             this.button3.Text = "LOGIN";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -173,12 +157,13 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Image = global::EcoLogiX_New.Properties.Resources.user__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 262);
+            this.button2.Location = new System.Drawing.Point(0, 276);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(286, 63);
+            this.button2.Size = new System.Drawing.Size(286, 74);
             this.button2.TabIndex = 3;
             this.button2.Text = "REGISTER";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -191,10 +176,11 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 195);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(286, 67);
+            this.button1.Size = new System.Drawing.Size(286, 81);
             this.button1.TabIndex = 2;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -349,32 +335,32 @@
             // 
             // chartEnvironment
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chartEnvironment.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chartEnvironment.Legends.Add(legend3);
+            chartArea7.Name = "ChartArea1";
+            this.chartEnvironment.ChartAreas.Add(chartArea7);
+            legend7.Name = "Legend1";
+            this.chartEnvironment.Legends.Add(legend7);
             this.chartEnvironment.Location = new System.Drawing.Point(323, 33);
             this.chartEnvironment.Name = "chartEnvironment";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chartEnvironment.Series.Add(series3);
+            series7.ChartArea = "ChartArea1";
+            series7.Legend = "Legend1";
+            series7.Name = "Series1";
+            this.chartEnvironment.Series.Add(series7);
             this.chartEnvironment.Size = new System.Drawing.Size(421, 354);
             this.chartEnvironment.TabIndex = 218;
             this.chartEnvironment.Text = "chart1";
             // 
             // chartHisto
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartHisto.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartHisto.Legends.Add(legend4);
+            chartArea8.Name = "ChartArea1";
+            this.chartHisto.ChartAreas.Add(chartArea8);
+            legend8.Name = "Legend1";
+            this.chartHisto.Legends.Add(legend8);
             this.chartHisto.Location = new System.Drawing.Point(323, 387);
             this.chartHisto.Name = "chartHisto";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chartHisto.Series.Add(series4);
+            series8.ChartArea = "ChartArea1";
+            series8.Legend = "Legend1";
+            series8.Name = "Series1";
+            this.chartHisto.Series.Add(series8);
             this.chartHisto.Size = new System.Drawing.Size(421, 354);
             this.chartHisto.TabIndex = 219;
             this.chartHisto.Text = "chart1";
@@ -430,7 +416,6 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;

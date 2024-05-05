@@ -75,9 +75,9 @@
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button9.Image = global::EcoLogiX_New.Properties.Resources.world__1_;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 470);
+            this.button9.Location = new System.Drawing.Point(0, 510);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(264, 68);
+            this.button9.Size = new System.Drawing.Size(264, 78);
             this.button9.TabIndex = 7;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
@@ -108,9 +108,9 @@
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button7.Image = global::EcoLogiX_New.Properties.Resources.chart_histogram__1_;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 402);
+            this.button7.Location = new System.Drawing.Point(0, 430);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(264, 68);
+            this.button7.Size = new System.Drawing.Size(264, 80);
             this.button7.TabIndex = 5;
             this.button7.Text = "ANALYTICS";
             this.button7.UseVisualStyleBackColor = false;
@@ -125,9 +125,9 @@
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Image = global::EcoLogiX_New.Properties.Resources.shield_check;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 334);
+            this.button3.Location = new System.Drawing.Point(0, 354);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(264, 68);
+            this.button3.Size = new System.Drawing.Size(264, 76);
             this.button3.TabIndex = 4;
             this.button3.Text = "LOGIN";
             this.button3.UseVisualStyleBackColor = false;
@@ -142,9 +142,9 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Image = global::EcoLogiX_New.Properties.Resources.user__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 266);
+            this.button2.Location = new System.Drawing.Point(0, 278);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(264, 68);
+            this.button2.Size = new System.Drawing.Size(264, 76);
             this.button2.TabIndex = 3;
             this.button2.Text = "REGISTER";
             this.button2.UseVisualStyleBackColor = false;
@@ -161,7 +161,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 195);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(264, 71);
+            this.button1.Size = new System.Drawing.Size(264, 83);
             this.button1.TabIndex = 2;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;

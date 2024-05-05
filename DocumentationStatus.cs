@@ -134,5 +134,33 @@ namespace EcoLogiX_New
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu menuForm = new Menu();
+            menuForm.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Register registerForm = new Register();
+            registerForm.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Login loginForm = new Login();
+            loginForm.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Analytics analyticsForm = new Analytics();
+            analyticsForm.Show();
+            this.Hide();
+        }
     }
 }

@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -58,7 +57,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
             this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -79,28 +77,12 @@
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button9.Image = global::EcoLogiX_New.Properties.Resources.world__1_;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 442);
+            this.button9.Location = new System.Drawing.Point(0, 509);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(275, 69);
+            this.button9.Size = new System.Drawing.Size(275, 81);
             this.button9.TabIndex = 7;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
-            this.button8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button8.Image = global::EcoLogiX_New.Properties.Resources.user_lock;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 715);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(275, 85);
-            this.button8.TabIndex = 6;
-            this.button8.Text = "ADMIN";
-            this.button8.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
@@ -111,9 +93,9 @@
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button7.Image = global::EcoLogiX_New.Properties.Resources.chart_histogram__1_;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 382);
+            this.button7.Location = new System.Drawing.Point(0, 437);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(275, 60);
+            this.button7.Size = new System.Drawing.Size(275, 72);
             this.button7.TabIndex = 5;
             this.button7.Text = "ANALYTICS";
             this.button7.UseVisualStyleBackColor = false;
@@ -128,9 +110,9 @@
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Image = global::EcoLogiX_New.Properties.Resources.shield_check;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 323);
+            this.button3.Location = new System.Drawing.Point(0, 359);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(275, 59);
+            this.button3.Size = new System.Drawing.Size(275, 78);
             this.button3.TabIndex = 4;
             this.button3.Text = "LOGIN";
             this.button3.UseVisualStyleBackColor = false;
@@ -145,9 +127,9 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Image = global::EcoLogiX_New.Properties.Resources.user__1_;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 264);
+            this.button2.Location = new System.Drawing.Point(0, 282);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(275, 59);
+            this.button2.Size = new System.Drawing.Size(275, 77);
             this.button2.TabIndex = 3;
             this.button2.Text = "REGISTER";
             this.button2.UseVisualStyleBackColor = false;
@@ -164,7 +146,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 194);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(275, 70);
+            this.button1.Size = new System.Drawing.Size(275, 88);
             this.button1.TabIndex = 2;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
@@ -323,7 +305,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
