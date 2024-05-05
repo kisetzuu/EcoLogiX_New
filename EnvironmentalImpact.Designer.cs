@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EnvironmentalImpact));
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
@@ -336,32 +337,32 @@
             // 
             // chartEnvironment
             // 
-            chartArea9.Name = "ChartArea1";
-            this.chartEnvironment.ChartAreas.Add(chartArea9);
-            legend9.Name = "Legend1";
-            this.chartEnvironment.Legends.Add(legend9);
+            chartArea1.Name = "ChartArea1";
+            this.chartEnvironment.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartEnvironment.Legends.Add(legend1);
             this.chartEnvironment.Location = new System.Drawing.Point(323, 33);
             this.chartEnvironment.Name = "chartEnvironment";
-            series9.ChartArea = "ChartArea1";
-            series9.Legend = "Legend1";
-            series9.Name = "Series1";
-            this.chartEnvironment.Series.Add(series9);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartEnvironment.Series.Add(series1);
             this.chartEnvironment.Size = new System.Drawing.Size(421, 354);
             this.chartEnvironment.TabIndex = 218;
             this.chartEnvironment.Text = "chart1";
             // 
             // chartHisto
             // 
-            chartArea10.Name = "ChartArea1";
-            this.chartHisto.ChartAreas.Add(chartArea10);
-            legend10.Name = "Legend1";
-            this.chartHisto.Legends.Add(legend10);
+            chartArea2.Name = "ChartArea1";
+            this.chartHisto.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartHisto.Legends.Add(legend2);
             this.chartHisto.Location = new System.Drawing.Point(323, 387);
             this.chartHisto.Name = "chartHisto";
-            series10.ChartArea = "ChartArea1";
-            series10.Legend = "Legend1";
-            series10.Name = "Series1";
-            this.chartHisto.Series.Add(series10);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartHisto.Series.Add(series2);
             this.chartHisto.Size = new System.Drawing.Size(421, 354);
             this.chartHisto.TabIndex = 219;
             this.chartHisto.Text = "chart1";
@@ -393,6 +394,7 @@
             this.Controls.Add(this.btnProduct);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EnvironmentalImpact";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EnvironmentalImpact";
