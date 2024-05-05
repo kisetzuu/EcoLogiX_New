@@ -185,6 +185,7 @@
             this.btnSustainability.TabIndex = 42;
             this.btnSustainability.Text = "Sustainability Action Plans";
             this.btnSustainability.UseVisualStyleBackColor = true;
+            this.btnSustainability.Click += new System.EventHandler(this.btnSustainability_Click);
             // 
             // LoggedInTwo
             // 

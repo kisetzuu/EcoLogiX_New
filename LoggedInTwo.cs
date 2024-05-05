@@ -21,5 +21,12 @@ namespace EcoLogiX_New
         {
 
         }
+
+        private void btnSustainability_Click(object sender, EventArgs e)
+        {
+            SustainabilityActionPlans plan = new SustainabilityActionPlans();
+            plan.Show();
+            this.Hide();
+        }
     }
 }

@@ -42,6 +42,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -246,12 +247,26 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Transparent;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.button10.Location = new System.Drawing.Point(1017, 45);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(115, 39);
+            this.button10.TabIndex = 40;
+            this.button10.Text = "Next Page >>>";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
             // LoggedIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button5);
@@ -288,5 +303,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button10;
     }
 }

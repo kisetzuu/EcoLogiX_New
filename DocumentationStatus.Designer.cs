@@ -74,6 +74,7 @@
             this.dataGridDoc.RowTemplate.Height = 24;
             this.dataGridDoc.Size = new System.Drawing.Size(379, 674);
             this.dataGridDoc.TabIndex = 255;
+            this.dataGridDoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridDoc_CellContentClick);
             // 
             // button7
             // 

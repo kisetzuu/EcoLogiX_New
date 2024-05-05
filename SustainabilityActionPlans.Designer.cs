@@ -47,10 +47,11 @@
             this.comboPrio = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textNotes = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridSustainability = new System.Windows.Forms.DataGridView();
+            this.btnView = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridSustainability)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -235,6 +236,7 @@
             this.btnAdd.TabIndex = 121;
             this.btnAdd.Text = "Add Goal";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnRemove
             // 
@@ -291,15 +293,27 @@
             this.textNotes.Size = new System.Drawing.Size(420, 88);
             this.textNotes.TabIndex = 126;
             // 
-            // dataGridView1
+            // dataGridSustainability
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(775, 42);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(375, 671);
-            this.dataGridView1.TabIndex = 127;
+            this.dataGridSustainability.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridSustainability.Location = new System.Drawing.Point(775, 47);
+            this.dataGridSustainability.Name = "dataGridSustainability";
+            this.dataGridSustainability.RowHeadersWidth = 51;
+            this.dataGridSustainability.RowTemplate.Height = 24;
+            this.dataGridSustainability.Size = new System.Drawing.Size(375, 655);
+            this.dataGridSustainability.TabIndex = 127;
+            this.dataGridSustainability.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // btnView
+            // 
+            this.btnView.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnView.Location = new System.Drawing.Point(775, 708);
+            this.btnView.Name = "btnView";
+            this.btnView.Size = new System.Drawing.Size(174, 39);
+            this.btnView.TabIndex = 128;
+            this.btnView.Text = "View";
+            this.btnView.UseVisualStyleBackColor = false;
+            this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
             // SustainabilityActionPlans
             // 
@@ -307,7 +321,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnView);
+            this.Controls.Add(this.dataGridSustainability);
             this.Controls.Add(this.textNotes);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.comboPrio);
@@ -324,9 +339,10 @@
             this.Name = "SustainabilityActionPlans";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SustainabilityActionPlans";
+            this.Load += new System.EventHandler(this.SustainabilityActionPlans_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridSustainability)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -353,6 +369,7 @@
         private System.Windows.Forms.ComboBox comboPrio;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textNotes;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridSustainability;
+        private System.Windows.Forms.Button btnView;
     }
 }

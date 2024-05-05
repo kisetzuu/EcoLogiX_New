@@ -129,5 +129,10 @@ namespace EcoLogiX_New
             documentationStatus.Show();
             this.Hide();
         }
+
+        private void dataGridDoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

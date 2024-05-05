@@ -145,5 +145,10 @@ VALUES (@UserID, @CertificationName, @CertificationBody, @DocumentName, 'PDF', @
                 }
             }
         }
+
+        private void GreenCertification_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
