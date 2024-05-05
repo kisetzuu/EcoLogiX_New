@@ -75,6 +75,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button7
             // 
@@ -178,20 +179,21 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(838, 658);
+            this.button4.Location = new System.Drawing.Point(851, 658);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(217, 42);
             this.button4.TabIndex = 44;
             this.button4.Text = "Sustainability Reporting";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.SustainabilityReportingx;
-            this.pictureBox3.Location = new System.Drawing.Point(710, -49);
+            this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.SustainabilityReportingx__2_;
+            this.pictureBox3.Location = new System.Drawing.Point(709, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(476, 811);
+            this.pictureBox3.Size = new System.Drawing.Size(484, 765);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 45;
             this.pictureBox3.TabStop = false;

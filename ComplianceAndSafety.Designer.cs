@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -201,6 +201,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // pictureBox3
             // 
@@ -337,33 +338,34 @@
             // pieCompliance
             // 
             this.pieCompliance.BorderlineColor = System.Drawing.Color.Transparent;
-            chartArea7.Name = "ChartArea1";
-            this.pieCompliance.ChartAreas.Add(chartArea7);
-            legend7.Name = "Legend1";
-            this.pieCompliance.Legends.Add(legend7);
+            chartArea1.Name = "ChartArea1";
+            this.pieCompliance.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.pieCompliance.Legends.Add(legend1);
             this.pieCompliance.Location = new System.Drawing.Point(317, 18);
             this.pieCompliance.Name = "pieCompliance";
-            series7.ChartArea = "ChartArea1";
-            series7.Legend = "Legend1";
-            series7.Name = "Series1";
-            this.pieCompliance.Series.Add(series7);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.pieCompliance.Series.Add(series1);
             this.pieCompliance.Size = new System.Drawing.Size(426, 369);
             this.pieCompliance.TabIndex = 218;
             this.pieCompliance.Text = "chart1";
+            this.pieCompliance.Click += new System.EventHandler(this.pieCompliance_Click);
             // 
             // stackedCompliance
             // 
             this.stackedCompliance.BorderlineColor = System.Drawing.Color.Transparent;
-            chartArea8.Name = "ChartArea1";
-            this.stackedCompliance.ChartAreas.Add(chartArea8);
-            legend8.Name = "Legend1";
-            this.stackedCompliance.Legends.Add(legend8);
+            chartArea2.Name = "ChartArea1";
+            this.stackedCompliance.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.stackedCompliance.Legends.Add(legend2);
             this.stackedCompliance.Location = new System.Drawing.Point(317, 373);
             this.stackedCompliance.Name = "stackedCompliance";
-            series8.ChartArea = "ChartArea1";
-            series8.Legend = "Legend1";
-            series8.Name = "Series1";
-            this.stackedCompliance.Series.Add(series8);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.stackedCompliance.Series.Add(series2);
             this.stackedCompliance.Size = new System.Drawing.Size(426, 369);
             this.stackedCompliance.TabIndex = 219;
             this.stackedCompliance.Text = "chart2";

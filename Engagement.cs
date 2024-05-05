@@ -44,5 +44,12 @@ namespace EcoLogiX_New
             analyticsForm.Show();
             this.Hide();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Engagement engagementForm = new Engagement();
+            engagementForm.Show();
+            this.Hide();
+        }
     }
 }

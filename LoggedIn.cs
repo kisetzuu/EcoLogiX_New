@@ -50,7 +50,9 @@ namespace EcoLogiX_New
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            Engagement engagementForm = new Engagement();
+            engagementForm.Show();
+            this.Hide();
         }
 
         private void button8_Click(object sender, EventArgs e)

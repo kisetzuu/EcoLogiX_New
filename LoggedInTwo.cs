@@ -56,5 +56,19 @@ namespace EcoLogiX_New
             analyticsForm.Show();
             this.Hide();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Engagement engagementForm = new Engagement();
+            engagementForm.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SustainabilityReporting report = new SustainabilityReporting();
+            report.Show();
+            this.Hide();
+        }
     }
 }

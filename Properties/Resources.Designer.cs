@@ -533,6 +533,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SupplierPerformance {
+            get {
+                object obj = ResourceManager.GetObject("SupplierPerformance", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SupplyChainb {
             get {
                 object obj = ResourceManager.GetObject("SupplyChainb", resourceCulture);
@@ -616,6 +626,26 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap SustainabilityReportingx {
             get {
                 object obj = ResourceManager.GetObject("SustainabilityReportingx", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SustainabilityReportingx__1_ {
+            get {
+                object obj = ResourceManager.GetObject("SustainabilityReportingx (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SustainabilityReportingx__2_ {
+            get {
+                object obj = ResourceManager.GetObject("SustainabilityReportingx (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

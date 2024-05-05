@@ -104,5 +104,12 @@ namespace EcoLogiX_New
             }
             return userId;  // Return the user ID, or -1 if authentication fails
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Engagement engagementForm = new Engagement();
+            engagementForm.Show();
+            this.Hide();
+        }
     }
 }

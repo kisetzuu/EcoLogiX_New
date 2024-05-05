@@ -227,6 +227,12 @@
     <Compile Include="SustainabilityActionPlans.Designer.cs">
       <DependentUpon>SustainabilityActionPlans.cs</DependentUpon>
     </Compile>
+    <Compile Include="SustainabilityReporting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SustainabilityReporting.Designer.cs">
+      <DependentUpon>SustainabilityReporting.cs</DependentUpon>
+    </Compile>
     <Compile Include="TraceabilityAndEthics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -323,6 +329,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SustainabilityActionPlans.resx">
       <DependentUpon>SustainabilityActionPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SustainabilityReporting.resx">
+      <DependentUpon>SustainabilityReporting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TraceabilityAndEthics.resx">
       <DependentUpon>TraceabilityAndEthics.cs</DependentUpon>
@@ -532,6 +541,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SustainabilityReportingx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SustainabilityReportingx %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SustainabilityReportingx %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SupplierPerformance.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

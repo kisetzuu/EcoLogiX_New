@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.btnSupplier = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -139,6 +139,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button7
             // 
@@ -333,16 +334,16 @@
             // 
             // chartTraceability
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chartTraceability.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chartTraceability.Legends.Add(legend5);
+            chartArea6.Name = "ChartArea1";
+            this.chartTraceability.ChartAreas.Add(chartArea6);
+            legend6.Name = "Legend1";
+            this.chartTraceability.Legends.Add(legend6);
             this.chartTraceability.Location = new System.Drawing.Point(334, 44);
             this.chartTraceability.Name = "chartTraceability";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chartTraceability.Series.Add(series5);
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            this.chartTraceability.Series.Add(series6);
             this.chartTraceability.Size = new System.Drawing.Size(379, 343);
             this.chartTraceability.TabIndex = 236;
             this.chartTraceability.Text = "chart1";
