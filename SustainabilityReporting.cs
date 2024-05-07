@@ -250,5 +250,12 @@ namespace EcoLogiX_New
         {
 
         }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            ProductSustainabilityAnalysis product = new ProductSustainabilityAnalysis();
+            product.Show();
+            this.Hide();
+        }
     }
 }

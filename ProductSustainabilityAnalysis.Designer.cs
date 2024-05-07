@@ -1,6 +1,6 @@
 ﻿namespace EcoLogiX_New
 {
-    partial class SustainabilityReporting
+    partial class ProductSustainabilityAnalysis
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,8 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SustainabilityReporting));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductSustainabilityAnalysis));
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -45,18 +46,29 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.barChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.lineChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pieChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.btnProduct = new System.Windows.Forms.Button();
+            this.lineChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.barChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.btnSupplier = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.barChartSupply)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lineChartSupply)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pieChartSupply)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lineChartSupply)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barChartSupply)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.ProductSustainability;
+            this.pictureBox2.Location = new System.Drawing.Point(260, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(282, 774);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 50;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // panel1
             // 
@@ -71,8 +83,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(270, 762);
-            this.panel1.TabIndex = 46;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.TabIndex = 51;
             // 
             // button9
             // 
@@ -165,34 +176,21 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.SupplierPerformance;
-            this.pictureBox2.Location = new System.Drawing.Point(269, -12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(282, 774);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // barChartSupply
+            // pieChartSupply
             // 
             chartArea1.Name = "ChartArea1";
-            this.barChartSupply.ChartAreas.Add(chartArea1);
+            this.pieChartSupply.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.barChartSupply.Legends.Add(legend1);
-            this.barChartSupply.Location = new System.Drawing.Point(549, 0);
-            this.barChartSupply.Name = "barChartSupply";
+            this.pieChartSupply.Legends.Add(legend1);
+            this.pieChartSupply.Location = new System.Drawing.Point(548, 534);
+            this.pieChartSupply.Name = "pieChartSupply";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            this.barChartSupply.Series.Add(series1);
-            this.barChartSupply.Size = new System.Drawing.Size(637, 291);
-            this.barChartSupply.TabIndex = 47;
-            this.barChartSupply.Text = "chart1";
-            this.barChartSupply.Click += new System.EventHandler(this.barChartSupply_Click);
+            this.pieChartSupply.Series.Add(series1);
+            this.pieChartSupply.Size = new System.Drawing.Size(637, 234);
+            this.pieChartSupply.TabIndex = 54;
+            this.pieChartSupply.Text = "chart3";
             // 
             // lineChartSupply
             // 
@@ -200,73 +198,73 @@
             this.lineChartSupply.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.lineChartSupply.Legends.Add(legend2);
-            this.lineChartSupply.Location = new System.Drawing.Point(549, 287);
+            this.lineChartSupply.Location = new System.Drawing.Point(548, 293);
             this.lineChartSupply.Name = "lineChartSupply";
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             this.lineChartSupply.Series.Add(series2);
             this.lineChartSupply.Size = new System.Drawing.Size(637, 245);
-            this.lineChartSupply.TabIndex = 48;
+            this.lineChartSupply.TabIndex = 53;
             this.lineChartSupply.Text = "chart2";
-            this.lineChartSupply.Click += new System.EventHandler(this.lineChartSupply_Click);
             // 
-            // pieChartSupply
+            // barChartSupply
             // 
             chartArea3.Name = "ChartArea1";
-            this.pieChartSupply.ChartAreas.Add(chartArea3);
+            this.barChartSupply.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
-            this.pieChartSupply.Legends.Add(legend3);
-            this.pieChartSupply.Location = new System.Drawing.Point(549, 528);
-            this.pieChartSupply.Name = "pieChartSupply";
+            this.barChartSupply.Legends.Add(legend3);
+            this.barChartSupply.Location = new System.Drawing.Point(548, 6);
+            this.barChartSupply.Name = "barChartSupply";
             series3.ChartArea = "ChartArea1";
             series3.Legend = "Legend1";
             series3.Name = "Series1";
-            this.pieChartSupply.Series.Add(series3);
-            this.pieChartSupply.Size = new System.Drawing.Size(637, 234);
-            this.pieChartSupply.TabIndex = 49;
-            this.pieChartSupply.Text = "chart3";
-            this.pieChartSupply.Click += new System.EventHandler(this.pieChartSupply_Click);
+            this.barChartSupply.Series.Add(series3);
+            this.barChartSupply.Size = new System.Drawing.Size(637, 291);
+            this.barChartSupply.TabIndex = 52;
+            this.barChartSupply.Text = "chart1";
             // 
-            // btnProduct
+            // btnSupplier
             // 
-            this.btnProduct.Location = new System.Drawing.Point(301, 537);
-            this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(222, 40);
-            this.btnProduct.TabIndex = 56;
-            this.btnProduct.Text = "Product Sustainability Analysis";
-            this.btnProduct.UseVisualStyleBackColor = true;
-            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
+            this.btnSupplier.Location = new System.Drawing.Point(290, 537);
+            this.btnSupplier.Name = "btnSupplier";
+            this.btnSupplier.Size = new System.Drawing.Size(222, 40);
+            this.btnSupplier.TabIndex = 57;
+            this.btnSupplier.Text = "Supplier Performance Analysis";
+            this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click);
             // 
-            // SustainabilityReporting
+            // ProductSustainabilityAnalysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
-            this.Controls.Add(this.btnProduct);
+            this.Controls.Add(this.btnSupplier);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pieChartSupply);
             this.Controls.Add(this.lineChartSupply);
             this.Controls.Add(this.barChartSupply);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "SustainabilityReporting";
+            this.Name = "ProductSustainabilityAnalysis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SustainabilityReporting";
-            this.Load += new System.EventHandler(this.SustainabilityReporting_Load);
+            this.Text = "ProductSustainabilityAnalysis";
+            this.Load += new System.EventHandler(this.ProductSustainabilityAnalysis_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.barChartSupply)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lineChartSupply)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pieChartSupply)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lineChartSupply)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barChartSupply)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button7;
@@ -274,10 +272,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart barChartSupply;
-        private System.Windows.Forms.DataVisualization.Charting.Chart lineChartSupply;
         private System.Windows.Forms.DataVisualization.Charting.Chart pieChartSupply;
-        private System.Windows.Forms.Button btnProduct;
+        private System.Windows.Forms.DataVisualization.Charting.Chart lineChartSupply;
+        private System.Windows.Forms.DataVisualization.Charting.Chart barChartSupply;
+        private System.Windows.Forms.Button btnSupplier;
     }
 }

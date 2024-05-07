@@ -195,6 +195,12 @@
     <Compile Include="ProductInformation.Designer.cs">
       <DependentUpon>ProductInformation.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductSustainabilityAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductSustainabilityAnalysis.Designer.cs">
+      <DependentUpon>ProductSustainabilityAnalysis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.cs">
@@ -304,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProductInformation.resx">
       <DependentUpon>ProductInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductSustainabilityAnalysis.resx">
+      <DependentUpon>ProductSustainabilityAnalysis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -550,6 +559,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SupplierPerformance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProductSustainability.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProductSustainability1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
