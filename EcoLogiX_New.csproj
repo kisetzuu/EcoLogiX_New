@@ -153,6 +153,12 @@
     <Compile Include="GeographicalDistribution.Designer.cs">
       <DependentUpon>GeographicalDistribution.cs</DependentUpon>
     </Compile>
+    <Compile Include="GoalTrackingProgressAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoalTrackingProgressAnalysis.Designer.cs">
+      <DependentUpon>GoalTrackingProgressAnalysis.cs</DependentUpon>
+    </Compile>
     <Compile Include="GreenCertification.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -289,6 +295,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GeographicalDistribution.resx">
       <DependentUpon>GeographicalDistribution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoalTrackingProgressAnalysis.resx">
+      <DependentUpon>GoalTrackingProgressAnalysis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GreenCertification.resx">
       <DependentUpon>GreenCertification.cs</DependentUpon>
@@ -565,6 +574,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ProductSustainability1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProductSustainability %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

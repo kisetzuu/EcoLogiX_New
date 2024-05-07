@@ -257,5 +257,12 @@ namespace EcoLogiX_New
             product.Show();
             this.Hide();
         }
+
+        private void btnGoals_Click(object sender, EventArgs e)
+        {
+            GoalTrackingProgressAnalysis goalTrackingProgressAnalysis = new GoalTrackingProgressAnalysis();
+            goalTrackingProgressAnalysis.Show();
+            this.Hide();
+        }
     }
 }
