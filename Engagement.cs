@@ -59,7 +59,9 @@ namespace EcoLogiX_New
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            ContentLibrary contentLibrary = new ContentLibrary();
+            contentLibrary.Show();
+            this.Hide();
         }
     }
 }

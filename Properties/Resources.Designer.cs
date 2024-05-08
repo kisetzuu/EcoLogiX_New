@@ -453,6 +453,26 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FAQS {
+            get {
+                object obj = ResourceManager.GetObject("FAQS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FAQS__1_ {
+            get {
+                object obj = ResourceManager.GetObject("FAQS (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Green_Certification_Management {
             get {
                 object obj = ResourceManager.GetObject("Green Certification Management", resourceCulture);
