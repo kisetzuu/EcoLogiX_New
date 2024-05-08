@@ -203,5 +203,12 @@ namespace EcoLogiX_New
         {
 
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            LoggedIn loggedIn = new LoggedIn();
+            loggedIn.Show();
+            this.Hide();
+        }
     }
 }

@@ -185,5 +185,12 @@ VALUES (@UserID, @CertificationName, @CertificationBody, @DocumentName, 'PDF', @
             engagementForm.Show();
             this.Hide();
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            LoggedIn loggedIn = new LoggedIn();
+            loggedIn.Show();
+            this.Hide();
+        }
     }
 }

@@ -133,5 +133,12 @@ namespace EcoLogiX_New
             engagementForm.Show();
             this.Hide();
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            LoggedIn loggedIn = new LoggedIn();
+            loggedIn.Show();
+            this.Hide();
+        }
     }
 }

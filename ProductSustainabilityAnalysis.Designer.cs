@@ -51,6 +51,7 @@
             this.barChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnSupplier = new System.Windows.Forms.Button();
             this.btnGoals = new System.Windows.Forms.Button();
+            this.btnReturn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -246,12 +247,26 @@
             this.btnGoals.UseVisualStyleBackColor = true;
             this.btnGoals.Click += new System.EventHandler(this.btnGoals_Click);
             // 
+            // btnReturn
+            // 
+            this.btnReturn.BackColor = System.Drawing.Color.Transparent;
+            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReturn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnReturn.Location = new System.Drawing.Point(290, 32);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(84, 34);
+            this.btnReturn.TabIndex = 155;
+            this.btnReturn.Text = "Return";
+            this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
             // ProductSustainabilityAnalysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnGoals);
             this.Controls.Add(this.btnSupplier);
             this.Controls.Add(this.pictureBox2);
@@ -290,5 +305,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart barChartSupply;
         private System.Windows.Forms.Button btnSupplier;
         private System.Windows.Forms.Button btnGoals;
+        private System.Windows.Forms.Button btnReturn;
     }
 }

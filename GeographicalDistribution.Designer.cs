@@ -52,6 +52,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnProduct = new System.Windows.Forms.Button();
             this.gmapControl = new GMap.NET.WindowsForms.GMapControl();
+            this.btnReturn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -355,12 +356,26 @@
             this.gmapControl.TabIndex = 201;
             this.gmapControl.Zoom = 0D;
             // 
+            // btnReturn
+            // 
+            this.btnReturn.BackColor = System.Drawing.Color.Transparent;
+            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReturn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnReturn.Location = new System.Drawing.Point(1079, 33);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(84, 34);
+            this.btnReturn.TabIndex = 202;
+            this.btnReturn.Text = "Return";
+            this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
             // GeographicalDistribution
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.gmapControl);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.panel1);
@@ -422,5 +437,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btnProduct;
         private GMap.NET.WindowsForms.GMapControl gmapControl;
+        private System.Windows.Forms.Button btnReturn;
     }
 }

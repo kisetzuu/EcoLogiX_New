@@ -51,6 +51,7 @@
             this.docName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.docType = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnView = new System.Windows.Forms.Button();
+            this.btnReturn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -289,7 +290,7 @@
             this.viewDocuments.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.docName,
             this.docType});
-            this.viewDocuments.Location = new System.Drawing.Point(314, 532);
+            this.viewDocuments.Location = new System.Drawing.Point(314, 552);
             this.viewDocuments.Name = "viewDocuments";
             this.viewDocuments.RowHeadersWidth = 51;
             this.viewDocuments.RowTemplate.Height = 24;
@@ -312,7 +313,7 @@
             // 
             // btnView
             // 
-            this.btnView.Location = new System.Drawing.Point(312, 480);
+            this.btnView.Location = new System.Drawing.Point(312, 500);
             this.btnView.Name = "btnView";
             this.btnView.Size = new System.Drawing.Size(197, 36);
             this.btnView.TabIndex = 48;
@@ -320,12 +321,26 @@
             this.btnView.UseVisualStyleBackColor = true;
             this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
+            // btnReturn
+            // 
+            this.btnReturn.BackColor = System.Drawing.Color.Transparent;
+            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReturn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnReturn.Location = new System.Drawing.Point(1066, 26);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(84, 34);
+            this.btnReturn.TabIndex = 49;
+            this.btnReturn.Text = "Return";
+            this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
             // GreenCertification
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnView);
             this.Controls.Add(this.viewDocuments);
             this.Controls.Add(this.pictureBox2);
@@ -379,5 +394,6 @@
         private System.Windows.Forms.Button btnView;
         private System.Windows.Forms.DataGridViewTextBoxColumn docName;
         private System.Windows.Forms.DataGridViewTextBoxColumn docType;
+        private System.Windows.Forms.Button btnReturn;
     }
 }

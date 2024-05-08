@@ -49,6 +49,7 @@
             this.textNotes = new System.Windows.Forms.TextBox();
             this.dataGridSustainability = new System.Windows.Forms.DataGridView();
             this.btnView = new System.Windows.Forms.Button();
+            this.btnReturn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSustainability)).BeginInit();
@@ -303,12 +304,26 @@
             this.btnView.UseVisualStyleBackColor = false;
             this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
+            // btnReturn
+            // 
+            this.btnReturn.BackColor = System.Drawing.Color.Transparent;
+            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReturn.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnReturn.Location = new System.Drawing.Point(1066, 7);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(84, 34);
+            this.btnReturn.TabIndex = 153;
+            this.btnReturn.Text = "Return";
+            this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
             // SustainabilityActionPlans
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnView);
             this.Controls.Add(this.dataGridSustainability);
             this.Controls.Add(this.textNotes);
@@ -359,5 +374,6 @@
         private System.Windows.Forms.TextBox textNotes;
         private System.Windows.Forms.DataGridView dataGridSustainability;
         private System.Windows.Forms.Button btnView;
+        private System.Windows.Forms.Button btnReturn;
     }
 }

@@ -291,5 +291,12 @@ namespace EcoLogiX_New
             analysis.Show();
             this.Hide();
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            LoggedInTwo loggedIn = new LoggedInTwo();
+            loggedIn.Show();
+            this.Hide();
+        }
     }
 }
