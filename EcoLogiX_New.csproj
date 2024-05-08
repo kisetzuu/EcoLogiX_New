@@ -153,6 +153,18 @@
     <Compile Include="FAQs.Designer.cs">
       <DependentUpon>FAQs.cs</DependentUpon>
     </Compile>
+    <Compile Include="FAQsPthree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAQsPthree.Designer.cs">
+      <DependentUpon>FAQsPthree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAQsPtwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAQsPtwo.Designer.cs">
+      <DependentUpon>FAQsPtwo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -307,6 +319,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FAQs.resx">
       <DependentUpon>FAQs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAQsPthree.resx">
+      <DependentUpon>FAQsPthree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAQsPtwo.resx">
+      <DependentUpon>FAQsPtwo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
