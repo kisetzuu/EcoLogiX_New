@@ -63,6 +63,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap analyse {
+            get {
+                object obj = ResourceManager.GetObject("analyse", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap apple_core {
             get {
                 object obj = ResourceManager.GetObject("apple-core", resourceCulture);
@@ -93,9 +103,69 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Blue_and_Yellow_Illustrative_Reducing_Carbon_Footprint_Tips_Infographic {
+            get {
+                object obj = ResourceManager.GetObject("Blue and Yellow Illustrative Reducing Carbon Footprint Tips Infographic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Blue_and_Yellow_Illustrative_Reducing_Carbon_Footprint_Tips_Infographic__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Blue and Yellow Illustrative Reducing Carbon Footprint Tips Infographic (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_open_cover {
+            get {
+                object obj = ResourceManager.GetObject("book-open-cover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_open_cover__1_ {
+            get {
+                object obj = ResourceManager.GetObject("book-open-cover (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_open_cover__2_ {
+            get {
+                object obj = ResourceManager.GetObject("book-open-cover (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap box_open_full {
             get {
                 object obj = ResourceManager.GetObject("box-open-full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap browser {
+            get {
+                object obj = ResourceManager.GetObject("browser", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +206,26 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap chart_histogram__1_ {
             get {
                 object obj = ResourceManager.GetObject("chart-histogram (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ContentLibary {
+            get {
+                object obj = ResourceManager.GetObject("ContentLibary", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ContentLibary1 {
+            get {
+                object obj = ResourceManager.GetObject("ContentLibary1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +286,16 @@ namespace EcoLogiX_New.Properties {
         internal static System.Drawing.Bitmap Dark_Green_Illustrative_Future_and_Technology_Poster__4_1 {
             get {
                 object obj = ResourceManager.GetObject("Dark Green Illustrative Future and Technology Poster (4)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap database {
+            get {
+                object obj = ResourceManager.GetObject("database", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,6 +573,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap microchip {
+            get {
+                object obj = ResourceManager.GetObject("microchip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paper_plane__1_ {
             get {
                 object obj = ResourceManager.GetObject("paper-plane (1)", resourceCulture);
@@ -713,9 +823,29 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap user_robot {
+            get {
+                object obj = ResourceManager.GetObject("user-robot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap users_alt {
             get {
                 object obj = ResourceManager.GetObject("users-alt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap users_alt__1_ {
+            get {
+                object obj = ResourceManager.GetObject("users-alt (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

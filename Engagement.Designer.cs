@@ -165,10 +165,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.diary_bookmark_down__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(482, 47);
+            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.book_open_cover__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(478, 45);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(102, 153);
+            this.pictureBox2.Size = new System.Drawing.Size(128, 149);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -176,7 +176,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(436, 217);
@@ -185,11 +185,12 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Content Library";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(436, 466);
@@ -213,7 +214,7 @@
             // btnSurvey
             // 
             this.btnSurvey.BackColor = System.Drawing.Color.Transparent;
-            this.btnSurvey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSurvey.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnSurvey.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
             this.btnSurvey.ForeColor = System.Drawing.Color.White;
             this.btnSurvey.Location = new System.Drawing.Point(436, 716);

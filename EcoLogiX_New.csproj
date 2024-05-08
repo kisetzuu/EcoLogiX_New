@@ -123,6 +123,12 @@
     <Compile Include="ComplianceAndSafety.Designer.cs">
       <DependentUpon>ComplianceAndSafety.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContentLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContentLibrary.Designer.cs">
+      <DependentUpon>ContentLibrary.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocumentationStatus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -280,6 +286,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ComplianceAndSafety.resx">
       <DependentUpon>ComplianceAndSafety.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContentLibrary.resx">
+      <DependentUpon>ContentLibrary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocumentationStatus.resx">
       <DependentUpon>DocumentationStatus.cs</DependentUpon>
@@ -580,6 +589,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ProductSustainability %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContentLibary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-open-cover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-open-cover %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContentLibary1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users-alt %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analyse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microchip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-robot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-open-cover %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue and Yellow Illustrative Reducing Carbon Footprint Tips Infographic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue and Yellow Illustrative Reducing Carbon Footprint Tips Infographic %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
