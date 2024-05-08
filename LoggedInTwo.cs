@@ -70,5 +70,12 @@ namespace EcoLogiX_New
             report.Show();
             this.Hide();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            LoggedIn page = new LoggedIn();
+            page.Show();
+            this.Hide();
+        }
     }
 }

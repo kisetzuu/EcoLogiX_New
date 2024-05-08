@@ -59,9 +59,63 @@ namespace EcoLogiX_New
 
         private void ConfigureGoalDataGrid(List<Goal> goals)
         {
+            dataGridGoals.Columns.Clear();  // Clear existing columns if any
+
+            // Adding a column for Goal Description
+            DataGridViewTextBoxColumn goalDescriptionColumn = new DataGridViewTextBoxColumn();
+            goalDescriptionColumn.Name = "GoalDescription";
+            goalDescriptionColumn.HeaderText = "Goal Description";
+            goalDescriptionColumn.DataPropertyName = "GoalDescription"; // Bind to the GoalDescription property of the Goal object
+            goalDescriptionColumn.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;  // Adjust size to fill part of the grid
+            dataGridGoals.Columns.Add(goalDescriptionColumn);
+
+            // Adding a column for Target Date
+            DataGridViewTextBoxColumn targetDateColumn = new DataGridViewTextBoxColumn();
+            targetDateColumn.Name = "TargetDate";
+            targetDateColumn.HeaderText = "Target Date";
+            targetDateColumn.DataPropertyName = "TargetDate"; // Bind to the TargetDate property of the Goal object
+            targetDateColumn.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;  // Adjust size to fill part of the grid
+            dataGridGoals.Columns.Add(targetDateColumn);
+
+            // Adding a column for Notes
+            DataGridViewTextBoxColumn notesColumn = new DataGridViewTextBoxColumn();
+            notesColumn.Name = "Notes";
+            notesColumn.HeaderText = "Notes";
+            notesColumn.DataPropertyName = "Notes"; // Bind to the Notes property of the Goal object
+            notesColumn.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;  // Adjust size to fill part of the grid
+            dataGridGoals.Columns.Add(notesColumn);
+
+            // Styling
+            dataGridGoals.DefaultCellStyle.Font = new Font("Arial", 10);  // Set default font
+            dataGridGoals.AlternatingRowsDefaultCellStyle.BackColor = Color.LightGray;  // Alternating row colors for better readability
+            dataGridGoals.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 10, FontStyle.Bold);  // Header style
+            dataGridGoals.ColumnHeadersDefaultCellStyle.BackColor = Color.Navy;  // Header background color
+            dataGridGoals.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;  // Header text color
+            dataGridGoals.EnableHeadersVisualStyles = false;  // Apply custom style to headers
+
+            // Grid behavior settings
+            dataGridGoals.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridGoals.MultiSelect = false;  // Prevent multi-row selection
+
+            // Bind data
             dataGridGoals.DataSource = goals;
+
+            // Handle CellClick event
+            dataGridGoals.CellClick += DataGridGoals_CellClick;
         }
 
+        private void DataGridGoals_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Check if the clicked cell is valid and not a header cell
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                DataGridViewCell clickedCell = dataGridGoals.Rows[e.RowIndex].Cells[e.ColumnIndex];
+                string cellValue = clickedCell.Value?.ToString(); // Get cell value
+
+                // Display cell value
+                MessageBox.Show(cellValue, "Cell Value", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
 
         public class Goal
         {
@@ -217,6 +271,25 @@ namespace EcoLogiX_New
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridGoals_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnSupplier_Click(object sender, EventArgs e)
+        {
+            SustainabilityReporting sustainabilityReporting = new SustainabilityReporting();
+            sustainabilityReporting.Show();
+            this.Hide();
+        }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            ProductSustainabilityAnalysis analysis = new ProductSustainabilityAnalysis();
+            analysis.Show();
+            this.Hide();
         }
     }
 }

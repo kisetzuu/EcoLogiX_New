@@ -258,5 +258,19 @@ namespace EcoLogiX_New
             sustainabilityReporting.Show();
             this.Hide();
         }
+
+        private void btnGoals_Click(object sender, EventArgs e)
+        {
+            GoalTrackingProgressAnalysis goalTrackingProgressAnalysis = new GoalTrackingProgressAnalysis();
+            goalTrackingProgressAnalysis.Show();
+            this.Hide();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Engagement engagementForm = new Engagement();
+            engagementForm.Show();
+            this.Hide();
+        }
     }
 }

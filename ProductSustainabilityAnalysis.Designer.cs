@@ -50,6 +50,7 @@
             this.lineChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.barChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnSupplier = new System.Windows.Forms.Button();
+            this.btnGoals = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -100,6 +101,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "ENGAGEMENT";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button7
             // 
@@ -226,7 +228,7 @@
             // 
             // btnSupplier
             // 
-            this.btnSupplier.Location = new System.Drawing.Point(290, 537);
+            this.btnSupplier.Location = new System.Drawing.Point(290, 548);
             this.btnSupplier.Name = "btnSupplier";
             this.btnSupplier.Size = new System.Drawing.Size(222, 40);
             this.btnSupplier.TabIndex = 57;
@@ -234,12 +236,23 @@
             this.btnSupplier.UseVisualStyleBackColor = true;
             this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click);
             // 
+            // btnGoals
+            // 
+            this.btnGoals.Location = new System.Drawing.Point(290, 623);
+            this.btnGoals.Name = "btnGoals";
+            this.btnGoals.Size = new System.Drawing.Size(222, 40);
+            this.btnGoals.TabIndex = 58;
+            this.btnGoals.Text = "Goal Tracking Progress Analysis";
+            this.btnGoals.UseVisualStyleBackColor = true;
+            this.btnGoals.Click += new System.EventHandler(this.btnGoals_Click);
+            // 
             // ProductSustainabilityAnalysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.btnGoals);
             this.Controls.Add(this.btnSupplier);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
@@ -276,5 +289,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart lineChartSupply;
         private System.Windows.Forms.DataVisualization.Charting.Chart barChartSupply;
         private System.Windows.Forms.Button btnSupplier;
+        private System.Windows.Forms.Button btnGoals;
     }
 }

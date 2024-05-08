@@ -38,17 +38,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btnSurvey = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -169,7 +166,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.diary_bookmark_down__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(356, 163);
+            this.pictureBox2.Location = new System.Drawing.Point(482, 47);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(102, 153);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -182,36 +179,12 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(311, 331);
+            this.button4.Location = new System.Drawing.Point(436, 217);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(206, 43);
             this.button4.TabIndex = 3;
             this.button4.Text = "Content Library";
             this.button4.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::EcoLogiX_New.Properties.Resources.paper_plane__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(345, 416);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(128, 191);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(311, 613);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(206, 43);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Feedback";
-            this.button5.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
@@ -219,7 +192,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(590, 331);
+            this.button6.Location = new System.Drawing.Point(436, 466);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(206, 43);
             this.button6.TabIndex = 7;
@@ -230,33 +203,34 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::EcoLogiX_New.Properties.Resources.building;
-            this.pictureBox4.Location = new System.Drawing.Point(617, 146);
+            this.pictureBox4.Location = new System.Drawing.Point(478, 296);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(128, 191);
+            this.pictureBox4.Size = new System.Drawing.Size(128, 165);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
             // 
-            // button10
+            // btnSurvey
             // 
-            this.button10.BackColor = System.Drawing.Color.Transparent;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(590, 613);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(206, 43);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "Survey";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btnSurvey.BackColor = System.Drawing.Color.Transparent;
+            this.btnSurvey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSurvey.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
+            this.btnSurvey.ForeColor = System.Drawing.Color.White;
+            this.btnSurvey.Location = new System.Drawing.Point(436, 716);
+            this.btnSurvey.Name = "btnSurvey";
+            this.btnSurvey.Size = new System.Drawing.Size(206, 43);
+            this.btnSurvey.TabIndex = 10;
+            this.btnSurvey.Text = "Survey";
+            this.btnSurvey.UseVisualStyleBackColor = false;
+            this.btnSurvey.Click += new System.EventHandler(this.button10_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::EcoLogiX_New.Properties.Resources.assept_document;
-            this.pictureBox5.Location = new System.Drawing.Point(617, 416);
+            this.pictureBox5.Location = new System.Drawing.Point(478, 539);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(128, 191);
+            this.pictureBox5.Size = new System.Drawing.Size(103, 162);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
@@ -264,10 +238,10 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::EcoLogiX_New.Properties.Resources.Dark_Green_Illustrative_Future_and_Technology_Poster__3_;
-            this.pictureBox6.Location = new System.Drawing.Point(837, 0);
+            this.pictureBox6.Image = global::EcoLogiX_New.Properties.Resources.ProductSustainability__2_;
+            this.pictureBox6.Location = new System.Drawing.Point(774, -12);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(363, 800);
+            this.pictureBox6.Size = new System.Drawing.Size(463, 986);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 11;
             this.pictureBox6.TabStop = false;
@@ -279,12 +253,10 @@
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1200, 800);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.btnSurvey);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
@@ -296,7 +268,6 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -315,11 +286,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnSurvey;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
     }

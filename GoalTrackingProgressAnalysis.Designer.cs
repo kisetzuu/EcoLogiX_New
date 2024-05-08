@@ -46,6 +46,8 @@
             this.lineChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.barChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridGoals = new System.Windows.Forms.DataGridView();
+            this.btnSupplier = new System.Windows.Forms.Button();
+            this.btnProduct = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,7 +62,7 @@
             this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.ProductSustainability__1_;
             this.pictureBox2.Location = new System.Drawing.Point(260, -6);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(161, 774);
+            this.pictureBox2.Size = new System.Drawing.Size(189, 774);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 58;
             this.pictureBox2.TabStop = false;
@@ -207,12 +209,33 @@
             // dataGridGoals
             // 
             this.dataGridGoals.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridGoals.Location = new System.Drawing.Point(420, 0);
+            this.dataGridGoals.Location = new System.Drawing.Point(449, 0);
             this.dataGridGoals.Name = "dataGridGoals";
             this.dataGridGoals.RowHeadersWidth = 51;
             this.dataGridGoals.RowTemplate.Height = 24;
-            this.dataGridGoals.Size = new System.Drawing.Size(418, 762);
+            this.dataGridGoals.Size = new System.Drawing.Size(389, 762);
             this.dataGridGoals.TabIndex = 64;
+            this.dataGridGoals.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridGoals_CellContentClick);
+            // 
+            // btnSupplier
+            // 
+            this.btnSupplier.Location = new System.Drawing.Point(276, 517);
+            this.btnSupplier.Name = "btnSupplier";
+            this.btnSupplier.Size = new System.Drawing.Size(153, 40);
+            this.btnSupplier.TabIndex = 65;
+            this.btnSupplier.Text = "Supplier Performance Analysis";
+            this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click);
+            // 
+            // btnProduct
+            // 
+            this.btnProduct.Location = new System.Drawing.Point(276, 581);
+            this.btnProduct.Name = "btnProduct";
+            this.btnProduct.Size = new System.Drawing.Size(153, 40);
+            this.btnProduct.TabIndex = 66;
+            this.btnProduct.Text = "Product Sustainability Analysis";
+            this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // GoalTrackingProgressAnalysis
             // 
@@ -220,6 +243,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.btnProduct);
+            this.Controls.Add(this.btnSupplier);
             this.Controls.Add(this.dataGridGoals);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
@@ -254,5 +279,7 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart lineChartSupply;
         private System.Windows.Forms.DataVisualization.Charting.Chart barChartSupply;
         private System.Windows.Forms.DataGridView dataGridGoals;
+        private System.Windows.Forms.Button btnSupplier;
+        private System.Windows.Forms.Button btnProduct;
     }
 }
