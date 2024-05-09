@@ -61,5 +61,12 @@ namespace EcoLogiX_New
             engagementForm.Show();
             this.Hide();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Admin admin = new Admin();
+            admin.Show();
+            this.Hide();
+        }
     }
 }

@@ -273,5 +273,10 @@ namespace EcoLogiX_New
             loggedIn.Show();
             this.Hide();
         }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

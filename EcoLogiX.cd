@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EcoLogiX_New.AirTravelCarbon" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCASIhAAECBAARABIYCAQAACIMg7QAAAQHAvAQRAQAA=</HashCode>
+      <FileName>AirTravelCarbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Analytics" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="carbonChart" Hidden="true" />
+      <Field Name="client" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACBAAAAQAACAAAACAAAAgMAAAAAABQAAQAA=</HashCode>
+      <FileName>Analytics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Zone" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Analytics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.CarbonOffset" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="btnCalculate" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="comboFrequency" Hidden="true" />
+      <Field Name="comboFuel" Hidden="true" />
+      <Field Name="comboVehicle" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="emissionFactors" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="txtMileage" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QKAAIhQQECggARABIICAQgACAMg7AEAAQHAvBQTAQAA=</HashCode>
+      <FileName>CarbonOffset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.ComplianceAndSafety" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+      <Field Name="pieCompliance" Hidden="true" />
+      <Field Name="stackedCompliance" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BCAAIhgAECAAAQABAImAQAACAIg6AAAgQHK1QYRIAAA=</HashCode>
+      <FileName>ComplianceAndSafety.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.ContentLibrary" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="btnAnalytics" Hidden="true" />
+      <Field Name="btnBerkeley" Hidden="true" />
+      <Field Name="btnBuilding" Hidden="true" />
+      <Field Name="btnHarvard" Hidden="true" />
+      <Field Name="btnIntegration" Hidden="true" />
+      <Field Name="btnPurpose" Hidden="true" />
+      <Field Name="btnPWC" Hidden="true" />
+      <Field Name="btnSteps" Hidden="true" />
+      <Field Name="btnStrategy" Hidden="true" />
+      <Field Name="btnTech" Hidden="true" />
+      <Field Name="btnTransform" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox10" Hidden="true" />
+      <Field Name="pictureBox11" Hidden="true" />
+      <Field Name="pictureBox12" Hidden="true" />
+      <Field Name="pictureBox13" Hidden="true" />
+      <Field Name="pictureBox14" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAAAIhREACBAQRgAAgCgQBACAAo6AEAAwHBvMYBABAA=</HashCode>
+      <FileName>ContentLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.DocumentationStatus" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <Members>
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridDoc" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="EcoLogiX_New.DocumentationStatus.DataGridViewProgressBarColumn" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DocumentationStatus.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="EcoLogiX_New.DocumentationStatus.DataGridViewProgressBarCell" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DocumentationStatus.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAEIhoAECAAAQABABiAQEACAIg6AAAgwHAhQSRAAAA=</HashCode>
+      <FileName>DocumentationStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Engagement" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <Members>
+      <Field Name="btnSurvey" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAACCAAAAAAACAQAACAEg7AAAAQHAJAQBAQAA=</HashCode>
+      <FileName>Engagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.EnvironmentalImpact" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <Members>
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="chartEnvironment" Hidden="true" />
+      <Field Name="chartHisto" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAIhgEECAAAQABAAiAUAAKAJg6AAAgQHAhQQTAABA=</HashCode>
+      <FileName>EnvironmentalImpact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.FAQs" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <Members>
+      <Field Name="btnNext" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="richTextBox1" Hidden="true" />
+      <Field Name="richTextBox2" Hidden="true" />
+      <Field Name="richTextBox3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAABAAAACAAAACAAg6AAAAAAAQAQBAAAA=</HashCode>
+      <FileName>FAQs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.FAQsPthree" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <Members>
+      <Field Name="btnNext" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="richTextBox1" Hidden="true" />
+      <Field Name="richTextBox2" Hidden="true" />
+      <Field Name="richTextBox3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAABAAAACAAAACAAg6AAAAAAAQAQBAAAA=</HashCode>
+      <FileName>FAQsPthree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.FAQsPtwo" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <Members>
+      <Field Name="btnNext" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="richTextBox1" Hidden="true" />
+      <Field Name="richTextBox2" Hidden="true" />
+      <Field Name="richTextBox3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAABAAAACAABACAAg6AAAAAAAQAQBAAAA=</HashCode>
+      <FileName>FAQsPtwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Dashboard" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAABACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.GeographicalDistribution" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <Members>
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="gmapControl" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACEgIhgAECAAIQABAAiAQAACAIg6AAQgQHAnQQZAAAA=</HashCode>
+      <FileName>GeographicalDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.GoalTrackingProgressAnalysis" Collapsed="true">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <Members>
+      <Field Name="barChartSupply" Hidden="true" />
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridGoals" Hidden="true" />
+      <Field Name="lineChartSupply" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="EcoLogiX_New.GoalTrackingProgressAnalysis.Goal" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GoalTrackingProgressAnalysis.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAGAhAECAAAARIAAiAAQQDAIg6ACAAACQEAQVAAAA=</HashCode>
+      <FileName>GoalTrackingProgressAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.GreenCertification" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="btnBrowse" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnUpload" Hidden="true" />
+      <Field Name="btnView" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="certificationBody" Hidden="true" />
+      <Field Name="certificationName" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="docName" Hidden="true" />
+      <Field Name="docType" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="txtFilePath" Hidden="true" />
+      <Field Name="viewDocuments" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="EcoLogiX_New.GreenCertification.UserSession" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GreenCertification.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABgAIIAAUCAAABFAAACCAAACAAg+EAAARHABhQxAAAA=</HashCode>
+      <FileName>GreenCertification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.HomeEnergyCarbon" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="btnCalculate" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="comboConsumption" Hidden="true" />
+      <Field Name="comboType" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="txtEnergy" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QCAAIhAEECBAAxABIICAQAACAMg7AAAAQHAvAQRAYAA=</HashCode>
+      <FileName>HomeEnergyCarbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.LoggedIn" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ADAAIhAAACAAAAAAAACAAAQCAMg7AAAAwHAPAYBAQAA=</HashCode>
+      <FileName>LoggedIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.LoggedInTwo" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="btnSustainability" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAABIAACAAAAAAAACAAAgCAEk6AAAAQHAJAQBAQAA=</HashCode>
+      <FileName>LoggedInTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Login">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="btnLogin" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="txtEmail" Hidden="true" />
+      <Field Name="txtPassword" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgACAAAACAEABAAAACAAAACAIg6CIAAQHABAQBAAAA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Menu" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button8" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAhABACAAAAAAAACAQAACAMw7AAAAwHAJAQBAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.ProductInformation" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <Members>
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+      <Field Name="productChart" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAIhgAECAAAQABAIiAQQACAIg6AAAgQHAgQQVIQCA=</HashCode>
+      <FileName>ProductInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.ProductSustainabilityAnalysis" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <Members>
+      <Field Name="barChartSupply" Hidden="true" />
+      <Field Name="btnGoals" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="lineChartSupply" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pieChartSupply" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABAEA4AFCAAAABAQAKAAQQCAAg+AAgAQAAEAQRAAAA=</HashCode>
+      <FileName>ProductSustainabilityAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Program" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Register" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <Members>
+      <Field Name="btnSubmit" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="txtCompanyName" Hidden="true" />
+      <Field Name="txtContact" Hidden="true" />
+      <Field Name="txtEmail" Hidden="true" />
+      <Field Name="txtName" Hidden="true" />
+      <Field Name="txtPassword" Hidden="true" />
+      <Field Name="txtRole" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>cAgAAAQAACAAABAAAACAAAECAAg6gIEAQHABBUBAAAQ=</HashCode>
+      <FileName>Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.SupplierDetails" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <Members>
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSearch" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridSupplier" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+      <Field Name="txtSearch" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAIhgAECAAAQgBAICAQAQCAYg7AAAhwHA3QYRCYQI=</HashCode>
+      <FileName>SupplierDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.SupplyChainPageTwo" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <Members>
+      <Field Name="btnCompliance" Hidden="true" />
+      <Field Name="btnEnvironmental" Hidden="true" />
+      <Field Name="btnSubmit" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="btnTraceability" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="comboCompliance" Hidden="true" />
+      <Field Name="comboDoc" Hidden="true" />
+      <Field Name="comboRaw" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+      <Field Name="txtCertifications" Hidden="true" />
+      <Field Name="txtHealth" Hidden="true" />
+      <Field Name="txtRelev" Hidden="true" />
+      <Field Name="txtTotalEnergy" Hidden="true" />
+      <Field Name="txtTotalGreenhouse" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="EcoLogiX_New.SupplyChainPageTwo.UserSession" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SupplyChainPageTwo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>cAgIIhgAAKAAAZIADACAQAgDCIk7AIEAQPAvS0BMWJA=</HashCode>
+      <FileName>SupplyChainPageTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.SupplyChainTransparency" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <Members>
+      <Field Name="btnEnvironmental" Hidden="true" />
+      <Field Name="btnGeographical" Hidden="true" />
+      <Field Name="btnNext" Hidden="true" />
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="comboCat" Hidden="true" />
+      <Field Name="comboLoc" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+      <Field Name="txtContact" Hidden="true" />
+      <Field Name="txtDesc" Hidden="true" />
+      <Field Name="txtEmail" Hidden="true" />
+      <Field Name="txtName" Hidden="true" />
+      <Field Name="txtPhone" Hidden="true" />
+      <Field Name="txtProd" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="EcoLogiX_New.SupplyChainTransparency.UserSession" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SupplyChainTransparency.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>MAgAohgAECAiARCBRIiAQBATAQg6wIAgwPA7TwRIWAQ=</HashCode>
+      <FileName>SupplyChainTransparency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.SustainabilityActionPlans" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <Members>
+      <Field Name="btnAdd" Hidden="true" />
+      <Field Name="btnRemove" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnView" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="comboPrio" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridSustainability" Hidden="true" />
+      <Field Name="dateTarget" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="textNotes" Hidden="true" />
+      <Field Name="txtGoal" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="EcoLogiX_New.SustainabilityActionPlans.UserSession" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SustainabilityActionPlans.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAIQAMCAAARBQAACQAAACCAg6gAQAQHABAQRGAAI=</HashCode>
+      <FileName>SustainabilityActionPlans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.SustainabilityReporting" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <Members>
+      <Field Name="barChartSupply" Hidden="true" />
+      <Field Name="btnGoals" Hidden="true" />
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="lineChartSupply" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pieChartSupply" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABBAEA4AECAAABBAQAiAAQQCCAg+AAgAAHAFAQVgAAA=</HashCode>
+      <FileName>SustainabilityReporting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.TraceabilityAndEthics" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <Members>
+      <Field Name="btnProduct" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="btnSupplier" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button12" Hidden="true" />
+      <Field Name="button13" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="chartTraceability" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridTraceability" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="pictureBox9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAIhkAECAAAQCJAAiCQAACAIg6AAAkQHAxQQREAAA=</HashCode>
+      <FileName>TraceabilityAndEthics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.ViewSupplyChain" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="btnView" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataViewSupply" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="EcoLogiX_New.ViewSupplyChain.UserSession" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ViewSupplyChain.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAABAAACAAAABAAACIAAACAAg6AAAAQHAJAQBAAAA=</HashCode>
+      <FileName>ViewSupplyChain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.WasteProductionCarbon" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="btnCalculate" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="comboWaste" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="txtNon" Hidden="true" />
+      <Field Name="txtRecycled" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AKAAIhAAECAAQRABIICAQAACAMg7AAAARHAvAwRIQAA=</HashCode>
+      <FileName>WasteProductionCarbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.WaterUsageCarbon" Collapsed="true">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="btnCalculate" Hidden="true" />
+      <Field Name="btnReturn" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button10" Hidden="true" />
+      <Field Name="button11" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Field Name="button6" Hidden="true" />
+      <Field Name="button7" Hidden="true" />
+      <Field Name="button9" Hidden="true" />
+      <Field Name="comboPurpose" Hidden="true" />
+      <Field Name="comboSource" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox3" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="pictureBox6" Hidden="true" />
+      <Field Name="pictureBox7" Hidden="true" />
+      <Field Name="pictureBox8" Hidden="true" />
+      <Field Name="txtConsumption" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QCAAJhCAECAAARIDIMCAQAACAMg7AAAAQHAvAQRAQAA=</HashCode>
+      <FileName>WaterUsageCarbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Properties.Resources">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <Members>
+      <Property Name="analyse" Hidden="true" />
+      <Property Name="apple_core" Hidden="true" />
+      <Property Name="assept_document" Hidden="true" />
+      <Property Name="Black_and_Pink_Futuristic_Tech_Event_Poster" Hidden="true" />
+      <Property Name="Blue_and_Yellow_Illustrative_Reducing_Carbon_Footprint_Tips_Infographic" Hidden="true" />
+      <Property Name="Blue_and_Yellow_Illustrative_Reducing_Carbon_Footprint_Tips_Infographic__1_" Hidden="true" />
+      <Property Name="book_open_cover" Hidden="true" />
+      <Property Name="book_open_cover__1_" Hidden="true" />
+      <Property Name="book_open_cover__2_" Hidden="true" />
+      <Property Name="box_open_full" Hidden="true" />
+      <Property Name="browser" Hidden="true" />
+      <Property Name="building" Hidden="true" />
+      <Property Name="car__1_" Hidden="true" />
+      <Property Name="Carbon_Footprint__1_" Hidden="true" />
+      <Property Name="chart_histogram__1_" Hidden="true" />
+      <Property Name="ContentLibary" Hidden="true" />
+      <Property Name="ContentLibary1" Hidden="true" />
+      <Property Name="Culture" Hidden="true" />
+      <Property Name="Dark_Green_Illustrative_Future_and_Technology_Poster" Hidden="true" />
+      <Property Name="Dark_Green_Illustrative_Future_and_Technology_Poster__1_" Hidden="true" />
+      <Property Name="Dark_Green_Illustrative_Future_and_Technology_Poster__2_" Hidden="true" />
+      <Property Name="Dark_Green_Illustrative_Future_and_Technology_Poster__3_" Hidden="true" />
+      <Property Name="Dark_Green_Illustrative_Future_and_Technology_Poster__4_" Hidden="true" />
+      <Property Name="Dark_Green_Illustrative_Future_and_Technology_Poster__4_1" Hidden="true" />
+      <Property Name="database" Hidden="true" />
+      <Property Name="diary_bookmark_down" Hidden="true" />
+      <Property Name="diary_bookmark_down__1_" Hidden="true" />
+      <Property Name="document_signed" Hidden="true" />
+      <Property Name="ECOLOGIX__6_" Hidden="true" />
+      <Property Name="EcoLogiX_Background" Hidden="true" />
+      <Property Name="EcoLogiX_Background__1_" Hidden="true" />
+      <Property Name="ECOLOGIX_GOALS" Hidden="true" />
+      <Property Name="ECOLOGIX_GOALS__1_" Hidden="true" />
+      <Property Name="ECOLOGIX_GOALS__2_" Hidden="true" />
+      <Property Name="ECOLOGIX_GOALS__3_" Hidden="true" />
+      <Property Name="ECOLOGIX_GOALS__4_" Hidden="true" />
+      <Property Name="EcoLogiX_Login" Hidden="true" />
+      <Property Name="EcoLogiX_Login__1_" Hidden="true" />
+      <Property Name="est_2022__1_" Hidden="true" />
+      <Property Name="est_2022__2_" Hidden="true" />
+      <Property Name="FAQS" Hidden="true" />
+      <Property Name="FAQS__1_" Hidden="true" />
+      <Property Name="Green_Certification_Management" Hidden="true" />
+      <Property Name="Green_Certification_Management__1_" Hidden="true" />
+      <Property Name="Green_Certification_Management__3_" Hidden="true" />
+      <Property Name="hand_holding_heart__1_" Hidden="true" />
+      <Property Name="home__1_" Hidden="true" />
+      <Property Name="home__2_" Hidden="true" />
+      <Property Name="home__3_" Hidden="true" />
+      <Property Name="home__4_" Hidden="true" />
+      <Property Name="house_chimney" Hidden="true" />
+      <Property Name="list_check" Hidden="true" />
+      <Property Name="Logo_EcoLogiX" Hidden="true" />
+      <Property Name="map_marker__1_" Hidden="true" />
+      <Property Name="microchip" Hidden="true" />
+      <Property Name="paper_plane__1_" Hidden="true" />
+      <Property Name="plane_alt" Hidden="true" />
+      <Property Name="ProductSustainability" Hidden="true" />
+      <Property Name="ProductSustainability__1_" Hidden="true" />
+      <Property Name="ProductSustainability__2_" Hidden="true" />
+      <Property Name="ProductSustainability1" Hidden="true" />
+      <Property Name="raindrops" Hidden="true" />
+      <Field Name="resourceCulture" Hidden="true" />
+      <Field Name="resourceMan" Hidden="true" />
+      <Property Name="ResourceManager" Hidden="true" />
+      <Property Name="shield_check" Hidden="true" />
+      <Property Name="shield_check__1_" Hidden="true" />
+      <Property Name="sun_plant_wilt" Hidden="true" />
+      <Property Name="SupplierPerformance" Hidden="true" />
+      <Property Name="SupplyChainb" Hidden="true" />
+      <Property Name="SupplyChainb__1_" Hidden="true" />
+      <Property Name="SupplyChainb__2_" Hidden="true" />
+      <Property Name="SupplyChainTransparency" Hidden="true" />
+      <Property Name="SupplyChainTransparency__1_" Hidden="true" />
+      <Property Name="SustainabilityActionPlans" Hidden="true" />
+      <Property Name="SustainabilityActionPlans__1_" Hidden="true" />
+      <Property Name="SustainabilityReporting" Hidden="true" />
+      <Property Name="SustainabilityReportingx" Hidden="true" />
+      <Property Name="SustainabilityReportingx__1_" Hidden="true" />
+      <Property Name="SustainabilityReportingx__2_" Hidden="true" />
+      <Property Name="user__1_" Hidden="true" />
+      <Property Name="user_lock" Hidden="true" />
+      <Property Name="user_robot" Hidden="true" />
+      <Property Name="users_alt" Hidden="true" />
+      <Property Name="users_alt__1_" Hidden="true" />
+      <Property Name="world" Hidden="true" />
+      <Property Name="world__1_" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>HoSAkmwBiZQGPAbCBGAhMLDAARBIQD4gACChEBESAZQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoLogiX_New.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -503,6 +503,16 @@ namespace EcoLogiX_New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Green_Certification_Management__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Green Certification Management (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hand_holding_heart__1_ {
             get {
                 object obj = ResourceManager.GetObject("hand-holding-heart (1)", resourceCulture);

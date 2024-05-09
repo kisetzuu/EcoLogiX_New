@@ -236,6 +236,7 @@
             this.btnRemove.TabIndex = 122;
             this.btnRemove.Text = "Remove Goal";
             this.btnRemove.UseVisualStyleBackColor = false;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // label2
             // 
