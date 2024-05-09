@@ -24,7 +24,9 @@ namespace EcoLogiX_New
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Register registerForm = new Register();
+            registerForm.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -66,6 +68,20 @@ namespace EcoLogiX_New
         {
             Admin admin = new Admin();
             admin.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Engagement engagementForm = new Engagement();
+            engagementForm.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Analytics analyticsForm = new Analytics();
+            analyticsForm.Show();
             this.Hide();
         }
     }

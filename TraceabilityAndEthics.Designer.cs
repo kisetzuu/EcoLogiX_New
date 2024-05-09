@@ -90,6 +90,7 @@
             this.btnSupplier.TabIndex = 222;
             this.btnSupplier.Text = "Supplier Details";
             this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click);
             // 
             // pictureBox3
             // 
@@ -110,6 +111,7 @@
             this.button5.TabIndex = 223;
             this.button5.Text = "Geographical Details";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // panel1
             // 
@@ -230,6 +232,7 @@
             this.button11.TabIndex = 226;
             this.button11.Text = "Compliance and Safety";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -239,6 +242,7 @@
             this.button10.TabIndex = 225;
             this.button10.Text = "Environmental Impact";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // pictureBox2
             // 
@@ -259,6 +263,7 @@
             this.button13.TabIndex = 228;
             this.button13.Text = "Documentation Status";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button12
             // 
@@ -333,6 +338,7 @@
             this.btnProduct.TabIndex = 224;
             this.btnProduct.Text = "Product Information";
             this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // chartTraceability
             // 
@@ -359,6 +365,7 @@
             this.dataGridTraceability.RowTemplate.Height = 24;
             this.dataGridTraceability.Size = new System.Drawing.Size(379, 330);
             this.dataGridTraceability.TabIndex = 237;
+            this.dataGridTraceability.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridTraceability_CellContentClick);
             // 
             // btnReturn
             // 

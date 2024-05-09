@@ -72,13 +72,36 @@ namespace EcoLogiX_New
 
         private void ConfigureDataGridTraceability()
         {
-            // Assuming columns are added via the designer or here in code
+            // Clear existing columns if any
             dataGridTraceability.Columns.Clear();
+
+            // Adding columns with specified names and headers
             dataGridTraceability.Columns.Add("Supplier", "Supplier");
             dataGridTraceability.Columns.Add("EthicalCertifications", "Ethical Certifications");
             dataGridTraceability.Columns.Add("RelevantCertifications", "Relevant Certifications");
 
+            // Apply styling and configurations
+            dataGridTraceability.DefaultCellStyle.Font = new Font("Arial", 10);
+            dataGridTraceability.AlternatingRowsDefaultCellStyle.BackColor = Color.LightGray;
+            dataGridTraceability.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 10, FontStyle.Bold);
+            dataGridTraceability.ColumnHeadersDefaultCellStyle.BackColor = Color.Navy;
+            dataGridTraceability.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridTraceability.EnableHeadersVisualStyles = false;
+            dataGridTraceability.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridTraceability.MultiSelect = false;
+
+            dataGridTraceability.CellClick += DataGridTraceability_CellClick;
+            // Fetch data for the DataGridView
             FetchDataGridTraceabilityData();
+        }
+        private void DataGridTraceability_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0) // Check if the clicked cell is within the data bounds
+            {
+                DataGridViewCell clickedCell = dataGridTraceability.Rows[e.RowIndex].Cells[e.ColumnIndex];
+                string cellValue = clickedCell.Value != null ? clickedCell.Value.ToString() : "No value";
+                MessageBox.Show($"Clicked cell value: {cellValue}", "Cell Content", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void FetchDataGridTraceabilityData()
@@ -169,6 +192,53 @@ namespace EcoLogiX_New
             LoggedIn loggedIn = new LoggedIn();
             loggedIn.Show();
             this.Hide();
+        }
+
+        private void btnSupplier_Click(object sender, EventArgs e)
+        {
+            SupplierDetails supplierDetails = new SupplierDetails();
+            supplierDetails.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GeographicalDistribution geographicalDistribution = new GeographicalDistribution();
+            geographicalDistribution.Show();
+            this.Hide();
+        }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            ProductInformation productInformation = new ProductInformation();
+            productInformation.Show();
+            this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            EnvironmentalImpact environmentalImpact = new EnvironmentalImpact();
+            environmentalImpact.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ComplianceAndSafety complianceAndSafety = new ComplianceAndSafety();
+            complianceAndSafety.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            DocumentationStatus documentationStatus = new DocumentationStatus();
+            documentationStatus.Show();
+            this.Hide();
+        }
+
+        private void dataGridTraceability_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

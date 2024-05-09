@@ -226,6 +226,7 @@
             this.button11.TabIndex = 191;
             this.button11.Text = "Compliance and Safety";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -235,6 +236,7 @@
             this.button10.TabIndex = 190;
             this.button10.Text = "Environmental Impact";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // pictureBox2
             // 
@@ -255,6 +257,7 @@
             this.button13.TabIndex = 193;
             this.button13.Text = "Documentation Status";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button12
             // 
@@ -264,6 +267,7 @@
             this.button12.TabIndex = 192;
             this.button12.Text = "Traceability and Ethics";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // pictureBox9
             // 

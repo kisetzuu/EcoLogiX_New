@@ -215,6 +215,7 @@
             this.button5.TabIndex = 205;
             this.button5.Text = "Geographical Details";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnSupplier
             // 
@@ -224,6 +225,7 @@
             this.btnSupplier.TabIndex = 204;
             this.btnSupplier.Text = "Supplier Details";
             this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click);
             // 
             // button11
             // 
@@ -233,6 +235,7 @@
             this.button11.TabIndex = 208;
             this.button11.Text = "Compliance and Safety";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -242,6 +245,7 @@
             this.button10.TabIndex = 207;
             this.button10.Text = "Environmental Impact";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // pictureBox2
             // 
@@ -262,6 +266,7 @@
             this.button13.TabIndex = 210;
             this.button13.Text = "Documentation Status";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button12
             // 
@@ -271,6 +276,7 @@
             this.button12.TabIndex = 209;
             this.button12.Text = "Traceability and Ethics";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // pictureBox9
             // 
@@ -335,6 +341,7 @@
             this.btnProduct.TabIndex = 206;
             this.btnProduct.Text = "Product Information";
             this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // chartEnvironment
             // 

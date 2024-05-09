@@ -253,6 +253,7 @@
             this.button13.TabIndex = 194;
             this.button13.Text = "Documentation Status";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button12
             // 
@@ -262,6 +263,7 @@
             this.button12.TabIndex = 193;
             this.button12.Text = "Traceability and Ethics";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 
@@ -271,6 +273,7 @@
             this.button11.TabIndex = 192;
             this.button11.Text = "Compliance and Safety";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -309,6 +312,7 @@
             this.btnSupplier.TabIndex = 188;
             this.btnSupplier.Text = "Supplier Details";
             this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click);
             // 
             // pictureBox8
             // 

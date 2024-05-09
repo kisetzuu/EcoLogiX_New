@@ -17,6 +17,7 @@ namespace EcoLogiX_New
         public SupplierDetails()
         {
             InitializeComponent();
+            LoadSupplierData();
         }
 
         private void LoadSupplierData()
@@ -49,6 +50,9 @@ namespace EcoLogiX_New
 
                     // Set the DataGridView source to the DataTable
                     dataGridSupplier.DataSource = dataTable;
+
+                    // Restyle the DataGridView
+                    ConfigureGoalDataGrid(dataTable);
                 }
                 catch (Exception ex)
                 {
@@ -56,6 +60,50 @@ namespace EcoLogiX_New
                 }
             }
         }
+
+
+        private void ConfigureGoalDataGrid(DataTable dataTable)
+        {
+            dataGridSupplier.Columns.Clear();  // Clear existing columns if any
+
+            foreach (DataColumn column in dataTable.Columns)
+            {
+                // Adding a column dynamically for each column in the DataTable
+                DataGridViewTextBoxColumn newColumn = new DataGridViewTextBoxColumn
+                {
+                    Name = column.ColumnName,
+                    HeaderText = column.ColumnName,
+                    DataPropertyName = column.ColumnName,
+                    AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+                };
+                dataGridSupplier.Columns.Add(newColumn);
+            }
+
+            // Styling and other configurations remain the same as before...
+            dataGridSupplier.DefaultCellStyle.Font = new Font("Arial", 10);
+            dataGridSupplier.AlternatingRowsDefaultCellStyle.BackColor = Color.LightGray;
+            dataGridSupplier.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 10, FontStyle.Bold);
+            dataGridSupplier.ColumnHeadersDefaultCellStyle.BackColor = Color.Navy;
+            dataGridSupplier.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridSupplier.EnableHeadersVisualStyles = false;
+            dataGridSupplier.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridSupplier.MultiSelect = false;
+
+            // Bind data
+            dataGridSupplier.DataSource = dataTable;
+            dataGridSupplier.CellClick += DataGridSupplier_CellClick;
+        }
+
+        private void DataGridSupplier_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0) // Check if the clicked cell is within the data bounds
+            {
+                DataGridViewCell clickedCell = dataGridSupplier.Rows[e.RowIndex].Cells[e.ColumnIndex];
+                string cellValue = clickedCell.Value != null ? clickedCell.Value.ToString() : "No value";
+                MessageBox.Show($"Clicked cell value: {cellValue}", "Cell Content", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
 
         private void dataGridSupplier_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

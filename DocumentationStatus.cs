@@ -49,7 +49,19 @@ namespace EcoLogiX_New
             dataGridDoc.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridDoc.MultiSelect = false;  // Prevent multi-row selection
 
+            // Handle CellClick event
+            dataGridDoc.CellClick += DataGridDoc_CellClick;
+
             FetchDocumentationData();  // Load data from database
+        }
+        private void DataGridDoc_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0) // Check if the clicked cell is within the data bounds
+            {
+                DataGridViewCell clickedCell = dataGridDoc.Rows[e.RowIndex].Cells[e.ColumnIndex];
+                string cellValue = clickedCell.Value != null ? clickedCell.Value.ToString() : "No value";
+                MessageBox.Show($"Clicked cell value: {cellValue}", "Cell Content", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         public class DataGridViewProgressBarColumn : DataGridViewColumn
@@ -174,6 +186,48 @@ namespace EcoLogiX_New
         {
             LoggedIn loggedIn = new LoggedIn();
             loggedIn.Show();
+            this.Hide();
+        }
+
+        private void btnSupplier_Click(object sender, EventArgs e)
+        {
+            SupplierDetails supplierDetails = new SupplierDetails();
+            supplierDetails.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GeographicalDistribution geographicalDistribution = new GeographicalDistribution();
+            geographicalDistribution.Show();
+            this.Hide();
+        }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            ProductInformation productInformation = new ProductInformation();
+            productInformation.Show();
+            this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            EnvironmentalImpact environmentalImpact = new EnvironmentalImpact();
+            environmentalImpact.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ComplianceAndSafety complianceAndSafety = new ComplianceAndSafety();
+            complianceAndSafety.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            TraceabilityAndEthics traceabilityAndEthics = new TraceabilityAndEthics();
+            traceabilityAndEthics.Show();
             this.Hide();
         }
     }

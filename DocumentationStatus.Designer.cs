@@ -207,6 +207,7 @@
             this.btnSupplier.TabIndex = 240;
             this.btnSupplier.Text = "Supplier Details";
             this.btnSupplier.UseVisualStyleBackColor = true;
+            this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click);
             // 
             // pictureBox3
             // 
@@ -227,6 +228,7 @@
             this.button5.TabIndex = 241;
             this.button5.Text = "Geographical Details";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button11
             // 
@@ -236,6 +238,7 @@
             this.button11.TabIndex = 244;
             this.button11.Text = "Compliance and Safety";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // pictureBox2
             // 
@@ -266,6 +269,7 @@
             this.button10.TabIndex = 243;
             this.button10.Text = "Environmental Impact";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button12
             // 
@@ -275,6 +279,7 @@
             this.button12.TabIndex = 245;
             this.button12.Text = "Traceability and Ethics";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // pictureBox9
             // 
@@ -339,6 +344,7 @@
             this.btnProduct.TabIndex = 242;
             this.btnProduct.Text = "Product Information";
             this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // btnReturn
             // 
