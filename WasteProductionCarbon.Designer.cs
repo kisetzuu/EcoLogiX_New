@@ -223,9 +223,9 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label4.Location = new System.Drawing.Point(513, 434);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(144, 16);
+            this.label4.Size = new System.Drawing.Size(176, 20);
             this.label4.TabIndex = 136;
-            this.label4.Text = "Enter displosal method";
+            this.label4.Text = "Enter disposal method";
             // 
             // label7
             // 
@@ -246,9 +246,9 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label6.Location = new System.Drawing.Point(510, 253);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(227, 16);
+            this.label6.Size = new System.Drawing.Size(316, 20);
             this.label6.TabIndex = 133;
-            this.label6.Text = "Specify the amount of waste recycled";
+            this.label6.Text = "Specify the amount of waste recycled (kg)";
             // 
             // label8
             // 
@@ -257,9 +257,9 @@
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label8.Location = new System.Drawing.Point(513, 340);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(234, 16);
+            this.label8.Size = new System.Drawing.Size(325, 20);
             this.label8.TabIndex = 131;
-            this.label8.Text = "Enter the amount of waste not recycled";
+            this.label8.Text = "Enter the amount of waste not recycled (kg)";
             // 
             // label2
             // 

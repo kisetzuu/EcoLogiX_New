@@ -259,9 +259,9 @@
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label8.Location = new System.Drawing.Point(513, 340);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(231, 16);
+            this.label8.Size = new System.Drawing.Size(340, 20);
             this.label8.TabIndex = 79;
-            this.label8.Text = "Enter the amount of energy consumed";
+            this.label8.Text = "Enter the amount of energy consumed (kWH)";
             // 
             // label2
             // 

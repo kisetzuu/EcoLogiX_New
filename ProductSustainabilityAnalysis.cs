@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
+using static EcoLogiX_New.GoalTrackingProgressAnalysis;
 
 namespace EcoLogiX_New
 {
@@ -18,12 +19,16 @@ namespace EcoLogiX_New
         public ProductSustainabilityAnalysis()
         {
             InitializeComponent();
+            ConfigureGoalDataGrid(new List<Goal>());
+            FetchBarChartData();
         }
 
         private void FetchBarChartData()
         {
             string connectionString = ConfigurationManager.ConnectionStrings["SupplyChainDataDb"].ConnectionString;
             string query = "SELECT [ProductName], [ProductDescription], [ProductCategory] FROM dbo.SupplyChainData";
+
+            DataTable dataTable = new DataTable();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -33,37 +38,12 @@ namespace EcoLogiX_New
                     connection.Open();
                     SqlDataReader reader = command.ExecuteReader();
 
-                    while (reader.Read())
-                    {
-                        string productName = reader["ProductName"].ToString();
-                        string productDescription = reader["ProductDescription"].ToString();
-                        string productCategory = reader["ProductCategory"].ToString();
-
-                        // Add points to the series
-                        DataPoint productNamePoint = new DataPoint();
-                        productNamePoint.SetValueXY(productName, 0);  // Placeholder value for bar chart
-                        productNamePoint.ToolTip = $"Product Description: {productDescription}\nProduct Category: {productCategory}";
-
-                        barChartSupply.Series["Product Name"].Points.Add(productNamePoint);
-
-                        // Add points to the series
-                        DataPoint productDescriptionPoint = new DataPoint();
-                        productDescriptionPoint.SetValueXY(productName, 0);  // Placeholder value for bar chart
-                        productDescriptionPoint.ToolTip = $"Product Name: {productName}\nProduct Category: {productCategory}";
-
-                        barChartSupply.Series["Product Description"].Points.Add(productDescriptionPoint);
-
-                        // Add points to the series
-                        DataPoint productCategoryPoint = new DataPoint();
-                        productCategoryPoint.SetValueXY(productName, 0);  // Placeholder value for bar chart
-                        productCategoryPoint.ToolTip = $"Product Name: {productName}\nProduct Description: {productDescription}";
-
-                        barChartSupply.Series["Product Category"].Points.Add(productCategoryPoint);
-                    }
+                    dataTable.Load(reader); // Load data into the DataTable
+                    dataGridProduct.DataSource = dataTable; // Bind DataTable to DataGridView
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Failed to load bar chart data: " + ex.Message);
+                    MessageBox.Show("Failed to load data into DataGridView: " + ex.Message);
                 }
                 finally
                 {
@@ -71,45 +51,71 @@ namespace EcoLogiX_New
                 }
             }
         }
-        private void ConfigureBarChart()
+
+        private void ConfigureGoalDataGrid(List<Goal> goals)
         {
-            barChartSupply.Series.Clear();
-            barChartSupply.ChartAreas.Clear();
+            dataGridProduct.Columns.Clear();  // Clear existing columns if any
 
-            ChartArea barChartArea = new ChartArea("BarChartArea");
-            barChartSupply.ChartAreas.Add(barChartArea);
-            barChartArea.AxisX.Interval = 1;  // Ensure every label is shown
-            barChartArea.AxisX.LabelStyle.Angle = -45;  // Angle labels for better fit
-            barChartArea.AxisX.LabelStyle.Font = new Font("Verdana", 8);  // Use a smaller font if needed
-
-            // Configure AxisY
-            barChartArea.AxisY.Title = "Value";
-            barChartArea.AxisY.Minimum = 0;
-            // Adjust maximum and interval based on your data scale
-
-            Series seriesProductName = new Series("Product Name")
+            // Adding a column for Product Name
+            DataGridViewTextBoxColumn productNameColumn = new DataGridViewTextBoxColumn
             {
-                ChartType = SeriesChartType.Bar,
-                Color = Color.Green
+                Name = "ProductName",
+                HeaderText = "Product Name",
+                DataPropertyName = "ProductName", // Bind to the ProductName property of the Goal object
+                AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill // Adjust size to fill part of the grid
             };
-            barChartSupply.Series.Add(seriesProductName);
+            dataGridProduct.Columns.Add(productNameColumn);
 
-            Series seriesProductDescription = new Series("Product Description")
+            // Adding a column for Product Description
+            DataGridViewTextBoxColumn productDescriptionColumn = new DataGridViewTextBoxColumn
             {
-                ChartType = SeriesChartType.Bar,
-                Color = Color.Blue
+                Name = "ProductDescription",
+                HeaderText = "Product Description",
+                DataPropertyName = "ProductDescription", // Bind to the ProductDescription property of the Goal object
+                AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill // Adjust size to fill part of the grid
             };
-            barChartSupply.Series.Add(seriesProductDescription);
+            dataGridProduct.Columns.Add(productDescriptionColumn);
 
-            Series seriesProductCategory = new Series("Product Category")
+            // Adding a column for Product Category
+            DataGridViewTextBoxColumn productCategoryColumn = new DataGridViewTextBoxColumn
             {
-                ChartType = SeriesChartType.Bar,
-                Color = Color.Red
+                Name = "ProductCategory",
+                HeaderText = "Product Category",
+                DataPropertyName = "ProductCategory", // Bind to the ProductCategory property of the Goal object
+                AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill // Adjust size to fill part of the grid
             };
-            barChartSupply.Series.Add(seriesProductCategory);
+            dataGridProduct.Columns.Add(productCategoryColumn);
 
-            // Call the method to fetch data
-            FetchBarChartData();
+            // Bind data
+            dataGridProduct.DataSource = goals;
+
+            // Styling
+            dataGridProduct.DefaultCellStyle.Font = new Font("Arial", 10);  // Set default font
+            dataGridProduct.AlternatingRowsDefaultCellStyle.BackColor = Color.LightGray;  // Alternating row colors for better readability
+            dataGridProduct.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 10, FontStyle.Bold);  // Header style
+            dataGridProduct.ColumnHeadersDefaultCellStyle.BackColor = Color.Navy;  // Header background color
+            dataGridProduct.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;  // Header text color
+            dataGridProduct.EnableHeadersVisualStyles = false;  // Apply custom style to headers
+
+            // Grid behavior settings
+            dataGridProduct.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridProduct.MultiSelect = false;  // Prevent multi-row selection
+
+            // Handle CellClick event
+            dataGridProduct.CellClick += DataGridGoals_CellClick;
+        }
+
+        private void DataGridGoals_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Check if the clicked cell is valid and not a header cell
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                DataGridViewCell clickedCell = dataGridProduct.Rows[e.RowIndex].Cells[e.ColumnIndex];
+                string cellValue = clickedCell.Value?.ToString(); // Get cell value
+
+                // Display cell value
+                MessageBox.Show(cellValue, "Cell Value", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void FetchLineChartData()
@@ -247,7 +253,7 @@ namespace EcoLogiX_New
 
         private void ProductSustainabilityAnalysis_Load(object sender, EventArgs e)
         {
-            ConfigureBarChart();
+            
             ConfigureLineChart();
             ConfigurePieChart();
         }
@@ -278,6 +284,16 @@ namespace EcoLogiX_New
             LoggedInTwo loggedIn = new LoggedInTwo();
             loggedIn.Show();
             this.Hide();
+        }
+
+        private void barChartSupply_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -34,9 +34,6 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductSustainabilityAnalysis));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -48,16 +45,16 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pieChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.lineChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.barChartSupply = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnSupplier = new System.Windows.Forms.Button();
             this.btnGoals = new System.Windows.Forms.Button();
             this.btnReturn = new System.Windows.Forms.Button();
+            this.dataGridProduct = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pieChartSupply)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineChartSupply)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.barChartSupply)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridProduct)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -211,22 +208,6 @@
             this.lineChartSupply.TabIndex = 53;
             this.lineChartSupply.Text = "chart2";
             // 
-            // barChartSupply
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.barChartSupply.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.barChartSupply.Legends.Add(legend3);
-            this.barChartSupply.Location = new System.Drawing.Point(548, 6);
-            this.barChartSupply.Name = "barChartSupply";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.barChartSupply.Series.Add(series3);
-            this.barChartSupply.Size = new System.Drawing.Size(637, 291);
-            this.barChartSupply.TabIndex = 52;
-            this.barChartSupply.Text = "chart1";
-            // 
             // btnSupplier
             // 
             this.btnSupplier.Location = new System.Drawing.Point(290, 548);
@@ -260,12 +241,24 @@
             this.btnReturn.UseVisualStyleBackColor = false;
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
+            // dataGridProduct
+            // 
+            this.dataGridProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridProduct.Location = new System.Drawing.Point(548, 1);
+            this.dataGridProduct.Name = "dataGridProduct";
+            this.dataGridProduct.RowHeadersWidth = 51;
+            this.dataGridProduct.RowTemplate.Height = 24;
+            this.dataGridProduct.Size = new System.Drawing.Size(636, 292);
+            this.dataGridProduct.TabIndex = 156;
+            this.dataGridProduct.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridProduct_CellContentClick);
+            // 
             // ProductSustainabilityAnalysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
+            this.Controls.Add(this.dataGridProduct);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnGoals);
             this.Controls.Add(this.btnSupplier);
@@ -273,7 +266,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pieChartSupply);
             this.Controls.Add(this.lineChartSupply);
-            this.Controls.Add(this.barChartSupply);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ProductSustainabilityAnalysis";
@@ -285,7 +277,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pieChartSupply)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineChartSupply)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.barChartSupply)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridProduct)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -302,9 +294,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataVisualization.Charting.Chart pieChartSupply;
         private System.Windows.Forms.DataVisualization.Charting.Chart lineChartSupply;
-        private System.Windows.Forms.DataVisualization.Charting.Chart barChartSupply;
         private System.Windows.Forms.Button btnSupplier;
         private System.Windows.Forms.Button btnGoals;
         private System.Windows.Forms.Button btnReturn;
+        private System.Windows.Forms.DataGridView dataGridProduct;
     }
 }

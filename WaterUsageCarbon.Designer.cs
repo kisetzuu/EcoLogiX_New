@@ -247,9 +247,9 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label6.Location = new System.Drawing.Point(514, 203);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(230, 16);
+            this.label6.Size = new System.Drawing.Size(341, 20);
             this.label6.TabIndex = 81;
-            this.label6.Text = "Specify the total volume of water used";
+            this.label6.Text = "Specify the total volume of water used (cubic)";
             // 
             // comboPurpose
             // 
