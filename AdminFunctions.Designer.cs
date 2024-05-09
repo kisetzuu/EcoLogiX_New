@@ -36,16 +36,28 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnCertifications = new System.Windows.Forms.Button();
             this.bnSupplyChainData = new System.Windows.Forms.Button();
             this.btnSustainability = new System.Windows.Forms.Button();
             this.btnUsers = new System.Windows.Forms.Button();
-            this.dataGridAdmin = new System.Windows.Forms.DataGridView();
+            this.dataGridCertifications = new System.Windows.Forms.DataGridView();
+            this.btnRemoveUser = new System.Windows.Forms.Button();
+            this.btnModifyUser = new System.Windows.Forms.Button();
+            this.dataGridSupply = new System.Windows.Forms.DataGridView();
+            this.dataGridSustainability = new System.Windows.Forms.DataGridView();
+            this.dataGridUsers = new System.Windows.Forms.DataGridView();
+            this.btnRemoveGoal = new System.Windows.Forms.Button();
+            this.btnModifyGoal = new System.Windows.Forms.Button();
+            this.btnRemoveSupply = new System.Windows.Forms.Button();
+            this.btnModifySupply = new System.Windows.Forms.Button();
+            this.btnRemoveCert = new System.Windows.Forms.Button();
+            this.btnModifyCert = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridAdmin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridCertifications)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridSupply)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridSustainability)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridUsers)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -154,22 +166,11 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::EcoLogiX_New.Properties.Resources.Green_Certification_Management__4_;
-            this.pictureBox2.Location = new System.Drawing.Point(952, -12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(240, 774);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 25;
-            this.pictureBox2.TabStop = false;
-            // 
             // btnCertifications
             // 
-            this.btnCertifications.Location = new System.Drawing.Point(329, 180);
+            this.btnCertifications.Location = new System.Drawing.Point(973, 581);
             this.btnCertifications.Name = "btnCertifications";
-            this.btnCertifications.Size = new System.Drawing.Size(215, 44);
+            this.btnCertifications.Size = new System.Drawing.Size(181, 44);
             this.btnCertifications.TabIndex = 26;
             this.btnCertifications.Text = "Edit Certifications";
             this.btnCertifications.UseVisualStyleBackColor = true;
@@ -177,9 +178,9 @@
             // 
             // bnSupplyChainData
             // 
-            this.bnSupplyChainData.Location = new System.Drawing.Point(329, 282);
+            this.bnSupplyChainData.Location = new System.Drawing.Point(751, 582);
             this.bnSupplyChainData.Name = "bnSupplyChainData";
-            this.bnSupplyChainData.Size = new System.Drawing.Size(215, 44);
+            this.bnSupplyChainData.Size = new System.Drawing.Size(172, 43);
             this.bnSupplyChainData.TabIndex = 27;
             this.bnSupplyChainData.Text = "Edit Supply Chain Data";
             this.bnSupplyChainData.UseVisualStyleBackColor = true;
@@ -187,9 +188,9 @@
             // 
             // btnSustainability
             // 
-            this.btnSustainability.Location = new System.Drawing.Point(329, 393);
+            this.btnSustainability.Location = new System.Drawing.Point(531, 582);
             this.btnSustainability.Name = "btnSustainability";
-            this.btnSustainability.Size = new System.Drawing.Size(215, 44);
+            this.btnSustainability.Size = new System.Drawing.Size(171, 43);
             this.btnSustainability.TabIndex = 28;
             this.btnSustainability.Text = "Edit Sustainability Goals";
             this.btnSustainability.UseVisualStyleBackColor = true;
@@ -197,23 +198,158 @@
             // 
             // btnUsers
             // 
-            this.btnUsers.Location = new System.Drawing.Point(329, 500);
+            this.btnUsers.Location = new System.Drawing.Point(306, 582);
             this.btnUsers.Name = "btnUsers";
-            this.btnUsers.Size = new System.Drawing.Size(215, 44);
+            this.btnUsers.Size = new System.Drawing.Size(159, 43);
             this.btnUsers.TabIndex = 29;
             this.btnUsers.Text = "Edit Users";
             this.btnUsers.UseVisualStyleBackColor = true;
             this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
-            // dataGridAdmin
+            // dataGridCertifications
             // 
-            this.dataGridAdmin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridAdmin.Location = new System.Drawing.Point(613, 0);
-            this.dataGridAdmin.Name = "dataGridAdmin";
-            this.dataGridAdmin.RowHeadersWidth = 51;
-            this.dataGridAdmin.RowTemplate.Height = 24;
-            this.dataGridAdmin.Size = new System.Drawing.Size(341, 762);
-            this.dataGridAdmin.TabIndex = 30;
+            this.dataGridCertifications.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridCertifications.Location = new System.Drawing.Point(958, 0);
+            this.dataGridCertifications.Name = "dataGridCertifications";
+            this.dataGridCertifications.RowHeadersWidth = 51;
+            this.dataGridCertifications.RowTemplate.Height = 24;
+            this.dataGridCertifications.Size = new System.Drawing.Size(235, 559);
+            this.dataGridCertifications.TabIndex = 30;
+            this.dataGridCertifications.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridAdmin_CellContentClick);
+            // 
+            // btnRemoveUser
+            // 
+            this.btnRemoveUser.BackColor = System.Drawing.Color.Transparent;
+            this.btnRemoveUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRemoveUser.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnRemoveUser.Location = new System.Drawing.Point(306, 645);
+            this.btnRemoveUser.Name = "btnRemoveUser";
+            this.btnRemoveUser.Size = new System.Drawing.Size(159, 44);
+            this.btnRemoveUser.TabIndex = 32;
+            this.btnRemoveUser.Text = "Remove User";
+            this.btnRemoveUser.UseVisualStyleBackColor = false;
+            this.btnRemoveUser.Click += new System.EventHandler(this.btnRemove_Click);
+            // 
+            // btnModifyUser
+            // 
+            this.btnModifyUser.BackColor = System.Drawing.Color.Transparent;
+            this.btnModifyUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModifyUser.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnModifyUser.Location = new System.Drawing.Point(306, 706);
+            this.btnModifyUser.Name = "btnModifyUser";
+            this.btnModifyUser.Size = new System.Drawing.Size(160, 44);
+            this.btnModifyUser.TabIndex = 33;
+            this.btnModifyUser.Text = "Modify User";
+            this.btnModifyUser.UseVisualStyleBackColor = false;
+            this.btnModifyUser.Click += new System.EventHandler(this.btnModifyUser_Click);
+            // 
+            // dataGridSupply
+            // 
+            this.dataGridSupply.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridSupply.Location = new System.Drawing.Point(720, 0);
+            this.dataGridSupply.Name = "dataGridSupply";
+            this.dataGridSupply.RowHeadersWidth = 51;
+            this.dataGridSupply.RowTemplate.Height = 24;
+            this.dataGridSupply.Size = new System.Drawing.Size(240, 559);
+            this.dataGridSupply.TabIndex = 34;
+            // 
+            // dataGridSustainability
+            // 
+            this.dataGridSustainability.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridSustainability.Location = new System.Drawing.Point(501, 0);
+            this.dataGridSustainability.Name = "dataGridSustainability";
+            this.dataGridSustainability.RowHeadersWidth = 51;
+            this.dataGridSustainability.RowTemplate.Height = 24;
+            this.dataGridSustainability.Size = new System.Drawing.Size(232, 559);
+            this.dataGridSustainability.TabIndex = 35;
+            // 
+            // dataGridUsers
+            // 
+            this.dataGridUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridUsers.Location = new System.Drawing.Point(271, 0);
+            this.dataGridUsers.Name = "dataGridUsers";
+            this.dataGridUsers.RowHeadersWidth = 51;
+            this.dataGridUsers.RowTemplate.Height = 24;
+            this.dataGridUsers.Size = new System.Drawing.Size(236, 559);
+            this.dataGridUsers.TabIndex = 36;
+            // 
+            // btnRemoveGoal
+            // 
+            this.btnRemoveGoal.BackColor = System.Drawing.Color.Transparent;
+            this.btnRemoveGoal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRemoveGoal.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnRemoveGoal.Location = new System.Drawing.Point(531, 645);
+            this.btnRemoveGoal.Name = "btnRemoveGoal";
+            this.btnRemoveGoal.Size = new System.Drawing.Size(159, 44);
+            this.btnRemoveGoal.TabIndex = 37;
+            this.btnRemoveGoal.Text = "Remove Goal";
+            this.btnRemoveGoal.UseVisualStyleBackColor = false;
+            this.btnRemoveGoal.Click += new System.EventHandler(this.btnRemoveGoal_Click);
+            // 
+            // btnModifyGoal
+            // 
+            this.btnModifyGoal.BackColor = System.Drawing.Color.Transparent;
+            this.btnModifyGoal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModifyGoal.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnModifyGoal.Location = new System.Drawing.Point(530, 706);
+            this.btnModifyGoal.Name = "btnModifyGoal";
+            this.btnModifyGoal.Size = new System.Drawing.Size(160, 44);
+            this.btnModifyGoal.TabIndex = 38;
+            this.btnModifyGoal.Text = "Modify Goal";
+            this.btnModifyGoal.UseVisualStyleBackColor = false;
+            this.btnModifyGoal.Click += new System.EventHandler(this.btnModifyGoal_Click);
+            // 
+            // btnRemoveSupply
+            // 
+            this.btnRemoveSupply.BackColor = System.Drawing.Color.Transparent;
+            this.btnRemoveSupply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRemoveSupply.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnRemoveSupply.Location = new System.Drawing.Point(751, 645);
+            this.btnRemoveSupply.Name = "btnRemoveSupply";
+            this.btnRemoveSupply.Size = new System.Drawing.Size(159, 44);
+            this.btnRemoveSupply.TabIndex = 39;
+            this.btnRemoveSupply.Text = "Remove Supply Data";
+            this.btnRemoveSupply.UseVisualStyleBackColor = false;
+            this.btnRemoveSupply.Click += new System.EventHandler(this.btnRemoveSupply_Click);
+            // 
+            // btnModifySupply
+            // 
+            this.btnModifySupply.BackColor = System.Drawing.Color.Transparent;
+            this.btnModifySupply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModifySupply.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnModifySupply.Location = new System.Drawing.Point(751, 706);
+            this.btnModifySupply.Name = "btnModifySupply";
+            this.btnModifySupply.Size = new System.Drawing.Size(159, 44);
+            this.btnModifySupply.TabIndex = 40;
+            this.btnModifySupply.Text = "Modify Supply Data";
+            this.btnModifySupply.UseVisualStyleBackColor = false;
+            this.btnModifySupply.Click += new System.EventHandler(this.btnModifySupply_Click);
+            // 
+            // btnRemoveCert
+            // 
+            this.btnRemoveCert.BackColor = System.Drawing.Color.Transparent;
+            this.btnRemoveCert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRemoveCert.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnRemoveCert.Location = new System.Drawing.Point(985, 645);
+            this.btnRemoveCert.Name = "btnRemoveCert";
+            this.btnRemoveCert.Size = new System.Drawing.Size(159, 44);
+            this.btnRemoveCert.TabIndex = 41;
+            this.btnRemoveCert.Text = "Remove Certification";
+            this.btnRemoveCert.UseVisualStyleBackColor = false;
+            this.btnRemoveCert.Click += new System.EventHandler(this.btnRemoveCert_Click);
+            // 
+            // btnModifyCert
+            // 
+            this.btnModifyCert.BackColor = System.Drawing.Color.Transparent;
+            this.btnModifyCert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModifyCert.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnModifyCert.Location = new System.Drawing.Point(985, 706);
+            this.btnModifyCert.Name = "btnModifyCert";
+            this.btnModifyCert.Size = new System.Drawing.Size(159, 44);
+            this.btnModifyCert.TabIndex = 42;
+            this.btnModifyCert.Text = "Modify Certification";
+            this.btnModifyCert.UseVisualStyleBackColor = false;
+            this.btnModifyCert.Click += new System.EventHandler(this.btnModifyCert_Click);
             // 
             // AdminFunctions
             // 
@@ -221,12 +357,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoLogiX_New.Properties.Resources.EcoLogiX_Background;
             this.ClientSize = new System.Drawing.Size(1185, 762);
-            this.Controls.Add(this.dataGridAdmin);
+            this.Controls.Add(this.btnModifyCert);
+            this.Controls.Add(this.btnRemoveCert);
+            this.Controls.Add(this.btnModifySupply);
+            this.Controls.Add(this.btnRemoveSupply);
+            this.Controls.Add(this.btnModifyGoal);
+            this.Controls.Add(this.btnRemoveGoal);
+            this.Controls.Add(this.dataGridUsers);
+            this.Controls.Add(this.dataGridSustainability);
+            this.Controls.Add(this.dataGridSupply);
+            this.Controls.Add(this.btnModifyUser);
+            this.Controls.Add(this.btnRemoveUser);
+            this.Controls.Add(this.dataGridCertifications);
             this.Controls.Add(this.btnUsers);
             this.Controls.Add(this.btnSustainability);
             this.Controls.Add(this.bnSupplyChainData);
             this.Controls.Add(this.btnCertifications);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -235,8 +381,10 @@
             this.Text = "AdminFunctions";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridAdmin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridCertifications)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridSupply)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridSustainability)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridUsers)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -250,11 +398,21 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnCertifications;
         private System.Windows.Forms.Button bnSupplyChainData;
         private System.Windows.Forms.Button btnSustainability;
         private System.Windows.Forms.Button btnUsers;
-        private System.Windows.Forms.DataGridView dataGridAdmin;
+        private System.Windows.Forms.DataGridView dataGridCertifications;
+        private System.Windows.Forms.Button btnRemoveUser;
+        private System.Windows.Forms.Button btnModifyUser;
+        private System.Windows.Forms.DataGridView dataGridSupply;
+        private System.Windows.Forms.DataGridView dataGridSustainability;
+        private System.Windows.Forms.DataGridView dataGridUsers;
+        private System.Windows.Forms.Button btnRemoveGoal;
+        private System.Windows.Forms.Button btnModifyGoal;
+        private System.Windows.Forms.Button btnRemoveSupply;
+        private System.Windows.Forms.Button btnModifySupply;
+        private System.Windows.Forms.Button btnRemoveCert;
+        private System.Windows.Forms.Button btnModifyCert;
     }
 }
