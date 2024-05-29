@@ -276,7 +276,62 @@ namespace EcoLogiX_New
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
+            // Check if any row is selected
+            if (dataGridSustainability.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a row to delete.");
+                return;
+            }
 
+            // Extract the ID from the selected row and check for validity
+            object idValue = dataGridSustainability.SelectedRows[0].Cells["ID"].Value;
+            if (idValue == null || !int.TryParse(idValue.ToString(), out int goalId))
+            {
+                MessageBox.Show("The selected row's ID is invalid or missing.");
+                return;
+            }
+
+            // Confirmation dialog to make sure the user wants to delete the selected row
+            if (MessageBox.Show("Are you sure you want to delete this goal?", "Confirm Delete", MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                return; // User chose not to delete
+            }
+
+            // Get the connection string
+            string connectionString = ConfigurationManager.ConnectionStrings["SustainabilityGoalsDb"].ConnectionString;
+
+            // Prepare the delete query
+            string query = "DELETE FROM dbo.SustainabilityGoals WHERE ID = @ID";
+
+            // Execute the delete query
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@ID", goalId);
+
+                    try
+                    {
+                        conn.Open();
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Goal deleted successfully!");
+                            // Optionally, refresh the grid or remove the row from the DataGridView
+                            dataGridSustainability.Rows.RemoveAt(dataGridSustainability.SelectedRows[0].Index);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to delete the goal. Please try again.");
+                        }
+                    }
+                    catch (SqlException ex)
+                    {
+                        MessageBox.Show("Database error: " + ex.Message);
+                    }
+                }
+            }
         }
     }
 }
